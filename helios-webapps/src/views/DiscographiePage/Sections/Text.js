@@ -1,0 +1,143 @@
+import React from "react";
+// @material-ui/core components
+import { makeStyles } from "@material-ui/core/styles";
+
+
+// core components
+import GridContainer from "../../../components/Grid/GridContainer.js";
+import GridItem from "../../../components/Grid/GridItem.js";
+import Quote100 from "../../../components/Typography/Quote100.js";
+
+
+import {Card} from "antd";
+
+
+import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import "antd/dist/antd.css";
+
+import cdLuypaert1 from './../../../assets/img/luypaerts1.jpg';
+import cdLuypaert2 from './../../../assets/img/luypaerts2.jpg';
+import cdSernee from './../../../assets/img/CD-Sernee.jpg';
+import cdBordes from './../../../assets/img/CD-Bordes.jpg';
+import cdTisne from './../../../assets/img/cd-tisne.jpg';
+import cdHelios from './../../../assets/img/cd-helios.jpg';
+import cdPlurielles from './../../../assets/img/cd-pluriel.jpg';
+import cdWolfgang from './../../../assets/img/cd-wolfgang.jpg';
+import cdFerdinand from './../../../assets/img/cd-ferdinand.jpg';
+
+
+
+const useStyles = makeStyles(styles);
+
+export default function ProductSection() {
+  const classes = useStyles();
+  return (
+    <div className={classes.section}>
+      <GridContainer justify="center">
+        <GridItem xs={12} sm={12} md={8}>
+        <h2 className={classes.title}>La musique classique et Hélios</h2>
+        </GridItem>
+        <GridItem>
+          <Card title="LUYPAERTS deux générations de compositeurs" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <div style={{display: "inline-flex", flexWrap: "wrap", justifyContent:"center"}} className={classes.subdescr}>
+            <img src={cdLuypaert1} alt="CD Luypaerts" style={{marginRight: "10px"}}/>
+            <img src={cdLuypaert2} alt="CD Luypaerts" style={{marginLeft: "10px"}}/>
+            </div>
+            <p>
+              CD des compositeurs Guy Luypaerts et Guy-Claude Luypaerts <br/> Hélios y grave le quatuor que lui a dédié Guy-Claude Luypaerts, "Parfums de mer"
+            </p>
+            <Quote100
+              author="Franck Masquelier, Traversière Magazine Janvier 2019"
+              text="A découvrir particulièrement sur le CD 1 le quatuor 'Parfums de mer' magnifiquement interprété et mis en valeur par la virtuosité de Christel Rayneau et de son Ensemble Hélios. Les deux premiers mouvements sont très 'Debussystes' avec des couleurs sonores impressionistes et une virtuosité toute en retenue. Quant au troisième mouvement, il fait penser incontestablement à l'univers d'Albert Roussel, avec des ricochets rythmiques et des mélodies parfois intérieures, parfois entremêlées"
+            />
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="John Sernee, Sun flowers" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdSernee} alt="CD Serneee"/>
+            <p>
+              CD monographique du compositeur John SERNEE (2018) <br/>Hélios y grave le quatuor que lui a dédié le compositeur, Sun Flowers
+            </p>
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="Charles Bordes, Oeuvres Basiques" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdBordes} alt="CD Bordes"/>
+            <p>
+            Les oeuvres basques pour piano de Charles BORDES figurent sur ce CD, interprétées par François-René Duchâche et Olivier Laville.  <br/>
+            Le pianiste François-René Duchâble, qui avait entendu l'Ensemble Hélios en concert, a souhaité que la version originale de la suite Basque, quintette pour flûte et quatuor à cordes, transcrit pour piano et qu'il grave sur le premier CD, constitue le second CD, comme le miroir d'une oeuvre. <br/>
+            Cet enregistrement de la Suite Basque est une prise live du concert donné par l'Ensemble Hélios avec Lucie Bessière au second violon lors des Journées Charles Bordes de 2015. <br/>
+            CD sorti en 2018
+            </p>
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="Antoine Tisné, Les voix de l'ombre" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdTisne} alt="CD Tisne"/>
+            <iframe
+                  src="https://youtube.com/embed/KxwHEkRXPWs" frameBorder="0" allowFullScreen title="Enregistrement Tisné" style={{ width: "100%", height:"500px" }}>
+            </iframe>
+            <p>
+            Ce coffret veut faire connaitre la musique pour flûte du compositeur Antoine Tisné, 1932-1998. Il comprend deux CD.   <br/>
+            Le premier présente les deux quatuors pour trio à cordes et flûte de Tisné, "Etudes d'après Maurice Denis" et "Les voix de l'ombre", un trio flûte, violon et alto "Sérénade de la nuit", et la "Monodie pour un espace sacré"pour flûte seule. Ce CD ne contient que des premiers enregistrements mondiaux. <br/>
+            Un CD de ré-édition de la sonate pour flûte avec Alain Marion et Claude Bonneton, et du concerto pour flûte avec Jean-Pierre Rampal et l'orchestre de l'ORTF vient compléter ce panorama de la musique pour flûte du compositeur. Antoine Tisné, compositeur trop oublié depuis sa disparition, nous offre des oeuvres d'une grande force expressive, toutes empreintes de spiritualité.
+            </p>
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="Quatuor pour flûte et cordes du XXe siècle" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdHelios} alt="CD Helios"/>
+            <p>
+              Les œuvres d’A. Louvier et J.R. Combes- Damiens démontrent de manière éclatante tout le potentiel de cette combinaison instrumentale dans la littérature contemporaine : les modes de jeu et les styles d’écriture actuels révolutionnent son expression, tandis qu’elle apporte également à la musique d’aujourd’hui une nouvelle alliance de la musique concertante et de la musique de chambre. Si l’on y ajoute le succès public que reçoivent toujours les quatuors d’Andreae et de Kaufmann, et le clin d’œil plein d’humour de Rui Martins, on aura vite compris que l’Ensemble HÉLIOS a gagné son pari : le quatuor avec flûte peut à présent vivre un second âge d’or.
+            </p>
+            <div>
+              <h3>Extraits : </h3>
+              <h5>Volkmar ANDREAE (1879-1962)<br/>"Divertimento Op. 43"</h5>
+              <h5>Armin KAUFMANN (1902-1980)<br/>"Quartett Op. 17"</h5>
+              <h5>Rui MARTINS (né en 1958)<br/>"Labyrinthe"</h5>
+              <h5>Alain LOUVIER (né en 1945)<br/>"Eclipse"</h5>
+              <h5>Jean-René COMBES-DAMIENS (né en 1957)<br/>"Son Ombre"</h5>
+            </div>
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="Plurielles" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdPlurielles} alt="CD Plurielles"/>
+            <p>
+              Pourquoi donner la parole à des femmes ? Parce qu’elles ne l’ont pas toujours assez. Et surtout parce que la parole féminine est singulière. Il y a dans le verbe comme dans les musiques des femmes, une dimension de poésie et de force mêlées, et un universalisme qui tient sans doute à la spécificité de leur sensibilité et de mode de pensée. Parmi les œuvres qui composent ce CD, toutes sont issues d’un métissage culturel (France-Australie, Roumanie-Tibet, France- Pologne, France-Japon) et font déborder l’interprète de son cadre habituel, le muant en récitant, l’improvisant percussioniste, l’exigeant acteur.            </p>
+            <div>
+              <h3>Extraits : </h3>
+              <h5>FINZI<br/>La lune à la fenêtre</h5>
+              <h5>PIECHOWSKA<br/>Ephémères</h5>
+              <h5>LACAZE<br/>Broken words ; Voyelles pour flûte solo</h5>
+              <h5>ROTARU<br/>Antara; Légende pour flûte solo</h5>
+            </div>
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="Récital / 5 Quatuors pour flûte et cordes" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdWolfgang} alt="CD Wolfgang"/>
+            <p>
+            Quatuors, Nocturnes & Divertissements. Ce programme offre une sélection de quelques pièces parmi les plus représentatives du répertoire et fréquemment demandées pour les concerts de l1Ensemble HÉLIOS. Aux pages les plus populaires de Mozart et de Rossini ainsi qu’au brillant Divertimento d’Andreae s’ajoutent ici deux œuvres dédiées aux interprètes : les Nocturnes "miniatures" de N. Bacri et la pièce de J. Feld en hommage au grand flûtiste Jean-Pierre Rampal figurent en effet parmi les titres contemporains auxquels le public réserve toujours un accueil enthousiaste. Les quatuors de Fernand Ries qui ont fait l’objet d’un disque séparé, sont eux aussi régulièrement inscrits aux programmes de l’ensemble.          </p>
+            <div>
+              <h3>Extraits : </h3>
+              <h5>MOZART<br/>Quatuor en DOM</h5>
+              <h5>BACRI<br/>Nocturnes</h5>
+              <h5>FELD<br/>Nocturne</h5>
+              <h5>ANDREAE<br/>Divertimento</h5>
+              <h5>ROSSINI<br/>Quatuor</h5>
+            </div>
+          </Card>
+        </GridItem>
+        <GridItem>
+          <Card title="Ferdinand Ries (1784 – 1838)" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <img src={cdFerdinand} alt="CD Ferdinand"/>
+            <p>
+              Les quatuors Op. 145 et WoO. 35 de Ferdinand Ries représentent d’authentiques joyaux en matière de musique de chambre avec flûte, à une époque où celle-ci n’était justement guère florissante et où les virtuoses écrivaient essentiellement pour eux- mêmes. Ces pages revêtent donc une importance particulière, et frappent en premier lieu par leurs qualités concertantes. La flûte se voit certes confier un rôle brillant, mais les développements comme la thématique sont toujours répartis aux quatre instruments. L’individualité expressive de chaque voix, le dialogue entre les protagonistes aussi original que constant, en font des pages à marquer d’une pierre blanche dans le répertoire, probablement les meilleures du genre après celles de Mozart. 
+            </p>
+          </Card>
+        </GridItem>
+      </GridContainer>
+    </div>
+  );
+}

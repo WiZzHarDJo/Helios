@@ -17,7 +17,7 @@ import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import WhoAreWeSection from "./Sections/WhoAreWeSection.js";
 import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/WorkSection.js";
+import PartenaireSection from "./Sections/PartenaireSection.js";
 import Spectacles from "./Sections/Spectacles.js";
 
 const dashboardRoutes = [];
@@ -46,7 +46,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <WhoAreWeSection />
           <TeamSection />
-          <WorkSection />
+          <PartenaireSection />
           <Spectacles />
         </div>
       </div>

@@ -11,16 +11,14 @@ import Header from "../../components/Header/Header.js";
 import Footer from "../../components/Footer/Footer.js";
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
-import Button from "../../components/CustomButtons/Button.js";
 import HeaderLinks from "../../components/Header/HeaderLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 
 import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.js";
-import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/WorkSection.js";
+import EduNationale from "./Sections/EduNationale.js";
+import Conservatoire from "./Sections/Conservatoire.js";
 
 const dashboardRoutes = [];
 
@@ -43,34 +41,23 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/quatuor-helios.png")}>
+      <Parallax filter image={require("../../assets/img/helios-ecole.jpg")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+          <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>Hélios et l'éducation</h1>
               <h4>
-              Bien plus que la rencontre fortuite d’une flûtiste et d’un trio à cordes, l’Ensemble HÉLIOS est une formation constituée, réunissant quatre artistes dont l'engagement et le talent portent le genre du quatuor pour flûte et cordes à son plein épanouissement.
+              Tous enseignants, les 4 musiciens d’Hélios sont passionnés de pédagogie.
+              L’ensemble propose plusieurs projets adressés aux jeunes.
               </h4>
-              <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
-          <TeamSection />
-          <WorkSection />
+          <EduNationale />
+          <Conservatoire />
         </div>
       </div>
       <Footer />

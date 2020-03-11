@@ -21,7 +21,7 @@ const typographyStyle = {
     paddingLeft: "25%",
     marginBottom: "40px",
     position: "relative",
-    width: "100%"
+    width: "100%",
   },
   note: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',

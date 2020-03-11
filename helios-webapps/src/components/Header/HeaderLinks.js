@@ -37,14 +37,51 @@ export default function HeaderLinks(props) {
           </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-          <Link to="/helios" className={classes.navLink}>
-            Hélios
-          </Link>
+                    <CustomDropdown
+                      buttonText="Hélios"
+                      dropdownHeader="Qui sommes-nous ?"
+                      buttonProps={{
+                        className: classes.navLink,
+                        color: "transparent"
+                      }}
+                      dropdownList={[
+                        "L'ensemble Hélios",
+                        "Discographie",
+                        "Edition Musicale",
+                        "Galerie médias"
+                      ]}
+                      dropdownLinks={[
+                        "/helios",
+                        "/discographie",
+                        "/edition",
+                        "/galerie"]}
+                    />
       </ListItem>
       <ListItem className={classes.listItem}>
           <Link to="/pedagogie" className={classes.navLink}>
             Pédagogie
           </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+                    <CustomDropdown
+                      buttonText="Répertoire"
+                      dropdownHeader="Répertoire musical"
+                      buttonProps={{
+                        className: classes.navLink,
+                        color: "transparent"
+                      }}
+                      dropdownList={[
+                        "Musique classique",
+                        "Musique contemporaine",
+                        "Oeuvres dédiées à Hélios",
+                        "Proposition de programmes"
+                      ]}
+                      dropdownLinks={[
+                        "/classique",
+                        "/contemporain",
+                        "/oeuvres",
+                        "/programme"]}
+                    />
       </ListItem>
       <ListItem className={classes.listItem}>
           <Link to="/presse" className={classes.navLink}>

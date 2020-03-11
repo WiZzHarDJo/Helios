@@ -18,13 +18,22 @@ const typographyStyle = {
   },
   quote: {
     padding: "10px 20px",
-    margin: "0 0 20px",
     fontSize: "17.5px",
-    borderLeft: "5px solid #eee"
+    borderLeft: "5px solid #eee",
+    verticalAlign: "middle",
+    maxWidth: "50%"
+  },
+  quote100: {
+    padding: "10px 20px",
+    fontSize: "17.5px",
+    borderLeft: "5px solid #eee",
+    verticalAlign: "middle",
+    maxWidth: "100%"
   },
   quoteText: {
     margin: "0 0 10px",
-    fontStyle: "italic"
+    fontStyle: "italic",
+    color: "#777"
   },
   quoteAuthor: {
     display: "block",

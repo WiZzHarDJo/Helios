@@ -9,6 +9,14 @@ import PressePage from './views/PressePage/PressPage';
 import MecenatPage from './views/MecenatPage/MecenatPage';
 import ProfilePage from "./views/ProfilePage/ProfilePage";
 import LoginPage from "./views/LoginPage/LoginPage";
+import OeuvresPage from "./views/OeuvresPage/OeuvresPage";
+import ProgramPage from "./views/ProgramPage/ProgramPage";
+import ClassiquePage from "./views/ClassiquePage/ClassiquePage";
+import ContemporainPage from "./views/ContemporainPage/ContemporainPage";
+import GaleriePage from "./views/GaleriePage/GaleriePage";
+import EditionPage from "./views/EditionPage/EditionPage";
+import DiscographiePage from "./views/DiscographiePage/DiscographiePage";
+
 
 const routes = () => {
   return (
@@ -22,6 +30,13 @@ const routes = () => {
     <Route path="/profile-page" component={ProfilePage} />
     <Route path="/login-page" component={LoginPage} />
     <Route path="/components" component={Components} />
+    <Route path="/oeuvres" component={OeuvresPage} />
+    <Route path="/programme" component={ProgramPage} />
+    <Route path="/classique" component={ClassiquePage} />
+    <Route path="/contemporain" component={ContemporainPage} />
+    <Route path="/edition" component={EditionPage} />
+    <Route path="/galerie" component={GaleriePage} />
+    <Route path="/discographie" component={DiscographiePage} />
   </Switch>
   );
 };

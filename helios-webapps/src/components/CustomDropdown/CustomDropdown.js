@@ -15,6 +15,9 @@ import Divider from "@material-ui/core/Divider";
 import Icon from "@material-ui/core/Icon";
 import Popper from "@material-ui/core/Popper";
 
+
+import { Link } from "react-router-dom";
+
 // core components
 import Button from "./../../components/CustomButtons/Button.js";
 
@@ -48,6 +51,7 @@ export default function CustomDropdown(props) {
     buttonText,
     buttonIcon,
     dropdownList,
+    dropdownLinks,
     buttonProps,
     dropup,
     dropdownHeader,
@@ -151,7 +155,9 @@ export default function CustomDropdown(props) {
                         onClick={() => handleClose(prop)}
                         className={dropdownItem}
                       >
+                        <Link to={dropdownLinks[key]} className={classes.navLink}>
                         {prop}
+                        </Link>
                       </MenuItem>
                     );
                   })}
@@ -183,6 +189,7 @@ CustomDropdown.propTypes = {
   buttonText: PropTypes.node,
   buttonIcon: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   dropdownList: PropTypes.array,
+  dropdownLink: PropTypes.array,
   buttonProps: PropTypes.object,
   dropup: PropTypes.bool,
   dropdownHeader: PropTypes.node,

@@ -1,6 +1,5 @@
 import {
   defaultFont,
-  primaryColor,
   primaryBoxShadow,
   infoColor,
   infoBoxShadow,
@@ -76,7 +75,7 @@ const customDropdownStyle = theme => ({
   },
   primaryHover: {
     "&:hover": {
-      backgroundColor: primaryColor,
+      backgroundColor: "rgba(0, 0, 0, 0.2)",
       color: "#FFFFFF",
       ...primaryBoxShadow
     }
@@ -163,6 +162,33 @@ const customDropdownStyle = theme => ({
   },
   noLiPadding: {
     padding: "0"
+  },
+  navLink: {
+    color: "inherit",
+    position: "relative",
+    padding: "0.25rem",
+    fontWeight: "400",
+    fontSize: "16px",
+    textTransform: "uppercase",
+    borderRadius: "3px",
+    lineHeight: "20px",
+    textDecoration: "none",
+    margin: "0px",
+    display: "inline-flex",
+    "&:hover,&:focus": {
+      color: "inherit",
+      background: "rgba(200, 200, 200, 0.2)"
+    },
+    [theme.breakpoints.down("sm")]: {
+      width: "calc(100% - 30px)",
+      marginLeft: "15px",
+      marginBottom: "8px",
+      marginTop: "8px",
+      textAlign: "left",
+      "& > span:first-child": {
+        justifyContent: "flex-start"
+      }
+    }
   }
 });
 

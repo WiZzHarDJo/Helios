@@ -115,7 +115,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
               Christophe Beau
               <br />
-                <small className={classes.smallTitle}>Alto</small>
+                <small className={classes.smallTitle}>Violoncelle</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>

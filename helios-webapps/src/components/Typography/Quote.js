@@ -9,12 +9,17 @@ import styles from "./../../assets/jss/material-kit-react/components/typographyS
 const useStyles = makeStyles(styles);
 
 export default function Quote(props) {
-  const { text, author } = props;
+  const { text, author, link, linkText } = props;
   const classes = useStyles();
   return (
     <blockquote className={classes.defaultFontStyle + " " + classes.quote}>
       <p className={classes.quoteText}>{text}</p>
       <small className={classes.quoteAuthor}>{author}</small>
+      {
+        link && 
+
+        <a href={linkText}>(retrouvez l'article complet ici)</a>
+      }
     </blockquote>
   );
 }
