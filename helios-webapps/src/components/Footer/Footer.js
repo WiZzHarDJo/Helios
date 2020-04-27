@@ -7,11 +7,14 @@ import classNames from "classnames";
 // material-ui core components
 import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 
 import styles from "./../../assets/jss/material-kit-react/components/footerStyle.js";
+
+import img1 from './../../assets/img/mnl-logo.jpg';
+import img2 from './../../assets/img/proquartet-logo.jpg';
+
 
 const useStyles = makeStyles(styles);
 
@@ -32,54 +35,39 @@ export default function Footer(props) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
+            <img src={img1} alt="mnl-logo" style={{width:"400px", padding:"0.9375rem"}}/>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
+            <img src={img2} alt="proquartet-logo" style={{width:"120px", padding:"0.9375rem"}}/>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
+              <Link
+                to="/contact"
                 className={classes.block}
-                target="_blank"
               >
-                Blog
-              </a>
+                Contact
+              </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
+              <Link
+                to="/mecenat"
                 className={classes.block}
-                target="_blank"
               >
-                Licenses
-              </a>
+                Soutenez-nous
+              </Link>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} , fait par {" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://www.linkedin.com/in/joaquim-giret-imhaus/"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            Joaquim Giret-Imhaus
           </a>{" "}
-          for a better web.
+          pour Hélios.
         </div>
       </div>
     </footer>

@@ -9,7 +9,7 @@ import GridItem from "../../../components/Grid/GridItem.js";
 import Quote100 from "../../../components/Typography/Quote100.js";
 
 
-import {Card} from "antd";
+import {Card, Row, Col} from "antd";
 
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
@@ -35,11 +35,11 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-        <h2 className={classes.title}>La musique classique et Hélios</h2>
+        <h2 className={classes.title}>Discographie d'Hélios</h2>
         </GridItem>
         <GridItem>
           <Card title="LUYPAERTS deux générations de compositeurs" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <div style={{display: "inline-flex", flexWrap: "wrap", justifyContent:"center"}} className={classes.subdescr}>
+            <div style={{display: "inline-flex", flexWrap: "wrap", justifyContent:"center", marginBottom: "15px"}} className={classes.subdescr}>
             <img src={cdLuypaert1} alt="CD Luypaerts" style={{marginRight: "10px"}}/>
             <img src={cdLuypaert2} alt="CD Luypaerts" style={{marginLeft: "10px"}}/>
             </div>
@@ -54,7 +54,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="John Sernee, Sun flowers" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdSernee} alt="CD Serneee"/>
+            <img src={cdSernee} alt="CD Serneee" style={{marginBottom: "15px"}}/>
             <p>
               CD monographique du compositeur John SERNEE (2018) <br/>Hélios y grave le quatuor que lui a dédié le compositeur, Sun Flowers
             </p>
@@ -62,20 +62,20 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="Charles Bordes, Oeuvres Basiques" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdBordes} alt="CD Bordes"/>
-            <p>
-            Les oeuvres basques pour piano de Charles BORDES figurent sur ce CD, interprétées par François-René Duchâche et Olivier Laville.  <br/>
-            Le pianiste François-René Duchâble, qui avait entendu l'Ensemble Hélios en concert, a souhaité que la version originale de la suite Basque, quintette pour flûte et quatuor à cordes, transcrit pour piano et qu'il grave sur le premier CD, constitue le second CD, comme le miroir d'une oeuvre. <br/>
-            Cet enregistrement de la Suite Basque est une prise live du concert donné par l'Ensemble Hélios avec Lucie Bessière au second violon lors des Journées Charles Bordes de 2015. <br/>
-            CD sorti en 2018
-            </p>
+              <img src={cdBordes} alt="CD Bordes"/>
+              <p>
+                Les oeuvres basques pour piano de Charles BORDES figurent sur ce CD, interprétées par François-René Duchâche et Olivier Laville.  <br/>
+                Le pianiste François-René Duchâble, qui avait entendu l'Ensemble Hélios en concert, a souhaité que la version originale de la suite Basque, quintette pour flûte et quatuor à cordes, transcrit pour piano et qu'il grave sur le premier CD, constitue le second CD, comme le miroir d'une oeuvre. <br/>
+                Cet enregistrement de la Suite Basque est une prise live du concert donné par l'Ensemble Hélios avec Lucie Bessière au second violon lors des Journées Charles Bordes de 2015. <br/>
+                CD sorti en 2018
+              </p>
           </Card>
         </GridItem>
         <GridItem>
           <Card title="Antoine Tisné, Les voix de l'ombre" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdTisne} alt="CD Tisne"/>
+            <img src={cdTisne} alt="CD Tisne" style={{marginBottom: "15px"}}/>
             <iframe
-                  src="https://youtube.com/embed/KxwHEkRXPWs" frameBorder="0" allowFullScreen title="Enregistrement Tisné" style={{ width: "100%", height:"500px" }}>
+                  src="https://youtube.com/embed/KxwHEkRXPWs" frameBorder="0" allowFullScreen title="Enregistrement Tisné" style={{ width: "100%", height:"500px", marginBottom:"15px" }}>
             </iframe>
             <p>
             Ce coffret veut faire connaitre la musique pour flûte du compositeur Antoine Tisné, 1932-1998. Il comprend deux CD.   <br/>
@@ -86,7 +86,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="Quatuor pour flûte et cordes du XXe siècle" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdHelios} alt="CD Helios"/>
+            <img src={cdHelios} alt="CD Helios" style={{marginBottom: "15px"}}/>
             <p>
               Les œuvres d’A. Louvier et J.R. Combes- Damiens démontrent de manière éclatante tout le potentiel de cette combinaison instrumentale dans la littérature contemporaine : les modes de jeu et les styles d’écriture actuels révolutionnent son expression, tandis qu’elle apporte également à la musique d’aujourd’hui une nouvelle alliance de la musique concertante et de la musique de chambre. Si l’on y ajoute le succès public que reçoivent toujours les quatuors d’Andreae et de Kaufmann, et le clin d’œil plein d’humour de Rui Martins, on aura vite compris que l’Ensemble HÉLIOS a gagné son pari : le quatuor avec flûte peut à présent vivre un second âge d’or.
             </p>
@@ -102,7 +102,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="Plurielles" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdPlurielles} alt="CD Plurielles"/>
+            <img src={cdPlurielles} alt="CD Plurielles" style={{marginBottom: "15px"}}/>
             <p>
               Pourquoi donner la parole à des femmes ? Parce qu’elles ne l’ont pas toujours assez. Et surtout parce que la parole féminine est singulière. Il y a dans le verbe comme dans les musiques des femmes, une dimension de poésie et de force mêlées, et un universalisme qui tient sans doute à la spécificité de leur sensibilité et de mode de pensée. Parmi les œuvres qui composent ce CD, toutes sont issues d’un métissage culturel (France-Australie, Roumanie-Tibet, France- Pologne, France-Japon) et font déborder l’interprète de son cadre habituel, le muant en récitant, l’improvisant percussioniste, l’exigeant acteur.            </p>
             <div>
@@ -116,7 +116,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="Récital / 5 Quatuors pour flûte et cordes" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdWolfgang} alt="CD Wolfgang"/>
+            <img src={cdWolfgang} alt="CD Wolfgang" style={{marginBottom: "15px"}}/>
             <p>
             Quatuors, Nocturnes & Divertissements. Ce programme offre une sélection de quelques pièces parmi les plus représentatives du répertoire et fréquemment demandées pour les concerts de l1Ensemble HÉLIOS. Aux pages les plus populaires de Mozart et de Rossini ainsi qu’au brillant Divertimento d’Andreae s’ajoutent ici deux œuvres dédiées aux interprètes : les Nocturnes "miniatures" de N. Bacri et la pièce de J. Feld en hommage au grand flûtiste Jean-Pierre Rampal figurent en effet parmi les titres contemporains auxquels le public réserve toujours un accueil enthousiaste. Les quatuors de Fernand Ries qui ont fait l’objet d’un disque séparé, sont eux aussi régulièrement inscrits aux programmes de l’ensemble.          </p>
             <div>
@@ -131,7 +131,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="Ferdinand Ries (1784 – 1838)" style={{ width: "100%", marginBottom:"25px" }} bordered>
-            <img src={cdFerdinand} alt="CD Ferdinand"/>
+            <img src={cdFerdinand} alt="CD Ferdinand" style={{marginBottom: "15px"}}/>
             <p>
               Les quatuors Op. 145 et WoO. 35 de Ferdinand Ries représentent d’authentiques joyaux en matière de musique de chambre avec flûte, à une époque où celle-ci n’était justement guère florissante et où les virtuoses écrivaient essentiellement pour eux- mêmes. Ces pages revêtent donc une importance particulière, et frappent en premier lieu par leurs qualités concertantes. La flûte se voit certes confier un rôle brillant, mais les développements comme la thématique sont toujours répartis aux quatre instruments. L’individualité expressive de chaque voix, le dialogue entre les protagonistes aussi original que constant, en font des pages à marquer d’une pierre blanche dans le répertoire, probablement les meilleures du genre après celles de Mozart. 
             </p>

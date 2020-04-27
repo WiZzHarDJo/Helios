@@ -10,12 +10,12 @@ class MyCard extends Component {
       titlePosition,
       noBorder,
       noPadding,
-      loading
+      loading,
     } = this.props;
 
     return (
       <Card
-        style={noBorder ? { border: 0 } : {}}
+        style={noBorder ? { border: 0 } : {}, {marginBottom:"25px"}}
         title={title}
         className={[styles.cardGlobalStyle, styles[titlePosition], noPadding ? styles.cardNoPadding : "", styles.centerBody]}
         loading={loading}

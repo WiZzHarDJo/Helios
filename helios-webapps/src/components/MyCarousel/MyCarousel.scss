@@ -1,6 +1,8 @@
+@import '~antd/dist/antd.css';
+
 .antCarousel {
 
-  background-color: rgb(255,255,255);
+  background-color: rgb(160, 145, 145);
   //border-radius: 10px;
 
     :global .slick-dots li {
@@ -15,9 +17,9 @@
 
   .slickSlide {
     text-align: center;
-    //height: 160px;
-    //line-height: 160px;
-    //background: #364d79;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
     overflow: hidden;
 
     h1 {

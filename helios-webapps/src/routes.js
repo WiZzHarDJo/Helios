@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Components from "./views/Components/Components";
-import LandingPage from "./views/LandingPage/LandingPage";
+import SpectaclePage from "./views/SpectaclePage/SpectaclePage";
 import ConcertPage from './views/ConcertPage/ConcertPage';
 import HeliosPage from "./views/HeliosPage/HeliosPage";
 import PedagogiePage from './views/PedagogiePage/PedagogiePage';
@@ -16,14 +16,14 @@ import ContemporainPage from "./views/ContemporainPage/ContemporainPage";
 import GaleriePage from "./views/GaleriePage/GaleriePage";
 import EditionPage from "./views/EditionPage/EditionPage";
 import DiscographiePage from "./views/DiscographiePage/DiscographiePage";
-
+import ContactPage from "./views/ContactPage/ContactPage";
 
 const routes = () => {
   return (
     <Switch>
-    <Route path="/" exact component={LandingPage}/>
+    <Route path="/" exact component={HeliosPage}/>
     <Route path="/concerts" exact component={ConcertPage}/>
-    <Route path="/helios" exact component={HeliosPage}/>
+    <Route path="/spectacles" exact component={SpectaclePage}/>
     <Route path="/pedagogie" exact component={PedagogiePage}/>
     <Route path="/presse" exact component={PressePage}/>
     <Route path="/mecenat" exact component={MecenatPage}/>
@@ -37,6 +37,7 @@ const routes = () => {
     <Route path="/edition" component={EditionPage} />
     <Route path="/galerie" component={GaleriePage} />
     <Route path="/discographie" component={DiscographiePage} />
+    <Route path="/contact" component={ContactPage} />
   </Switch>
   );
 };

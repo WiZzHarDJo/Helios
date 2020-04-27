@@ -26,7 +26,7 @@ export default function ProductSection() {
       </GridContainer>
       <div>
         <GridContainer>
-        <GridItem>
+        {/*<GridItem>
           <h3 className={classes.subtitle}>
           "Comment Mozart vient aux enfants"
           </h3>
@@ -42,13 +42,13 @@ export default function ProductSection() {
           <h4 className={classes.subdescr}>
           Durée : 50 mn, créé en 2012
           </h4>
-          {/*<MyCarousel frames={_.shuffle(debussy)} autoplay title="La Presse en parle"/>*/}
+          {/*<MyCarousel frames={_.shuffle(debussy)} autoplay title="La Presse en parle"/>
 
           <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
             <b className={classes.verticalAlign}>Le spectacle "Comment Mozart vient aux enfants" a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
           </div>
-        </GridItem>
+        </GridItem>*/}
         <GridItem>
           <h3 className={classes.subtitle}>
           "Des mots aux sons"

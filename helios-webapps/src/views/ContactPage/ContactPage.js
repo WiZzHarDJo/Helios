@@ -4,6 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+
 // @material-ui/icons
 
 // core components
@@ -13,11 +14,13 @@ import HeaderLinks from "../../components/Header/HeaderLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 
 import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
+import "antd/dist/antd.css";
+
 
 // Sections for this page
-import WhoAreWeSection from "./Sections/WhoAreWeSection.js";
-import TeamSection from "./Sections/TeamSection.js";
-import PartenaireSection from "./Sections/PartenaireSection.js";
+import Text from "./Sections/Text";
+import WorkSection from "./Sections/WorkSection";
+
 
 const dashboardRoutes = [];
 
@@ -40,12 +43,11 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/helios-groupe.jpg")}/>
+      <Parallax filter image={require("../../assets/img/contact1.jpg")}/>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <WhoAreWeSection />
-          <TeamSection />
-          <PartenaireSection />
+          <Text/>
+          <WorkSection/>
         </div>
       </div>
       <Footer />
