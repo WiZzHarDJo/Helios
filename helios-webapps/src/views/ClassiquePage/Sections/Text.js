@@ -7,9 +7,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
+import {Card} from "antd";
+
+
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
-
-
+import "antd/dist/antd.css";
 
 const useStyles = makeStyles(styles);
 
@@ -19,7 +21,7 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-        <h2 className={classes.title}>La musique classique et Hélios</h2>
+        <h2 className={classes.title}>La musique classique et l'Ensemble Hélios</h2>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
@@ -32,12 +34,14 @@ export default function ProductSection() {
           </div>
         </GridItem>
         <GridItem>
-          <div className={classes.subdescr}>
-            <iframe width="520" height="320"
-              src="https://youtube.com/embed/9rm0-cTZZEU" frameBorder="0" allowFullScreen title="Bach Quatuor n°4">
+          <Card title="J.C. Bach Quatuor n°4 / IX" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <iframe
+              src="https://youtube.com/embed/9rm0-cTZZEU" frameBorder="0" allowFullScreen title="J.C. Bach Quatuor n°4 / IX" style={{ width: "100%", height:"500px" }}>
             </iframe>
-            Captation en direct (Mairie du 4ème, février 2013) et montage : Guy VERNET
-          </div>
+            <p>
+              Captation en direct (Mairie du 4ème, février 2013) et montage : Guy VERNET
+            </p>
+          </Card>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
@@ -45,12 +49,14 @@ export default function ProductSection() {
           </div>
         </GridItem>
         <GridItem>
-          <div className={classes.subdescr}>
-            <iframe width="520" height="320"
-              src="https://youtube.com/embed/Y2IM4KKAkUY" frameBorder="0" allowFullScreen title="Bach Quatuor n°4">
+            <Card title="Fantaisie Pastorale de Doppler (adaptation T. Perrine)" style={{ width: "100%", marginBottom:"25px" }} bordered>
+            <iframe
+              src="https://youtube.com/embed/Y2IM4KKAkUY" frameBorder="0" allowFullScreen title="Fantaisie Pastorale de Doppler (adaptation T. Perrine)" style={{ width: "100%", height:"500px" }}>
             </iframe>
-            Captation en direct (Mairie du 4ème, février 2013) et montage : Guy VERNET
-          </div>
+            <p>
+              Captation en direct (Mairie du 4ème, février 2013) et montage : Guy VERNET
+            </p>
+          </Card>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>

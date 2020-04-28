@@ -20,12 +20,26 @@ const productStyle = {
     textDecoration: "none",
     textAlign: "left"
   },
-  description: {
-    color: "#3C4858"
-  },
   subdescr:{
     color: "#3C4858",
-    textAlign: "left"
+    textAlign: "left",
+    fontSize: "19px",
+    marginBottom: "30px",
+  },
+  partenaireDescr:{
+    color: "#3C4858",
+    fontSize: "19px",
+  },
+  subdescrEdition:{
+    color: "#3C4858",
+    textAlign: "left",
+    fontSize: "19px",
+    paddingLeft: "2rem"
+  },
+  subdescrMid:{
+    color: "#3C4858",
+    textAlign: "left",
+    fontSize: "19px",
   },
   rectorat:{
     display: "inline",
