@@ -1,0 +1,41 @@
+[
+    {
+        "saison":"Saison 2018-2019",
+        "salles":["Musée Marmottan","Salle Cortot","Théâtre de Siegen",
+            "Mois Molière","Tournée en Sicile","Auditorium d'Issy les Moulineaux",
+            "Eglise de Beffes","Musée de Reims","Temple St Jean","Musée de Rouen"
+        ]
+    },
+    {
+        "saison":"Saison 2017-2018",
+        "salles":["Festival des forêts","Parc Floral","Bibliothèque Polonaise",
+            "Chapelle du Val de Grâce","Salle Gérard Philippe, Ste Geneviève des Bois",
+            "Eglise de St Pierre le Moustier","Maison Atelier Foujita","Auditorium d'Issy les Moulineaux",
+            "Collège Néerlandais","Auditorium Société pour l'encouragement pour l'industrie nationale",
+            "Musée Maillol","Auditorium de Viroflay","Maison de Châteaubriand","Mois Molière, Versailles"
+        ]
+    },
+    {
+        "saison":"Saison 2016-2017",
+        "salles":["Bibliothèque Polonaise","Fondation Polignac","Convention de la flûte de Levallois Perret",
+            "Théâtre de Yerres","Maison de Châteaubriand","Théâtre de Longjumeau","Les Prairiales Epernon",
+            "Galeries Nationales du Grand Palais","Festival du livre du 15ème","Festival des forêts",
+            "Mois Molière","Cité Universitaire","Maison Foujita, Essonne"
+        ]
+    },
+    {
+        "saison":"Saison 2015-2016",
+        "salles":["Festival Roussel","31 représentations de « Debussy Miss et Chouchou »","Convention de la flûte de Levallois Perret",
+            "Gaveau","Théâtre Montansier","Ste Geneviève des Bois","Maison Atelier Foujita","Théâtre de Maurepas","Musée de la Chasse, Paris",
+            "Festival de Seine et Marne","Festival du Mois Molière à Versailles","Cité Universitaire, Paris","Château de Courances",
+            "France Musique Emission « Les plaisirs du quatuor » avec Stéphane Goldet","Théâtre du Ranelagh","Festival des forêts"
+        ]
+    },
+    {
+        "saison":"Saison 2014-2015",
+        "salles":["Festival de Brocéliande","Théâtre du Chesnay","Journées Charles Bordes","Théâtre de Montrouge","Eglise Arménienne, Paris",
+            "La Grange aux dîmes à Fresnes","Festival « Pour que l'Esprit vive »","Espace culturel de Barbizon","Festival classique au large de St Malo",
+            "Festival de la Prée","Festival de Sully sur Loire","Festival de Seine et Marne","Festival du Mois Molière"
+        ]
+    }
+]

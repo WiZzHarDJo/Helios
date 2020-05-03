@@ -44,7 +44,9 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <WhoAreWeSection />
+        </div>
           <TeamSection />
+        <div className={classes.container}>
           <PartenaireSection />
         </div>
       </div>

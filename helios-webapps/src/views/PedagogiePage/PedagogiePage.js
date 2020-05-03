@@ -45,11 +45,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Hélios et l'éducation</h1>
-              <h4>
-              Tous enseignants, les 4 musiciens d’Hélios sont passionnés de pédagogie.
-              L’ensemble propose plusieurs projets adressés aux jeunes.
-              </h4>
+              <h1 className={classes.title}>L'Ensemble Hélios, la joie d’enseigner </h1>
             </GridItem>
           </GridContainer>
         </div>

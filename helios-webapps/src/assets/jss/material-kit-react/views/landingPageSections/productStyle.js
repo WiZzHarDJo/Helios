@@ -10,7 +10,8 @@ const productStyle = {
     marginBottom: "1rem",
     marginTop: "30px",
     minHeight: "32px",
-    textDecoration: "none"
+    textDecoration: "none",
+    fontSize:"35px"
   },
   subtitle: {
     ...title,
@@ -18,13 +19,19 @@ const productStyle = {
     marginTop: "15px",
     minHeight: "16px",
     textDecoration: "none",
-    textAlign: "left"
+    textAlign: "left",
+    fontSize:"30px"
   },
   subdescr:{
     color: "#3C4858",
-    textAlign: "left",
+    //textAlign: "left",
     fontSize: "19px",
     marginBottom: "30px",
+    textAlign:"justify"
+  },
+  program:{
+    color: "#3C4858",
+    fontSize: "19px",
   },
   partenaireDescr:{
     color: "#3C4858",
@@ -34,16 +41,22 @@ const productStyle = {
     color: "#3C4858",
     textAlign: "left",
     fontSize: "19px",
-    paddingLeft: "2rem"
+    paddingLeft: "2rem",
+    fontWeight:"normal"
   },
   subdescrMid:{
     color: "#3C4858",
     textAlign: "left",
     fontSize: "19px",
   },
+  subdescrMidBold:{
+    color: "#3C4858",
+    fontSize: "19px",
+    fontWeight:"bold"
+  },
   rectorat:{
     display: "inline",
-    color: "#3C4858",
+    color: "#3C4858"
   },
   verticalAlign:{
     verticalAlign: "middle"

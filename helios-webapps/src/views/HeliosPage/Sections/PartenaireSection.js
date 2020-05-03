@@ -13,9 +13,10 @@ import img4 from "./../../../assets/img/logo-billaudot.png";
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
-
+import {Row, Col} from 'antd';
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import "antd/dist/antd.css";
 
 const useStyles = makeStyles(styles);
 
@@ -32,23 +33,77 @@ export default function WorkSection() {
         <GridItem>
         <p className={classes.subdescr}>
             L'Ensemble Hélios a l'honneur d'être soutenu dans ses activités artistiques de création et de concerts par les partenaires suivants :
-          </p>
-          <p className={classes.partenaireDescr}>
-          <a href="https://www.mnl-paris.com"> Musique Nouvelle en Liberté</a>
-          <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{marginTop:"10px", width:"30rem"}}/>
-          </p>
-          <p className={classes.partenaireDescr}>
-            <a href="https://www.sacem.fr/"> La Société des auteurs, compositeurs et éditeurs de musique</a>
-            <img src={img2} alt="Logo SACEM" style={{marginTop:"10px", width:"30rem"}}/>
-          </p>
-          <p className={classes.partenaireDescr}>
-            <a href="https://www.ac-paris.fr/portail/"> Le Rectorat de Paris</a>
-            <img src={img3} alt="Logo Rectorat de Paris" style={{marginTop:"10px", width:"30rem"}}/>
-          </p>
-          <p className={classes.partenaireDescr}>
-            <a href="https://www.billaudot.com/fr/"> Les Editions Gérard Billaudot</a>
+        </p>
+        <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+        >
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+              <a href="https://www.mnl-paris.com"> <b>Musique Nouvelle en Liberté</b></a>
+            </p>
+          </Col>
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+            <a href="https://www.sacem.fr/"> <b>La Société des auteurs, compositeurs et éditeurs de musique</b></a>
+            </p>
+          </Col>
+        </Row>
+        <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+        >
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+              <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{marginTop:"10px", width:"30rem"}}/>
+            </p>
+          </Col>
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+            <img src={img2} alt="Logo SACEM" style={{marginTop:"10px", width:"30rem", height:"16rem"}}/>
+            </p>
+          </Col>
+        </Row>
+
+        <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+        >
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+              <a href="https://www.ac-paris.fr/portail/"> <b>Le Rectorat de Paris</b></a>
+            </p>
+          </Col>
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+            <a href="https://www.billaudot.com/fr/"> <b>Les Editions Gérard Billaudot</b></a>
+            </p>
+          </Col>
+        </Row>
+
+        <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+        >
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
+              <img src={img3} alt="Logo Rectorat de Paris" style={{marginTop:"10px", width:"20rem", height:"10rem"}}/>
+            </p>
+          </Col>
+          <Col span={12}>
+            <p className={classes.partenaireDescr}>
             <img src={img4} alt="Logo Editions Gérard Billaudot" style={{marginTop:"10px", width:"30rem"}}/>
-          </p>
+            </p>
+          </Col>
+        </Row>
         </GridItem>
       </GridContainer>
     </div>

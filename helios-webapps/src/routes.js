@@ -4,6 +4,10 @@ import Components from "./views/Components/Components";
 import SpectaclePage from "./views/SpectaclePage/SpectaclePage";
 import ConcertPage from './views/ConcertPage/ConcertPage';
 import HeliosPage from "./views/HeliosPage/HeliosPage";
+import ChristelPage from "./views/ChristelPage/ChristelPage";
+import VincianePage from "./views/VincianePage/VincianePage";
+import ChristophePage from "./views/ChristophePage/ChristophePage";
+import NathanaellePage from "./views/NathanaellePage/NathanaellePage";
 import PedagogiePage from './views/PedagogiePage/PedagogiePage';
 import PressePage from './views/PressePage/PressPage';
 import MecenatPage from './views/MecenatPage/MecenatPage';
@@ -22,6 +26,10 @@ const routes = () => {
   return (
     <Switch>
     <Route path="/" exact component={HeliosPage}/>
+    <Route path="/christel" exact component={ChristelPage}/>
+    <Route path="/vinciane" exact component={VincianePage}/>
+    <Route path="/christophe" exact component={ChristophePage}/>
+    <Route path="/nathanaelle" exact component={NathanaellePage}/>
     <Route path="/concerts" exact component={ConcertPage}/>
     <Route path="/spectacles" exact component={SpectaclePage}/>
     <Route path="/pedagogie" exact component={PedagogiePage}/>

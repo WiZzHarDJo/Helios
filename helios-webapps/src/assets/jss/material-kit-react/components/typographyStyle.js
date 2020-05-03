@@ -23,12 +23,27 @@ const typographyStyle = {
     verticalAlign: "middle",
     maxWidth: "50%"
   },
+  quoteBlue: {
+    padding: "10px 20px",
+    fontSize: "17.5px",
+    borderLeft: "5px solid #b4ddff",
+    verticalAlign: "middle",
+    maxWidth: "50%"
+  },
   quote100: {
     padding: "10px 20px",
     fontSize: "17.5px",
     borderLeft: "5px solid #eee",
     verticalAlign: "middle",
     maxWidth: "100%"
+  },
+  quoteCenter: {
+    padding: "10px 20px",
+    fontSize: "17.5px",
+    borderLeft: "5px solid #eee",
+    verticalAlign: "middle",
+    marginLeft:"20%",
+    marginRight:"20%"
   },
   quoteText: {
     margin: "0 0 10px",

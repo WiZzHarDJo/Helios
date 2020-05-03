@@ -1,6 +1,5 @@
 import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -10,17 +9,12 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import Quote from "../../../components/Typography/Quote.js";
 import GridItem from "../../../components/Grid/GridItem.js";
-import Button from "../../../components/CustomButtons/Button.js";
-import Card from "../../../components/Card/Card.js";
-import CardBody from "../../../components/Card/CardBody.js";
-import CardFooter from "../../../components/Card/CardFooter.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 import teleramaLogo from "./../../../assets/img/telerama-logo.jpg";
 import lacroixLogo from "./../../../assets/img/la-croix-logo.webp";
 import radioClassiqueLogo from "./../../../assets/img/radio-classique-logo.png";
-//import idfmLogo from "./../../../assets/img/idfm-logo.png";
 import franceBleueLogo from "./../../../assets/img/logo-france-bleu-seo.jpg";
 import laMuseLogo from "./../../../assets/img/logo_lamuse.png";
 import repCentreLogo from "./../../../assets/img/rep-centre-logo.gif";
@@ -50,7 +44,7 @@ export default function TeamSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>La presse en parle :</h2>
+          <h2 className={classes.title}>La presse en parle</h2>
         </GridItem>
       </GridContainer>
       <GridContainer >
@@ -129,15 +123,6 @@ export default function TeamSection() {
             />
           </div>
       </GridItem>
-      {/*<GridItem>
-          <div className={classes.typo}>
-          <img src={idfmLogo} alt="Logo IDFM" className={classes.pressImg}/>
-            <Quote
-              text="Un très joli spectacle à voir en famille."
-              author="IDFM"
-            />
-          </div>
-      </GridItem>*/}
       <GridItem>
           <div className={classes.typo}>
           <div style={{width:"100px"}}/>
@@ -264,7 +249,7 @@ export default function TeamSection() {
       </GridItem>
       <GridItem>
           <div className={classes.typo}>
-          <div style={{width:"310px"}}/>
+          <div style={{width:"370px"}}/>
             <Quote
               text="Une prestation de grande qualité, applaudie à sa juste valeur."
               author="La Gazette"

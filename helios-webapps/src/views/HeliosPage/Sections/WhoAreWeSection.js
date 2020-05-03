@@ -34,7 +34,7 @@ export default function ProductSection() {
             Par ailleurs, ils allient leur passion de la musique de chambre à un engagement constant pour la musique contemporaine. Ils ont rapidement suscité de nombreuses compositions nouvelles et assurent chaque année plusieurs créations (70 oeuvres dédiées à ce jour). 
           </p>
           <p className={classes.subdescr}>
-            Des personnalités marquantes de notre temps telles que Thierry Escaïch, Alain Louvier, Paul Méfano, Jindrich Feld, Nicolas Bacri, Thierry Pécou, Philippe Hersant…. ont écrit à l’intention de l’Ensemble HÉLIOS, redonnant ainsi au quatuor avec flûte sa place et son importance dans la musique de notre temps.
+            Des personnalités marquantes de notre temps telles que Thierry Escaïch, Alain Louvier, Paul Méfano, Jindrich Feld, Nicolas Bacri, Thierry Pécou, Philippe Hersant…. ont écrit à l’intention de l’Ensemble Hélios, redonnant ainsi au quatuor avec flûte sa place et son importance dans la musique de notre temps.
           </p>
           <p className={classes.subdescr}>
             L'ensemble Hélios, lauréat des Fondations Menuhin et Cziffra, a aussi reçu en 2016 le prix du conseil d'administration de la Fondation Prince Louis de Polignac.
