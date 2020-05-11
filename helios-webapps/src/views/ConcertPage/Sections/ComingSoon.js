@@ -1,67 +1,125 @@
 import React from "react";
+import _ from "lodash";
+import moment from "moment";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
-import InfoArea from "../../../components/InfoArea/InfoArea.js";
+
+import {Row, Col} from "antd";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import "antd/dist/antd.css";
+
+import programmation from "./../../../assets/data/programmation.json";
 
 const useStyles = makeStyles(styles);
 
 export default function ProductSection() {
   const classes = useStyles();
+
+  const now = moment();
+
+  const renderProgrammation = (program, id) => {
+
+    if(id % 2 === 0 && !moment(program.datum).isBefore(now)){
+      return (
+        <GridItem key={id} style={{marginBottom:"40px"}}>
+      <h4 className={classes.subtitle}>
+        {program.title}
+      </h4>
+      <Row
+      type="flex"
+      style={{ alignItems: "center" }}
+      justify="center"
+      gutter={10}
+  >
+        <Col span={14}>
+          <p className={classes.subdescr}>
+          {program.description}
+          </p>
+          <p className={classes.subdescr}>
+          Programme de l'évènement : {program.artiste}
+          {program.duration}
+          </p>
+          <p className={classes.subdescr}>
+          <b>{program.date}</b> <br/>
+          {program.lieu}
+          </p>
+        </Col>
+        <Col span={10}>
+          <p className={classes.partenaireDescr}>
+            <img src={require(`./../../../assets/img/${program.img}`)} alt={program.title} style={{height:"350px",width:"425px", objectFit:"cover"}}/>
+          </p>
+        </Col>
+        </Row>
+    </GridItem>
+    )
+    }
+    else if(!moment(program.datum).isBefore(now)){
+      return(
+        <GridItem key={id} style={{marginBottom:"40px"}}>
+      <h4 className={classes.subtitle} style={{marginBottom:"20px"}}>
+        {program.title}
+      </h4>
+      <Row
+      type="flex"
+      style={{ alignItems: "center" }}
+      justify="center"
+      gutter={10}
+  >
+        <Col span={10}>
+          <p className={classes.partenaireDescr}>
+            <img src={require(`./../../../assets/img/${program.img}`)} alt={program.title} style={{height:"350px",width:"425px", objectFit:"cover"}}/>
+          </p>
+        </Col>
+        <Col span={14}>
+          <p className={classes.subdescr}>
+          {program.description}
+          </p>
+          <p className={classes.subdescr}>
+          Programme de l'évènement : {program.artiste}
+          {program.duration}
+          </p>
+          <p className={classes.subdescr}>
+          <b>{program.date}</b> <br/>
+          {program.lieu}
+          </p>
+        </Col>
+        </Row>
+    </GridItem>
+      )
+    }
+  }
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
-          <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
-          </h5>
+          <h2 className={classes.title}>1er Semestre 2020</h2>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <div className={classes.subdescr}>
+            Plusieurs concerts ont été annulés ou décalés du fait du confinement dû au Covid 19.
+            Nous mettrons à jour les dates de nos prochains concerts dès que nous aurons de la visibilité.
+            Merci pour votre compréhension.
+          </div>
         </GridItem>
       </GridContainer>
-      <div>
-        <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
-              iconColor="info"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
-              iconColor="success"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
-              iconColor="danger"
-              vertical
-            />
-          </GridItem>
-        </GridContainer>
-      </div>
+
+      <GridContainer>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
+          Prochains évènements
+          </h3>
+        </GridItem>
+        {programmation.length && _.map(programmation, renderProgrammation)}
+
+      </GridContainer>
     </div>
   );
 }

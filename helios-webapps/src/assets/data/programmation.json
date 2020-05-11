@@ -1,65 +1,122 @@
 [
     {
-        "title":"3 concerts : Mozart, Lacaze, Bellocq",
-        "description":"",
-        "lieu":"Jailly les Moulins",
-        "date":"29 février"
+        "title":"Concert : Chatoiement Classique et Contemporain",
+        "description":"L’Ensemble Hélios mêle les lignes de Mozart aux accents colorés des musiques nouvelles.",
+        "artiste":"Wolfgang Amadeus Mozart, Sophie Lacaze, Ivane Bellocq",
+        "lieu":"Jailly les Moulins, Eglise, 21 150",
+        "date":"Dimanche 1 mars, 15h30",
+        "img":"background-classique.jpg",
+        "datum":"2020-03-01"
     },{
-        "title":"3 concerts : Mozart, Lacaze, Bellocq",
-        "description":"",
-        "lieu":"Jailly les Moulins",
-        "date":"1er mars"
+        "title":"Concert : Intégrale des quatuors de Mozart",
+        "description":"L’intégrale des quatuors avec flûte de Mozart reste un grand classique du répertoire de l'Ensemble Hélios.",
+        "lieu":"Cercle interalliés, 33 rue du Faubourg St Honoré, Paris",
+        "date":"Mardi 17 mars, 20h30",
+        "img":"mozart-child.jpg",
+        "datum":"2020-03-17"
     },{
-        "title":"Intégrale des quatuors de Mozart",
-        "description":"",
-        "lieu":"Cercle interalliés, 33 rue du Faubourg St Honoré, Paris ",
-        "date":"17 mars "
-    },{
-        "event":{
-            "nom":"Festival Présence",
-            "lieu":"Toulon",
-            "date":"25 et 26 Mars",
-            "detail":{
-                "1":{"title":"Sohy Bonis Finzi Granval, Création E Canat de Chizy",
-                    "date":"25 Mars 20h"},
-                "2":{"title":"Des mots aux Sons",
-                    "date":"25 Mars 20h"},
-                "3":{"title":"Canat de Chizy Reprise",
-                    "date":"25 Mars 20h"}
-            }
-        }
-    },{
-        "title":"Mozart Canat de Chizy Création B Ubaldini",
-        "description":"",
-        "lieu":"Fondation Suisse, 7K Bd Jourdan, 75014 Paris",
-        "date":"23 avril 20h"
-    },{
-        "event":{
-            "nom":"blabla",
-            "lieu":"Centre social La Clairière, 60 rue Grenetta, 75002 Paris ",
-            "date":"15 mai",
-            "detail":{
-                "1":{"title":"Atelier famille Mozart Feld Walckiers",
-                    "date":"17h"},
-                "2":{"title":"Concert Haydn Mozart Feld Walckiers, Création R. Bricout",
-                    "date":"19h"}
-            }
-        }
-    },{
-        "title":"Mois Molière: Mozart, Bach, Walckiers, Ginastera, Création E Bertrand",
-        "description":"",
-        "lieu":"Place du Marché du marché Notre Dame, 78 000 Versailles",
-        "date":"5 juin"
+        "title":"Concert : Musique de femmes",
+        "description":"Tout autour de compositrices et croisant des siècles d’inspiration féminine.",
+        "artiste":"Charlotte Sohy, Mel Bonis, Graciane Finzi, Clémence de Granval, Création Edith Canat de Chizy",
+        "lieu":"Festival Présence, Théâtre liberté, 83 000 Toulon",
+        "date":"Mercredi 25 Mars, 20h",
+        "img":"calme1.jpg",
+        "datum":"2020-03-25"
     },
     {
-        "title":"Eugène Walckiers, compositeur Romantique Français",
-        "description":"",
-        "lieu":"Maison de Châteaubriand, 92290 Châtenay Malabris",
-        "date":"16 juin"
+        "title":"Spectacle musical : Des mots aux sons - séance scolaire",
+        "description":"Construite sur des œuvres de femmes bâties sur des tectes littéraires, cette séance scolaire propose aux enfants de collège un bain musical et une réflexion sur la création.",
+        "lieu":"Festival Présence, Théâtre liberté, 83 000 Toulon",
+        "artiste":"Sophie Lacaze, Graciane Finzi, Ivane Bellocq, Christel Rayneau",
+        "date":"Jeudi 26 Mars, 14h",
+        "img":"calme1.jpg",
+        "datum":"2020-03-26"
+    },
+    {
+        "title":"Concert : Du Classique au Contemporain",
+        "description":"La musique de Mozart tranche sur les langages d’Edith Canat de Chizy et Blaise Ubaldini (Création mondiale).",
+        "artiste":"Wolfgang Amadeus Mozart, Edith Canat de Chizy, Création Blaise Ubaldini",
+        "lieu":"Fondation Suisse, 7K Bd Jourdan, 75 014 Paris",
+        "date":"Jeudi 23 avril, 20h",
+        "img":"programme.jpg",
+        "datum":"2020-04-23"
+    },
+    {
+        "title":"Atelier famille : Du Classique au Contemporain",
+        "description":"Cette séance de musique et échanges veut expliquer les oeuvres et optimiser l’écoute de la musique.",
+        "artiste":"Wolfgang Amadeus Mozart, Jindrich Feld, Eugène Walckiers",
+        "lieu":"Centre social La Clairière, 60 rue Grenetta, 75 002 Paris",
+        "date":"Vendredi 15 mai, 17h",
+        "img":"calme1.jpg",
+        "datum":"2020-05-15"
+    },
+    {
+        "title":"Concert : Du Classique au Contemporain",
+        "description":"Programme éclectique montrant les multiples chatoiements offerts par la formation, création mondiale de Rémi Bricout.",
+        "artiste":"Joseph Haydn, Wolfgang Amadeus Mozart, Jindrich Feld, Eugène Walckiers, Création Rémi Bricout",
+        "lieu":"Centre social La Clairière, 60 rue Grenetta, 75 002 Paris",
+        "date":"Vendredi 15 mai, 19h",
+        "img":"concert1.jpg",
+        "datum":"2020-05-15"
+    },
+    {
+        "title":"Spectacle musical : « J’suis différent » - séance scolaire",
+        "description":"Spectacle musical jeune public, « J’suis différent » permet à ses jeunes auditeurs tout un chemin de réflexion et de plaisir.",
+        "duration":"50min",
+        "lieu":"Centre culturel Jacques Brel, 91 140 Villebon",
+        "date":"Mardi 26 mai, 14h",
+        "img":"calme1.jpg",
+        "datum":"2020-05-26"
     },{
-        "title":"Du temps que les bêtes parlaient Spectacle autour de La Fontaine avec le comédien Philippe Murgier.",
-        "description":"",
-        "lieu":"Maison de Châteaubriand, 92290 Châtenay Malabris",
-        "date":"Juillet Tournée"
+        "title":"L'Ensemble Hélios invite : Saskia Lechiec",
+        "description":"L’Ensemble Hélios invite la violoniste Saskia Lethiec pour un programme contrasté. Création mondiale d’ Elise Bertrand.",
+        "artiste":"Wolfgang Amadeus Mozart, Jean-Sébastien Bach, Eugène Walckiers, Alberto Ginastera, Création Elise Bertrand",
+        "lieu":"Mois Molière, Place du Marché du marché Notre Dame, 78 000 Versailles",
+        "date":"Vendredi 5 juin, 20h",
+        "img":"programmation/saskia.jpg",
+        "datum":"2020-06-05"
+    },
+    {
+        "title":"Concert : Du Classique au Contemporain",
+        "description":"L’Ensemble Hélios se met au service d’un jeune compositeur dont il assure la création mondiale qui couronnera son parcours au CRR de Metz. Le concert lecture apporte un éclairage passionnant sur les œuvres.",
+        "artiste":"Wolfgang Amadeus Mozart, Jean-Sébastien Bach, Eugène Walckiers, Alberto Ginastera, Création Elise Bertrand",
+        "lieu":"Conservatoire de région, 57 000 Metz",
+        "date":"Vendredi 12 juin, 18h",
+        "img":"concert2.jpg",
+        "datum":"2020-06-12"
+    },
+    {
+        "title":"Concert : Un Romantique français à redécouvrir",
+        "description":"Compositeur romantique trop oublié, Eugène Walckiers trouve en Hélios un partenaire enthousiaste. Ses riches quatuors et trios constituent un apport majeur dans le répertoire de la formation.",
+        "artiste":"Eugène Walckiers compositeur Romantique Françai",
+        "lieu":"Maison de Châteaubriand 87, rue de Châteaubriand, 92 290 Châtenay Malabris",
+        "date":"Mardi 16 juin, 20h30",
+        "img":"harpe.jpg",
+        "datum":"2020-06-16"
+    },
+    {
+        "title":"Spectacle musical : « Comment Mozart vient aux enfants... »",
+        "description":"Dékà donné 180 fois, ce spectacle familial à destination des enfants de 4 ans à 99 ans continue son chemin heureux de diffusion. Avec le comédien Benjamin Bernard.",
+        "duration":"50min",
+        "lieu":"Festival des Forêts, Compiègne",
+        "date":"Samedi 20 juin, 16h",
+        "img":"calme1.jpg",
+        "datum":"2020-06-20"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Mois Molière, Hôtel de la Chancellerie,  24 rue de la Chancellerie, 78 000 Versailles",
+        "date":"Mardi 23 juin , 19h",
+        "img":"calme1.jpg",
+        "datum":"2020-06-23"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Tournée Centres de vacances CCAS",
+        "date":"Entre le 6 et 18 Juillet",
+        "img":"calme1.jpg",
+        "datum":"2020-06-18"
     }
 ]

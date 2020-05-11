@@ -24,7 +24,7 @@ export default function WorkSection() {
 
   const renderSalles = (salle,id) => {
     return (
-      <div className={classes.subdescrEdition} style={{marginBottom: "20px"}}>
+      <div className={classes.subdescrEdition} style={{marginBottom: "20px"}} key={id}>
         <i>• {salle}</i>
       </div>
     )

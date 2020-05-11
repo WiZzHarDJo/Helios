@@ -21,6 +21,14 @@ const productStyle = {
     textDecoration: "none",
     textAlign: "left",
     fontSize:"30px"
+  },subSubtitle: {
+    ...title,
+    marginBottom: "0.5rem",
+    marginTop: "15px",
+    minHeight: "16px",
+    textDecoration: "none",
+    textAlign: "left",
+    fontSize:"25px"
   },
   subdescr:{
     color: "#3C4858",

@@ -5,8 +5,9 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
+import Quote100 from "../../../components/Typography/Quote100.js";
 import rectoratLogo from "./../../../assets/img/logo-rectorat.jpg";
-
+import Carousel from "../../../components/Carousel/Carousel.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -18,9 +19,11 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Dans le cadre de l’Education nationale</h2>
-          <h5 className={classes.description}>
-            L'Ensemble Hélios transmet le goût de la musique.
+          <h2 className={classes.title}>Dans le cadre de l’Education Nationale</h2>
+        </GridItem>
+        <GridItem>
+          <h5 className={classes.subdescr}>
+          L'Ensemble Hélios ouvre aux enfants le monde de la musique et réjouit les coeurs.
           </h5>
         </GridItem>
       </GridContainer>
@@ -81,6 +84,25 @@ export default function ProductSection() {
           <h4 className={classes.subdescr}>
           6 séances de 50mn et un concert de restitution
           </h4>
+          <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subSubtitle}>
+            Témoignages
+          </h3>
+          <div style={{textAlign:"justify"}}>
+          <Quote100
+            text="Chers tous quatre,
+            Nous vous remercions vivement pour ce beau projet autour d’Arthur et Chimène, qui a tant apporté aux enfants. Découvrir de nouvelles musiques, apprendre à écouter, se laisser surprendre, essayer les instruments, vous regarder jouer, monter sur scène : nos « grands » sont allés de découvertes en découvertes.
+            Nous avons été très touchés par votre disponibilité, votre indulgence, vos encouragements rassurants et bienveillants à la fin du spectacle.
+            Pour Elisa et Armelle ce fut une grande première de participer à un projet comme celui-là, et ce sera sûrement très formateur pour leurs prochaines années d’enseignement.
+            Nous partageons aussi avec vous les remerciements de plusieurs parents conscients de l’investissement de tous les participants.
+            Bonne continuation à vous quatre, et une pensée particulière pour Arthur et Chimène qui ont si bien accompagné les enfants !
+            Bien à vous"
+            author="L’équipe de Marie Marvingt, Issy-les-Moulineaux, 2018"
+          />
+          </div>
+          </GridItem>
+          <Carousel/>
+          <GridItem/>
           <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
             <b className={classes.verticalAlign}>"Le tour du monde d'Arthur " a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>

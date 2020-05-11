@@ -1,4 +1,5 @@
 @import '~antd/dist/antd.css';
+@import './assets/scss/plugins/_plugin-react-slick.scss';
 .logo {
   width: 120px;
   height: 31px;

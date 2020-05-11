@@ -2,13 +2,10 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
 import img1 from "./../../../assets/img/logo-liberté.png";
 import img2 from "./../../../assets/img/logo-sacem.jpg";
 import img3 from "./../../../assets/img/rectorat-logo.png";
 import img4 from "./../../../assets/img/logo-billaudot.png";
-
-
 
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
