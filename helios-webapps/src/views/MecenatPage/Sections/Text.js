@@ -65,7 +65,69 @@ export default function ProductSection() {
           </div>
           </h4>
         </GridItem>
-        <GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
+          Récompenses et Reconnaissance
+          </h3>
+          <h4 className={classes.subdescrEdition}>
+          •	Les musiciens de l’Ensemble Hélios : 4 prix de CNSM & 10 prix internationaux <br/>
+          •	L’Ensemble Hélios :
+            <div className={classes.subdescrEdition}>
+              o	Lauréat des Fondations Cziffra et Menuhin <br/>
+              o	Récompensé en 2016 par la Fondation Louis de Polignac <br/>
+              o	« Coup de Cœur » Radio Classique & 2T Télérama pour son spectacle Jeune public « Debussy Miss et Chouchou » <br/>
+              o	180 représentations pour son spectacle « Comment Mozart vient aux enfants… ». <br/>
+            </div>
+          </h4>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
+          Associez-vous au projet qui vous ressemble
+          </h3>
+          <h4 className={classes.subdescrEdition}>
+            •	Concerts <br/>
+            •	Spectacles vers les publics empêchés <br/>
+            •	Actions culturelles et éducatives <br/>
+            •	Commandes d’œuvres contemporaines <br/>
+          </h4>
+        </GridItem>
+        </GridContainer>
+      </div>
+
+
+
+      <GridContainer>
+        <GridItem style={{marginBottom:"40px"}}>
+        <Row
+          type="flex"
+          style={{ alignItems: "center" }}
+          justify="center"
+          gutter={10}
+        >
+          <Col span={12}>
+            <div className={classes.title} style={{height:"150px"}}>
+              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
+            </div>
+          </Col>
+          <Col span={12}>
+          <div className={classes.title} style={{height:"150px"}}>
+              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
+            </div>
+          </Col>
+        </Row>
+        {
+          type===1 &&
+          <Entreprise/>
+        }
+        {
+          type===2 &&
+          <Particulier/>
+        }
+        </GridItem>
+      </GridContainer>
+
+      <GridContainer>
+      <GridItem>
           <h3 className={classes.subtitle} style={{marginBottom:"40px"}}>
           Partenariats
           </h3>
@@ -140,68 +202,6 @@ export default function ProductSection() {
           </Col>
         </Row>
         </GridItem>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Récompenses et Reconnaissance
-          </h3>
-          <h4 className={classes.subdescrEdition}>
-          •	Les musiciens de l’Ensemble Hélios : 4 prix de CNSM & 10 prix internationaux <br/>
-          •	L’Ensemble Hélios :
-            <div className={classes.subdescrEdition}>
-              o	Lauréat des Fondations Cziffra et Menuhin <br/>
-              o	Récompensé en 2016 par la Fondation Louis de Polignac <br/>
-              o	« Coup de Cœur » Radio Classique & 2T Télérama pour son spectacle Jeune public « Debussy Miss et Chouchou » <br/>
-              o	180 représentations pour son spectacle « Comment Mozart vient aux enfants… ». <br/>
-            </div>
-          </h4>
-        </GridItem>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Associez-vous au projet qui vous ressemble
-          </h3>
-          <h4 className={classes.subdescrEdition}>
-            •	Concerts <br/>
-            •	Spectacles vers les publics empêchés <br/>
-            •	Actions culturelles et éducatives <br/>
-            •	Commandes d’œuvres contemporaines <br/>
-          </h4>
-        </GridItem>
-        </GridContainer>
-      </div>
-
-
-
-      <GridContainer>
-        <GridItem style={{marginBottom:"40px"}}>
-        <Row
-          type="flex"
-          style={{ alignItems: "center" }}
-          justify="center"
-          gutter={10}
-        >
-          <Col span={12}>
-            <div className={classes.title} style={{height:"150px"}}>
-              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
-            </div>
-          </Col>
-          <Col span={12}>
-          <div className={classes.title} style={{height:"150px"}}>
-              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
-            </div>
-          </Col>
-        </Row>
-        {
-          type===1 &&
-          <Entreprise/>
-        }
-        {
-          type===2 &&
-          <Particulier/>
-        }
-        </GridItem>
-      </GridContainer>
-
-      <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
           <h3 className={classes.subtitle}>
           Les « Amis de l’Ensemble Hélios »

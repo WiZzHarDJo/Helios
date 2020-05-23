@@ -1,7 +1,7 @@
 {
-  "name": "material-kit-react",
+  "name": "helios-webapps",
   "version": "1.8.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "description": "Hélios Website. Coded by Joaquim Giret-Imhaus (using React and Material Kit React. Coded by Creative Tim)",
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
