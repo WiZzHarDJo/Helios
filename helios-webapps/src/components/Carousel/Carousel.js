@@ -1,9 +1,8 @@
 import React from "react";
+import _ from "lodash";
+
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
-// material-ui components
-// @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -15,14 +14,10 @@ import Card from "./../../components/Card/Card.js";
 
 import carouselStyle from "./../../assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
-import image1 from "./../../assets/img/bg.jpg";
-import image2 from "./../../assets/img/bg2.jpg";
-import image3 from "./../../assets/img/bg3.jpg";
-
 const useStyles = makeStyles(carouselStyle);
 
-export default function SectionCarousel(){
-    const classes = useStyles();
+export default function SectionCarousel(props){
+  const classes = useStyles();
 
   const settings = {
     dots: true,
@@ -32,44 +27,29 @@ export default function SectionCarousel(){
     slidesToScroll: 1,
     autoplay: true
   };
+
+  const renderCarousel = (images, id) => {
+    return (
+      <div key={id}>
+        <img src={require(`./../../assets/img/${images.img}`)} alt="First slide" className="slick-image" />
+        <div className="slick-caption">
+          <h4>
+            {images.legend} <br/>
+            {images.info}
+          </h4>
+        </div>
+      </div>
+    )
+  }
+  console.log(props.images)
   return (
-    <div className={classes.section} id="carousel">
+    <div id="carousel">
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={10} md={8} className={classes.marginAuto}>
+          <GridItem className={classes.marginAuto}>
             <Card>
               <Carousel {...settings}>
-                <div>
-                  <img src={image1} alt="First slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img
-                    src={image2}
-                    alt="Second slide"
-                    className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img src={image3} alt="Third slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
-                    </h4>
-                  </div>
-                </div>
+                {props.images.length && _.map(props.images, renderCarousel)}
               </Carousel>
             </Card>
           </GridItem>

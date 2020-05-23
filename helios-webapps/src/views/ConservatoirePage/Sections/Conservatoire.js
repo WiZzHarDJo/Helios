@@ -22,7 +22,7 @@ export default function TeamSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Dans le cadre des Conservatoires et Ecoles de musique</h2>
+          <h2 className={classes.title}>Avec les Conservatoires et Ecoles de musique</h2>
         </GridItem>
         <GridItem>
         <h5 className={classes.subdescr}>

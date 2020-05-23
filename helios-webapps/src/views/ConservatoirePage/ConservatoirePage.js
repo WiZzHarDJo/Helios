@@ -17,7 +17,6 @@ import Parallax from "../../components/Parallax/Parallax.js";
 import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
-import EduNationale from "./Sections/EduNationale.js";
 import Conservatoire from "./Sections/Conservatoire.js";
 
 const dashboardRoutes = [];
@@ -52,7 +51,6 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <EduNationale />
           <Conservatoire />
         </div>
       </div>

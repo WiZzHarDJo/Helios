@@ -29,7 +29,7 @@ export default function ProductSection() {
   const renderSpectacle = (spectacle, id) => {
     console.log("press", spectacle.press);
     return (
-      <Card title={spectacle.title} key={id} style={{ width: "100%", marginBottom:"25px" }} bordered>
+      <Card title={spectacle.title} key={id} style={{ width: "100%", marginBottom:"60px" }} bordered>
         {
           spectacle.video !== "" &&
 
@@ -37,11 +37,11 @@ export default function ProductSection() {
               src={`https://youtube.com/embed/${spectacle.video}`} frameBorder="0" allowFullScreen title={spectacle.title} style={{ width: "100%", height:"500px" }}>
           </iframe>
         }
-        <p>
+        <p className={classes.subdescr}>
           {spectacle.description}
         </p>
-        <p>
-          {spectacle.info}
+        <p className={classes.subdescr}>
+          <b>{spectacle.info}</b>
         </p>
         {
           spectacle.press != null &&
@@ -61,7 +61,9 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Spectacles</h2>
-          <h5 className={classes.description}>
+        </GridItem>
+        <GridItem>
+        <h5 className={classes.subdescr}>
           Soucieux de ne pas se cantonner dans le rôle du musicien classique et très curieux d’élargir ses modes d’expression, Hélios a produit plusieurs spectacles.
           </h5>
         </GridItem>

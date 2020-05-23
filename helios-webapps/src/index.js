@@ -5,6 +5,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import "./assets/scss/material-kit-react.scss?v=1.8.0";
+
+
 ReactDOM.render(
     <BrowserRouter>
         <App />

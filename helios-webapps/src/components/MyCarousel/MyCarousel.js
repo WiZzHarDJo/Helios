@@ -9,7 +9,6 @@ import "antd/dist/antd.css";
 
 class MyCarousel extends Component {
   renderContainer(container, index) {
-    console.log("container", container.author)
     return (
       <div key={index} className={slickSlide}>
         <h1>

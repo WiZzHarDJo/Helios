@@ -11,6 +11,10 @@ import Carousel from "../../../components/Carousel/Carousel.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
+import images from "../../../assets/data/arthur&chimene.json";
+import images1 from "../../../assets/data/tourMondeArthur.json";
+import imagesPedago from "../../../assets/data/pedagogie.json";
+
 const useStyles = makeStyles(styles);
 
 export default function ProductSection() {
@@ -31,6 +35,20 @@ export default function ProductSection() {
         <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
           <h3 className={classes.subtitle}>
+          Des projets musicaux et/ou pédagoques pour les écoles
+          </h3>
+          <h4 className={classes.subdescr}>
+          L'Ensemble Helios a crée des spectacles musicaux pour le jeune public dans un cadre scolaire (ou dans le cadre de centres aérés, colonies etc). Ils intègrent un recueil pédagogique pour les instituteurs ou professeurs. Les 3 spectacles qui sont proposés actuellement par l'Ensemble Helios sont présentés de façon détaillée ci-dessous. Il s'agit de : <br/>
+          • « Des mots aux sons » <br/>
+          • « Arthur et Chimène au temps des musiques.... » <br/>
+          • « Le tour du monde d'Arthur » <br/> <br/>
+          Par ailleurs, l'Ensemble Hélios est ouvert à tout nouveau projet.<br/>
+          N'hésitez pas à nous faire part de vos idées, suggestions afin que nous préparions un nouveau spectacle (dans la mesure des possibilités de notre agenda bien sûr).
+          </h4>
+          <Carousel images={imagesPedago}/>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
           « Des mots aux sons »
           </h3>
           <h4 className={classes.subdescr}>
@@ -42,13 +60,12 @@ export default function ProductSection() {
           <h4 className={classes.subdescr}>
           Durée : 1h
           </h4>
-          {/*<MyCarousel frames={_.shuffle(debussy)} autoplay title="La Presse en parle"/>*/}
-
           <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
             <b className={classes.verticalAlign}>Le spectacle "Des mots aux sons" a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
           </div>
         </GridItem>
+
         <GridItem style={{marginBottom:"40px"}}>
           <h3 className={classes.subtitle}>
           Sensiblisation aux musiques classique et contemporaine <br/>
@@ -63,6 +80,7 @@ export default function ProductSection() {
           <h4 className={classes.subdescr}>
           4 séances de 50mn et un concert de restitution
           </h4>
+          <Carousel images={images} />
           <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
             <b className={classes.verticalAlign}>"Arthur et Chimène au temps des musiques... " a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
@@ -101,8 +119,7 @@ export default function ProductSection() {
           />
           </div>
           </GridItem>
-          <Carousel/>
-          <GridItem/>
+          <Carousel images={images1}/>
           <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
             <b className={classes.verticalAlign}>"Le tour du monde d'Arthur " a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>

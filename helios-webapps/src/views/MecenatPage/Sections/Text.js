@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -6,11 +6,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
-import {Row, Col} from "antd";
-import {Link} from "react-router-dom";
+import {Row, Col, Button} from "antd";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
-import { Button } from "antd";
 import "antd/dist/antd.css";
 
 import img1 from "./../../../assets/img/logo-liberté.png";
@@ -18,10 +16,16 @@ import img2 from "./../../../assets/img/logo-sacem.jpg";
 import img3 from "./../../../assets/img/rectorat-logo.png";
 import img4 from "./../../../assets/img/logo-billaudot.png";
 
+import Entreprise from "./Entreprise";
+import Particulier from "./Particulier";
+
 const useStyles = makeStyles(styles);
 
 export default function ProductSection() {
   const classes = useStyles();
+
+  const [type, setType] = useState(0);
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
@@ -176,111 +180,24 @@ export default function ProductSection() {
           gutter={10}
         >
           <Col span={12}>
-            <div className={classes.title}>
-              <b>Vous êtes une entreprise</b>
+            <div className={classes.title} style={{height:"150px"}}>
+              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
             </div>
           </Col>
           <Col span={12}>
-          <div className={classes.title}>
-              <b>Vous êtes un particulier</b>
+          <div className={classes.title} style={{height:"150px"}}>
+              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
             </div>
           </Col>
         </Row>
-
-        <Row
-          type="flex"
-          style={{ alignItems: "center" }}
-          justify="center"
-          gutter={10}
-        >
-          <Col span={12}>
-            <div className={classes.program} style={{marginBottom:"40px"}}>
-            Associez votre nom et votre image à l’Ensemble Hélios <br/><br/>
-            Soutenez des projets qui font écho aux valeurs de votre entreprise <br/><br/>
-            Proposez à vos clients un évènement culturel d’exception
-            </div>
-          </Col>
-          <Col span={12}>
-          <div className={classes.program}>
-          Mélomanes, rejoignez les « Amis de l’Ensemble Hélios » et faites rayonner la musique ! <br/><br/>
-          Soutenez les projets du quatuor et partagez des moments conviviaux avec les musiciens
-          </div>
-          </Col>
-        </Row>
-
-        <Row
-          type="flex"
-          style={{ alignItems: "center" }}
-          justify="center"
-          gutter={10}
-        >
-          <Col span={12}>
-            <div className={classes.subdescrEdition}>
-            1. Vous souhaitez être le Mécène d’un :
-            <div className={classes.subdescrEdition}>
-            •	Quatuor de musique classique cordes & flûte aux musiciens issus du CNSM de Paris et récompensés par des prix internationaux <br/> <br/>
-            •	Au répertoire immense, promouvant la musique contemporaine (80 œuvres dédiées à l’Ensemble Hélios à ce jour par des compositeurs contemporains de renom Hersant, Bacri, Damase, Canat de Chizy, Escaïch….) <br/> <br/>
-            •	Habilité par le Rectorat de Paris pour ses actions pédagogiques et de diffusion vers le jeune public : contes musicaux, actions en milieu scolaires, actions au sein des conservatoires. <br/> <br/>
-            •	Dépassant le cadre habituel des salles de concert pour porter son art aux publics empêchés dans les hôpitaux, le milieu carcéral, les Ehpads…. <br/> <br/>
-            •	Reconnu par les spécialistes et la critique (Coups de cœur Radio Classique, 2 T Télérama) <br/> <br/>
-            </div>
-            </div>
-          </Col>
-          <Col span={12}>
-          <div className={classes.subdescrEdition}>
-          1. Vous souhaitez participer à la vie de l’Ensemble Hélios ou le soutenir financièrement. <br/>
-          Ses domaines de diffusion sont multiples :
-          <div className={classes.subdescrEdition}>
-          •	Musique classique (plus de 2000 concerts en 30 ans) <br/> <br/>
-          •	Musique contemporaine (80 œuvres dédiées et une activité soutenue de création) <br/> <br/>
-          •	Projets pédagogiques vers le jeune public et le public familial (3 spectacles pour les enfants, : des actions au sein de l’Education Nationale et des conservatoires lui ont valu l’Habilitation du Rectorat de Paris) <br/> <br/>
-          </div>
-          </div>
-          </Col>
-        </Row>
-
-        <Row
-          type="flex"
-          style={{ alignItems: "center" }}
-          justify="center"
-          gutter={10}
-        >
-          <Col span={12}>
-            <div className={classes.subdescrEdition}>
-            2. Vous souhaitez monter ou sponsoriser avec nous un projet particulier :
-            <div className={classes.subdescrEdition}>
-            •	Concert d’entreprise <br/>
-            •	Evènement commercial <br/>
-            •	Spectacle de Noël <br/>
-            •	Achat groupé de places par votre CE <br/>
-            •	Autre projet
-            </div>
-            </div>
-          </Col>
-          <Col span={12}>
-          <div className={classes.subdescrEdition}>
-          2. Rapprochez vous de l’Ensemble Hélios !
-          <div className={classes.subdescrEdition}>
-          •	Vos dons (l’Ensemble Hélios est une association à but non lucratif) <br/>
-          •	Votre aide pour diffuser nos programmes et nos événements <br/>
-          •	Votre temps pour nous seconder ponctuellement
-            </div>
-            sont les bienvenus.
-            </div>
-          </Col>
-        </Row>
-        </GridItem>
-      </GridContainer>
-
-
-      <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8} style={{marginBottom:"40px"}}>
-        <h2>Alors  n’hésitez-pas, contactez-nous, nous serons ravis de vous rencontrer </h2>
-        <Button size="large">
-          <Link to="/contact" className={classes.navLink}>
-            Nous contacter
-          </Link>
-        </Button>
+        {
+          type===1 &&
+          <Entreprise/>
+        }
+        {
+          type===2 &&
+          <Particulier/>
+        }
         </GridItem>
       </GridContainer>
 

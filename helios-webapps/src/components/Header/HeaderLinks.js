@@ -55,9 +55,22 @@ export default function HeaderLinks(props) {
           </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-          <Link to="/pedagogie" className={classes.navLink}>
-            Pédagogie
-          </Link>
+          <CustomDropdown
+                      buttonText="Pédagogie"
+                      dropdownHeader="Actions menées"
+                      buttonProps={{
+                        className: classes.navLink,
+                        color: "transparent"
+                      }}
+                      dropdownList={[
+                        "Education Nationale",
+                        "Conservatoire et Ecoles de Musique",
+                      ]}
+                      dropdownLinks={[
+                        "/ecole",
+                        "/conservatoire"
+                      ]}
+                    />
       </ListItem>
       <ListItem className={classes.listItem}>
                     <CustomDropdown
