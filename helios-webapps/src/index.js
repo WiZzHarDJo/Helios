@@ -9,7 +9,7 @@ import "./assets/scss/material-kit-react.scss?v=1.8.0";
 
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
         <App />
     </BrowserRouter>
     , document.getElementById('root')
