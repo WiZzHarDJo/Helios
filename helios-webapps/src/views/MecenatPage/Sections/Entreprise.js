@@ -19,14 +19,14 @@ export default function ProductSection() {
 
   return (
     <div style={{border:"5px solid #ffe57f", borderRadius:"15px"}}>
-      <div className={classes.program} style={{marginBottom:"40px"}}>
+      <div className={classes.program} style={{marginBottom:"40px", marginTop:"25px"}}>
         <b>Associez votre nom et votre image à l’Ensemble Hélios <br/><br/>
         Soutenez des projets qui font écho aux valeurs de votre entreprise <br/><br/>
         Proposez à vos clients un évènement culturel d’exception</b>
       </div>
 
       <div className={classes.subdescrEdition}>
-        1. Vous souhaitez être le Mécène d’un :
+        <b><u>1. Vous souhaitez être le Mécène d’un :</u></b>
         <div className={classes.subdescrEdition}>
           •	Quatuor de musique classique cordes & flûte aux musiciens issus du CNSM de Paris et récompensés par des prix internationaux <br/> <br/>
           •	Au répertoire immense, promouvant la musique contemporaine (80 œuvres dédiées à l’Ensemble Hélios à ce jour par des compositeurs contemporains de renom Hersant, Bacri, Damase, Canat de Chizy, Escaïch….) <br/> <br/>
@@ -37,7 +37,7 @@ export default function ProductSection() {
       </div>
 
       <div className={classes.subdescrEdition} style={{marginBottom:"40px"}}>
-        2. Vous souhaitez monter ou sponsoriser avec nous un projet particulier :
+      <b><u>2. Vous souhaitez monter ou sponsoriser avec nous un projet particulier :</u></b>
         <div className={classes.subdescrEdition}>
           •	Concert d’entreprise <br/>
           •	Evènement commercial <br/>

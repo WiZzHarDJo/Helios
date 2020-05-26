@@ -19,13 +19,13 @@ export default function ProductSection() {
 
   return (
     <div style={{border:"5px solid #b4ddff", borderRadius:"15px"}}>
-      <div className={classes.program} style={{marginBottom:"40px"}}>
+      <div className={classes.program} style={{marginBottom:"40px", marginTop:"25px"}}>
         <b>Mélomanes, rejoignez les « Amis de l’Ensemble Hélios » et faites rayonner la musique ! <br/><br/>
         Soutenez les projets du quatuor et partagez des moments conviviaux avec les musiciens</b>
       </div>
 
       <div className={classes.subdescrEdition}>
-          1. Vous souhaitez participer à la vie de l’Ensemble Hélios ou le soutenir financièrement. <br/>
+          <b><u>1. Vous souhaitez participer à la vie de l’Ensemble Hélios ou le soutenir financièrement. </u></b><br/>
           Ses domaines de diffusion sont multiples :
           <div className={classes.subdescrEdition}>
           •	Musique classique (plus de 2000 concerts en 30 ans) <br/> <br/>
@@ -35,7 +35,7 @@ export default function ProductSection() {
           </div>
 
           <div className={classes.subdescrEdition} style={{marginBottom:"40px"}}>
-          2. Rapprochez vous de l’Ensemble Hélios !
+          <b><u>2. Rapprochez vous de l’Ensemble Hélios !</u></b>
           <div className={classes.subdescrEdition}>
           •	Vos dons (l’Ensemble Hélios est une association à but non lucratif) <br/>
           •	Votre aide pour diffuser nos programmes et nos événements <br/>

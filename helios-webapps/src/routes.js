@@ -25,30 +25,32 @@ import ContactPage from "./views/ContactPage/ContactPage";
 
 const routes = () => {
   return (
-    <Switch>
-    <Route path="/" exact component={HeliosPage}/>
-    <Route path="/christel" exact component={ChristelPage}/>
-    <Route path="/vinciane" exact component={VincianePage}/>
-    <Route path="/ecole" exact component={EcolePage}/>
-    <Route path="/conservatoire" exact component={ConservatoirePage}/>
-    <Route path="/christophe" exact component={ChristophePage}/>
-    <Route path="/nathanaelle" exact component={NathanaellePage}/>
-    <Route path="/concerts" exact component={ConcertPage}/>
-    <Route path="/spectacles" exact component={SpectaclePage}/>
-    <Route path="/presse" exact component={PressePage}/>
-    <Route path="/mecenat" exact component={MecenatPage}/>
-    <Route path="/profile-page" component={ProfilePage} />
-    <Route path="/login-page" component={LoginPage} />
-    <Route path="/components" component={Components} />
-    <Route path="/oeuvres" component={OeuvresPage} />
-    <Route path="/programme" component={ProgramPage} />
-    <Route path="/classique" component={ClassiquePage} />
-    <Route path="/contemporain" component={ContemporainPage} />
-    <Route path="/edition" component={EditionPage} />
-    <Route path="/galerie" component={GaleriePage} />
-    <Route path="/discographie" component={DiscographiePage} />
-    <Route path="/contact" component={ContactPage} />
-  </Switch>
+    <React.Fragment>
+      <Switch>
+        <Route path="/" exact component={HeliosPage}/>
+        <Route path="/christel" exact component={ChristelPage}/>
+        <Route path="/vinciane" exact component={VincianePage}/>
+        <Route path="/ecole" exact component={EcolePage}/>
+        <Route path="/conservatoire" exact component={ConservatoirePage}/>
+        <Route path="/christophe" exact component={ChristophePage}/>
+        <Route path="/nathanaelle" exact component={NathanaellePage}/>
+        <Route path="/concerts" exact component={ConcertPage}/>
+        <Route path="/spectacles" exact component={SpectaclePage}/>
+        <Route path="/presse" exact component={PressePage}/>
+        <Route path="/mecenat" exact component={MecenatPage}/>
+        <Route path="/profile-page" component={ProfilePage} />
+        <Route path="/login-page" component={LoginPage} />
+        <Route path="/components" component={Components} />
+        <Route path="/oeuvres" component={OeuvresPage} />
+        <Route path="/programme" component={ProgramPage} />
+        <Route path="/classique" component={ClassiquePage} />
+        <Route path="/contemporain" component={ContemporainPage} />
+        <Route path="/edition" component={EditionPage} />
+        <Route path="/galerie" component={GaleriePage} />
+        <Route path="/discographie" component={DiscographiePage} />
+        <Route path="/contact" component={ContactPage} />
+      </Switch>
+    </React.Fragment>
   );
 };
 export default routes;

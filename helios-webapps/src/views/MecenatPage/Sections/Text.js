@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
-import {Row, Col, Button} from "antd";
+import {Row, Col, Button, Collapse } from "antd";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
@@ -20,6 +20,7 @@ import Entreprise from "./Entreprise";
 import Particulier from "./Particulier";
 
 const useStyles = makeStyles(styles);
+const { Panel } = Collapse;
 
 export default function ProductSection() {
   const classes = useStyles();
@@ -38,63 +39,52 @@ export default function ProductSection() {
           </h5>
         </GridItem>
       </GridContainer>
-      <div>
-        <GridContainer>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Saison musicale de l’Ensemble Helios
-          </h3>
-          <h4 className={classes.subdescrEdition}>
-            •	Une saison de concerts classiques <br/>
-            •	Une politique de création en compagnie des compositeurs les plus talentueux de notre temps <br/>
-            •	Un échange régulier avec le jeune public par des spectacles musicaux, des actions culturelles et éducatives <br/>
-            •	L’Ensemble Hélios a pour projet de partager et de transmettre la musique, classique ou contemporaine, sous toutes ses formes, par le concert ou le spectacle. <br/>
-            •	Ses musiciens s’engagent dans de multiples actions culturelles et éducatives à destination de tous les publics <br/>
-            •	L’Ensemble Hélios passe de nombreuses commandes aux compositeurs pour nourrir son importante activité de création (80 œuvres dédiées à ce jour) <br/>
-          </h4>
-        </GridItem>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Actions culturelles et éducatives
-          </h3>
-          <h4 className={classes.subdescrEdition}>
-          •	Les musiciens de l’Ensemble Hélios s’engagent pour faire découvrir la musique à tous les publics qu’il s’agisse des :
-          <div className={classes.subdescrEdition}>
-            o	Plus jeunes (concerts éducatifs, concerts en famille, contes musicaux…) <br/>
-            o	Publics empêchés (visites musicales à l’hôpital au chevet des enfants malades, actions à destination des personnes handicapées, concerts en milieu carcéral ou en Ehpads….).
-          </div>
-          </h4>
-        </GridItem>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Récompenses et Reconnaissance
-          </h3>
-          <h4 className={classes.subdescrEdition}>
-          •	Les musiciens de l’Ensemble Hélios : 4 prix de CNSM & 10 prix internationaux <br/>
-          •	L’Ensemble Hélios :
-            <div className={classes.subdescrEdition}>
-              o	Lauréat des Fondations Cziffra et Menuhin <br/>
-              o	Récompensé en 2016 par la Fondation Louis de Polignac <br/>
-              o	« Coup de Cœur » Radio Classique & 2T Télérama pour son spectacle Jeune public « Debussy Miss et Chouchou » <br/>
-              o	180 représentations pour son spectacle « Comment Mozart vient aux enfants… ». <br/>
-            </div>
-          </h4>
-        </GridItem>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Associez-vous au projet qui vous ressemble
-          </h3>
-          <h4 className={classes.subdescrEdition}>
-            •	Concerts <br/>
-            •	Spectacles vers les publics empêchés <br/>
-            •	Actions culturelles et éducatives <br/>
-            •	Commandes d’œuvres contemporaines <br/>
-          </h4>
-        </GridItem>
-        </GridContainer>
-      </div>
 
-
+      <GridContainer>
+        <GridItem style={{marginBottom:"40px"}}>
+          <Collapse defaultActiveKey={['0']}>
+            <Panel header="Saison musicale de l’Ensemble Hélios" style={{textAlign: "left", fontSize:"30px"}}>
+              <h4 className={classes.subdescrEdition}>
+                •	Une saison de concerts classiques <br/>
+                •	Une politique de création en compagnie des compositeurs les plus talentueux de notre temps <br/>
+                •	Un échange régulier avec le jeune public par des spectacles musicaux, des actions culturelles et éducatives <br/>
+                •	L’Ensemble Hélios a pour projet de partager et de transmettre la musique, classique ou contemporaine, sous toutes ses formes, par le concert ou le spectacle. <br/>
+                •	Ses musiciens s’engagent dans de multiples actions culturelles et éducatives à destination de tous les publics <br/>
+                •	L’Ensemble Hélios passe de nombreuses commandes aux compositeurs pour nourrir son importante activité de création (80 œuvres dédiées à ce jour) <br/>
+              </h4>
+            </Panel>
+            <Panel header="Actions culturelles et éducatives" style={{textAlign: "left", fontSize:"30px"}}>
+              <h4 className={classes.subdescrEdition}>
+                •	Les musiciens de l’Ensemble Hélios s’engagent pour faire découvrir la musique à tous les publics qu’il s’agisse des :
+              <div className={classes.subdescrEdition}>
+                o	Plus jeunes (concerts éducatifs, concerts en famille, contes musicaux…) <br/>
+                o	Publics empêchés (visites musicales à l’hôpital au chevet des enfants malades, actions à destination des personnes handicapées, concerts en milieu carcéral ou en Ehpads….).
+              </div>
+              </h4>
+            </Panel>
+            <Panel header="Récompenses et Reconnaissance" style={{textAlign: "left", fontSize:"30px"}}>
+              <h4 className={classes.subdescrEdition}>
+                •	Les musiciens de l’Ensemble Hélios : 4 prix de CNSM & 10 prix internationaux <br/>
+                •	L’Ensemble Hélios :
+                <div className={classes.subdescrEdition}>
+                  o	Lauréat des Fondations Cziffra et Menuhin <br/>
+                  o	Récompensé en 2016 par la Fondation Louis de Polignac <br/>
+                  o	« Coup de Cœur » Radio Classique & 2T Télérama pour son spectacle Jeune public « Debussy Miss et Chouchou » <br/>
+                  o	180 représentations pour son spectacle « Comment Mozart vient aux enfants… ». <br/>
+                </div>
+              </h4>
+            </Panel>
+            <Panel header="Associez-vous au projet qui vous ressemble" style={{textAlign: "left", fontSize:"30px"}}>
+              <h4 className={classes.subdescrEdition}>
+                •	Concerts <br/>
+                •	Spectacles vers les publics empêchés <br/>
+                •	Actions culturelles et éducatives <br/>
+                •	Commandes d’œuvres contemporaines <br/>
+              </h4>
+            </Panel>
+          </Collapse>
+        </GridItem>
+      </GridContainer>
 
       <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
@@ -156,12 +146,12 @@ export default function ProductSection() {
         >
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-              <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{marginTop:"10px", width:"30rem"}}/>
+              <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{width:"30rem"}}/>
             </p>
           </Col>
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-            <img src={img2} alt="Logo SACEM" style={{marginTop:"10px", width:"30rem", height:"16rem"}}/>
+            <img src={img2} alt="Logo SACEM" style={{width:"18rem", height:"10rem"}}/>
             </p>
           </Col>
         </Row>
@@ -192,12 +182,12 @@ export default function ProductSection() {
         >
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-              <img src={img3} alt="Logo Rectorat de Paris" style={{marginTop:"10px", width:"20rem", height:"10rem"}}/>
+              <img src={img3} alt="Logo Rectorat de Paris" style={{width:"12rem", height:"8rem"}}/>
             </p>
           </Col>
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-            <img src={img4} alt="Logo Editions Gérard Billaudot" style={{marginTop:"10px", width:"30rem"}}/>
+            <img src={img4} alt="Logo Editions Gérard Billaudot" style={{width:"25rem"}}/>
             </p>
           </Col>
         </Row>
