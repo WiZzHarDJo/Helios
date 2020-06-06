@@ -95,7 +95,7 @@ export default function ProductSection() {
           <Col span={14}>
             <p className={classes.subdescr}>
             Ce coffret veut faire connaitre la musique pour flûte du compositeur Antoine Tisné, 1932-1998. Il comprend deux CD.   <br/><br/>
-            Le premier présente les deux quatuors pour trio à cordes et flûte de Tisné, "Etudes d'après Maurice Denis" et "Les voix de l'ombre", un trio flûte, violon et alto "Sérénade de la nuit", et la "Monodie pour un espace sacré"pour flûte seule. Ce CD ne contient que des premiers enregistrements mondiaux. <br/><br/>
+            Le premier présente les deux quatuors pour trio à cordes et flûte de Tisné, "Etudes d'après Maurice Denis" et "Les voix de l'ombre", un trio flûte, violon et alto "Sérénade de la nuit", et la "Monodie pour un espace sacré" pour flûte seule. Ce CD ne contient que des premiers enregistrements mondiaux. <br/><br/>
             Un CD de ré-édition de la sonate pour flûte avec Alain Marion et Claude Bonneton, et du concerto pour flûte avec Jean-Pierre Rampal et l'orchestre de l'ORTF vient compléter ce panorama de la musique pour flûte du compositeur. Antoine Tisné, compositeur trop oublié depuis sa disparition, nous offre des oeuvres d'une grande force expressive, toutes empreintes de spiritualité.
             </p>
           </Col>

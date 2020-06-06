@@ -12,7 +12,6 @@ import ChristophePage from "./views/ChristophePage/ChristophePage";
 import NathanaellePage from "./views/NathanaellePage/NathanaellePage";
 import PressePage from './views/PressePage/PressPage';
 import MecenatPage from './views/MecenatPage/MecenatPage';
-import ProfilePage from "./views/ProfilePage/ProfilePage";
 import LoginPage from "./views/LoginPage/LoginPage";
 import OeuvresPage from "./views/OeuvresPage/OeuvresPage";
 import ProgramPage from "./views/ProgramPage/ProgramPage";
@@ -38,7 +37,6 @@ const routes = () => {
         <Route path="/spectacles" exact component={SpectaclePage}/>
         <Route path="/presse" exact component={PressePage}/>
         <Route path="/mecenat" exact component={MecenatPage}/>
-        <Route path="/profile-page" component={ProfilePage} />
         <Route path="/login-page" component={LoginPage} />
         <Route path="/components" component={Components} />
         <Route path="/oeuvres" component={OeuvresPage} />

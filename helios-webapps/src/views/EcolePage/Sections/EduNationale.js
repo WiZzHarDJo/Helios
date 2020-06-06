@@ -38,12 +38,12 @@ export default function ProductSection() {
           Des projets musicaux et/ou pédagoques pour les écoles
           </h3>
           <h4 className={classes.subdescr}>
-          L'Ensemble Helios a crée des spectacles musicaux pour le jeune public dans un cadre scolaire (ou dans le cadre de centres aérés, colonies etc). Ils intègrent un recueil pédagogique pour les instituteurs ou professeurs. Les 3 spectacles qui sont proposés actuellement par l'Ensemble Helios sont présentés de façon détaillée ci-dessous. Il s'agit de : <br/>
+          L'Ensemble Helios a élaboré de nombreuses actions pour le jeune public dans un cadre scolaire (ou dans le cadre de centres aérés, colonies, etc). Ils intègrent un recueil pédagogique pour les instituteurs ou professeurs. Les 3 spectacles qui sont proposés actuellement par l'Ensemble Helios sont présentés de façon détaillée ci-dessous. Il s'agit de : <br/>
           • « Des mots aux sons » <br/>
           • « Arthur et Chimène au temps des musiques.... » <br/>
           • « Le tour du monde d'Arthur » <br/> <br/>
           Par ailleurs, l'Ensemble Hélios est ouvert à tout nouveau projet.<br/>
-          N'hésitez pas à nous faire part de vos idées, suggestions afin que nous préparions un nouveau spectacle (dans la mesure des possibilités de notre agenda bien sûr).
+          N'hésitez pas à nous faire part de vos idées, suggestions afin que nous préparions un nouveau support de travail adapté à vos attentes.
           </h4>
           <Carousel images={imagesPedago}/>
         </GridItem>

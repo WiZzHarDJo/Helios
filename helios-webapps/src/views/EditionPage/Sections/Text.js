@@ -26,7 +26,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-          Les <a href="https://www.billaudot.com/fr/">Editions G. BILLAUDOT</a> ont nommé l'Ensemble Hélios directeur d’une collection qui porte son nom, consacrant la formation comme une référence éditoriale en matière de flûte et trio à cordes; Une première dans le monde de l’édition musicale.
+          Les <a href="https://www.billaudot.com/fr/">Editions G. BILLAUDOT</a> ont nommé l'Ensemble Hélios directeur d’une collection qui porte son nom, consacrant la formation comme une référence éditoriale en matière de flûte et trio à cordes. Une première dans le monde de l’édition musicale.
           </div>
         </GridItem>
         <GridItem>

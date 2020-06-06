@@ -14,7 +14,7 @@ import styles from "../../../assets/jss/material-kit-react/views/landingPageSect
 import "antd/dist/antd.css";
 
 import mozart from "./../../../assets/img/mozart-child.jpg";
-import paris from "./../../../assets/img/mozart-paris.jpg";
+import paris from "./../../../assets/img/parisgravure.jpg";
 import promenade from "./../../../assets/img/promenade-classique.jpg";
 import harpe from "./../../../assets/img/harpe.jpg";
 import ballade1 from "./../../../assets/img/ballade-siecle.jpg";
@@ -35,7 +35,7 @@ export default function ProductSection() {
           <h2 className={classes.title}>Proposition de programmes musicaux</h2>
           </GridItem>
         <GridItem>
-          <p className={classes.subdescr}>La richesse du répertoire pour flûte, violon, alto et violoncelle permet à l’Ensemble HÉLIOS de proposer de nombreux programmes différents, variés suivant les époques, styles, pays, esthétiques, thèmes… Les quelques propositions indiquées ici sont donc loin de représenter une liste exhaustive !</p>
+          <p className={classes.subdescr}>La richesse du répertoire pour flûte, violon, alto et violoncelle permet à l’Ensemble HÉLIOS de proposer de nombreux programmes variés suivant les époques, styles, pays, esthétiques, thèmes… Les quelques propositions indiquées ici sont donc loin de représenter une liste exhaustive !</p>
           <p className={classes.subdescr}>L’ensemble module également sa formation afin d’inclure duos et trios dans divers programmes, et propose également divers quintettes pour flûte et cordes, ou flûte, trio à cordes et harpe. Il se tient toujours à l’écoute des organisateurs de concerts afin de leur proposer les programmes répondant idéalement à leurs attentes.</p>
         </GridItem>
       </GridContainer>

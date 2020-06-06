@@ -7,6 +7,7 @@ import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import MyCarousel from '../../../components/MyCarousel/MyCarousel.js';
+import MyCarouselProf from '../../../components/MyCarouselProf/MyCarouselProf.js';
 
 import { Card} from 'antd';
 import "antd/dist/antd.css";
@@ -27,7 +28,6 @@ export default function ProductSection() {
   const classes = useStyles();
 
   const renderSpectacle = (spectacle, id) => {
-    console.log("press", spectacle.press);
     return (
       <Card title={spectacle.title} key={id} style={{ width: "100%", marginBottom:"60px" }} bordered>
         {
@@ -48,6 +48,11 @@ export default function ProductSection() {
 
           <MyCarousel title="La presse en parle" autoplay frames={spectacle.press}/>
         }
+        {
+          spectacle.ecole != null &&
+
+          <MyCarouselProf title="La presse en parle" autoplay frames={spectacle.ecole}/>
+        }
         <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
             <b className={classes.verticalAlign}>Le spectacle {spectacle.title} a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
@@ -64,7 +69,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
         <h5 className={classes.subdescr}>
-          Soucieux de ne pas se cantonner dans le rôle du musicien classique et très curieux d’élargir ses modes d’expression, Hélios a produit plusieurs spectacles.
+          Soucieux de ne pas se cantonner dans le rôle du musicien classique, curieux d’élargir ses modes d’expression et de toucher un public familial, l'Ensemble Hélios a produit plusieurs spectacles.
           </h5>
         </GridItem>
       </GridContainer>

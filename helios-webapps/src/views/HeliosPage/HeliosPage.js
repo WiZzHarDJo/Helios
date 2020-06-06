@@ -40,7 +40,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/helios-groupe.jpg")}/>
+      <Parallax filter image={require("../../assets/img/helios-landing.jpeg")}/>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <WhoAreWeSection />

@@ -59,7 +59,7 @@ export default function TeamSection() {
               Les longues et chaleureuses ovations de l’assistance lui valent un bis, Paris s’éveille (Jacques Dutronc), que le public identifie spontanément et chante de bon cœur (chœur), l’écriture raffinée des cordes et la flûte virtuose lui offrant un écrin bienvenu."
               author="Yvan Beuvard, Crescendo Magazine, 'Une belle et singulière aventure musicale', 2 mars 2020"
               link
-              linkText="https://latraversiere.fr/webzine/retrospectives/ensemble-helios-concert-du-6-04-2019/"
+              linkText="https://www.crescendo-magazine.be/une-belle-et-singuliere-aventure-musicale/"
             />
           </div>
       </GridItem>

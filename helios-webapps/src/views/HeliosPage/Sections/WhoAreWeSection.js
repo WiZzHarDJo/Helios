@@ -31,7 +31,7 @@ export default function ProductSection() {
             Leur répertoire comprend aujourd’hui plus de deux cents quatuors couvrant les époques classique et romantique, et la première moitié du XXe siècle. Leur redécouverte – ponctuée d’un premier enregistrement mondial – des exceptionnels quatuors de Ferdinand Ries (1784-1838) a marqué une étape décisive dans la remise en lumière de ce répertoire.
           </p>
           <p className={classes.subdescr}>
-            Par ailleurs, ils allient leur passion de la musique de chambre à un engagement constant pour la musique contemporaine. Ils ont rapidement suscité de nombreuses compositions nouvelles et assurent chaque année plusieurs créations (70 oeuvres dédiées à ce jour). 
+            Par ailleurs, ils allient leur passion de la musique de chambre à un engagement constant pour la musique contemporaine. Ils ont rapidement suscité de nombreuses compositions nouvelles et assurent chaque année plusieurs créations (80 oeuvres dédiées à ce jour). 
           </p>
           <p className={classes.subdescr}>
             Des personnalités marquantes de notre temps telles que Thierry Escaïch, Alain Louvier, Paul Méfano, Jindrich Feld, Nicolas Bacri, Thierry Pécou, Philippe Hersant…. ont écrit à l’intention de l’Ensemble Hélios, redonnant ainsi au quatuor avec flûte sa place et son importance dans la musique de notre temps.

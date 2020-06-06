@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 
-import Quote from "./../Typography/Quote.js";
 import Card from './../MyCard/MyCard.js';
 import { Carousel } from "antd";
 import _ from "lodash";
-import { slickSlide, antCarousel } from './MyCarousel.scss';
+import { slickSlide, antCarousel } from './MyCarouselProf.scss';
 import "antd/dist/antd.css";
 
 
-class MyCarousel extends Component {
-
+class MyCarouselProf extends Component {
   renderContainer(container, index) {
     return (
       <div key={index} className={slickSlide}>
-        <div style={{ position: "relative", width: "100%", display:"flex", alignItems: "center", justifyContent: "center"}} /*className={classes.typo}*/>
-              <img src={require(`./../../assets/img/${container.photo}`)} alt={container.alt} /*className={classes.pressImg}*//>
-            <Quote
-              text={container.text}
-              author={container.author}
-            />
-          </div>
+        <h1>
+          { container.newspaper }
+        </h1>
+        <h2>
+          { container.author }
+        </h2>
+        <p>
+          { container.text }
+        </p>
       </div>
     );
   }
@@ -37,8 +37,4 @@ class MyCarousel extends Component {
   }
 }
 
-export default MyCarousel;
-
-
-
-
+export default MyCarouselProf;

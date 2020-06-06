@@ -31,7 +31,9 @@ export default function WorkSection() {
         <p className={classes.subdescr}>
             L'Ensemble Hélios a l'honneur d'être soutenu dans ses activités artistiques de création et de concerts par les partenaires suivants :
         </p>
-        <Row
+        </GridItem>
+        <GridItem>
+          <Row
             type="flex"
             style={{ alignItems: "center" }}
             justify="center"
@@ -56,12 +58,12 @@ export default function WorkSection() {
         >
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-              <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{marginTop:"10px", width:"30rem"}}/>
+              <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{width:"30rem"}}/>
             </p>
           </Col>
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-            <img src={img2} alt="Logo SACEM" style={{marginTop:"10px", width:"30rem", height:"16rem"}}/>
+            <img src={img2} alt="Logo SACEM" style={{width:"18rem", height:"10rem"}}/>
             </p>
           </Col>
         </Row>
@@ -92,12 +94,12 @@ export default function WorkSection() {
         >
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-              <img src={img3} alt="Logo Rectorat de Paris" style={{marginTop:"10px", width:"20rem", height:"10rem"}}/>
+              <img src={img3} alt="Logo Rectorat de Paris" style={{width:"12rem", height:"8rem"}}/>
             </p>
           </Col>
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-            <img src={img4} alt="Logo Editions Gérard Billaudot" style={{marginTop:"10px", width:"30rem"}}/>
+            <img src={img4} alt="Logo Editions Gérard Billaudot" style={{width:"25rem"}}/>
             </p>
           </Col>
         </Row>

@@ -43,8 +43,8 @@ export default function LandingPage(props) {
       <Parallax filter image={require("../../assets/img/helios-ecole.jpg")}>
         <div className={classes.container}>
           <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>L'Ensemble Hélios, la joie d’enseigner </h1>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>L'Ensemble Hélios, la joie de transmettre </h1>
             </GridItem>
           </GridContainer>
         </div>

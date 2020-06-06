@@ -18,6 +18,8 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
 
+  const reverseArtwork = _.reverse(artwork);
+
   const renderArtwork = (artworkItem, id) => {
         return <OeuvreCard key={id} artworkItem={artworkItem}/>
     }
@@ -26,12 +28,12 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Pièces pédagogiques dédiées à Hélios</h2>
+          <h2 className={classes.title}>Pièces pédagogiques dédiées à l'Ensemble Hélios</h2>
         </GridItem>
       </GridContainer>
       <GridContainer justify="center">
             <div style={{display: "inline-flex", flexWrap: "wrap", justifyContent:"center"}} className={classes.subdescr}>
-                {artwork.length && _.map(artwork, renderArtwork) }
+                {artwork.length && _.map(reverseArtwork, renderArtwork) }
             </div>
       </GridContainer>
     </div>

@@ -41,12 +41,12 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-          Depuis 1988, elle est flûte solo de l'Orchestre des Concerts Lamoureux. Elle est la flûte solo de l'Orchestre de L'Opéra de Massy depuis sa création en 1992.
+          Depuis 1988, elle est flûte solo de l'Orchestre des Concerts Lamoureux. Elle est la flûte solo de l'Orchestre de L'Opéra de Massy depuis sa création en 1992 jusqu’en 2018.
           </div>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-          Par ailleurs, Christel Rayneau est régulièrement, comme soliste,l'invitée d'orchestres - Nancy, Pays de Loire, Cannes-Provence-Alpes-Côte d'Azur, Neuchâtel, JW Audoli, Erwartung… - et de festivals : Festival de Franche-Comté, Festival Présences de Radio-France, Festival de Chinon, Choralies de Vaison-la-Romaine, Floréal d'Epinal, Festival Arts au Soleil, Festival Mer et Vie, Printemps musical du Perche, Festival Aspekte de Salzbourg, Annecy, Festival Aujourd’hui musiques de Perpignan…  
+          Par ailleurs, Christel Rayneau est régulièrement, comme soliste, l'invitée d'orchestres - Nancy, Pays de Loire, Cannes-Provence-Alpes-Côte d'Azur, Neuchâtel, JW Audoli, Erwartung… - et de festivals : Festival de Franche-Comté, Festival Présences de Radio-France, Festival de Chinon, Choralies de Vaison-la-Romaine, Floréal d'Epinal, Festival Arts au Soleil, Festival Mer et Vie, Printemps musical du Perche, Festival Aspekte de Salzbourg, Annecy, Festival Aujourd’hui musiques de Perpignan…  
           </div>
         </GridItem>
         <GridItem>
@@ -57,7 +57,7 @@ export default function ProductSection() {
         <GridItem>
           <div className={classes.subdescr}>
           Discographie :<br/>
-          Escaïch Scènes d'enfants pour flûte violoncelle et piano ; Quatuor de Ferdinand Ries ; Plurielles (Lacaze, Finzi, Rotaru, Piechowska) ; Récital ( Mozart Rossini, Feld, Bacri, Andreae) ; Quatuors du 20ème siècle ( Louvier, Martins, Andreae, Combes-Damiens, Kaufmann) ; Monographie Antoine Tisné
+          Escaïch Scènes d'enfants pour flûte violoncelle et piano ; Quatuor de Ferdinand Ries ; Plurielles (Lacaze, Finzi, Rotaru, Piechowska) ; Récital ( Mozart Rossini, Feld, Bacri, Andreae) ; Quatuors du 20ème siècle ( Louvier, Martins, Andreae, Combes-Damiens, Kaufmann) ; Monographie Antoine Tisné ;  Concerto pour flûte de la monographie Wissmer
           </div>
         </GridItem>
       </GridContainer>

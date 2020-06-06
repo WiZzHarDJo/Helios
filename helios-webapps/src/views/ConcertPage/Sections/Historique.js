@@ -46,7 +46,7 @@ export default function WorkSection() {
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-            L'ensemble Hélios blablabla
+            L'ensemble Hélios au cours de ses 30 ans d'existence s'est produit dans de très nombreuses salles de spectacles et a promu des dizaines de compositeurs classiques et contemporains. Voici le programme synthétique des 5 derniers années.
           </div>
         </GridItem>
         <GridItem>

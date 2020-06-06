@@ -42,7 +42,7 @@ export default function ProductSection() {
 
       <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
-          <Collapse defaultActiveKey={['0']}>
+          <Collapse>
             <Panel header="Saison musicale de l’Ensemble Hélios" style={{textAlign: "left", fontSize:"30px"}}>
               <h4 className={classes.subdescrEdition}>
                 •	Une saison de concerts classiques <br/>
@@ -83,6 +83,20 @@ export default function ProductSection() {
               </h4>
             </Panel>
           </Collapse>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
+          Les « Amis de l’Ensemble Hélios »
+          </h3>
+          <h4 className={classes.subdescr}>
+          Depuis 30 ans, l’Ensemble Hélios est soutenu par des auditeurs fidèles, enthousiasmés par l’aventure entreprise par les 4 musiciens : explorer les territoires inconnus du répertoire du trio à cordes et flûte et l’élargir en suscitant des compositions. <br/><br/>
+          En nous rejoignant, prenez part à l’aventure.
+          <div className={classes.subdescrEdition}>
+          •	Rencontrez les musiciens, les compositeurs…. <br/>
+          •	Assistez à des répétitions… <br/>
+          •	Partagez des moments conviviaux autour de concerts privés.
+          </div>
+          </h4>
         </GridItem>
       </GridContainer>
 
@@ -191,20 +205,6 @@ export default function ProductSection() {
             </p>
           </Col>
         </Row>
-        </GridItem>
-        <GridItem style={{marginBottom:"40px"}}>
-          <h3 className={classes.subtitle}>
-          Les « Amis de l’Ensemble Hélios »
-          </h3>
-          <h4 className={classes.subdescr}>
-          Depuis 30 ans, l’Ensemble Hélios est soutenu par des auditeurs fidèles, enthousiasmés par l’aventure entreprise par les 4 musiciens : explorer les territoires inconnus du répertoire du trio à cordes et flûte et l’élargir en suscitant des compositions. <br/><br/>
-          En nous rejoignant, prenez part à l’aventure.
-          <div className={classes.subdescrEdition}>
-          •	Rencontrez les musiciens, les compositeurs…. <br/>
-          •	Assistez à des répétitions… <br/>
-          •	Partagez des moments conviviaux autour de concerts privés.
-          </div>
-          </h4>
         </GridItem>
         </GridContainer>
     </div>

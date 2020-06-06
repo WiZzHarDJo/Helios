@@ -30,7 +30,7 @@ export default function ProductSection() {
           <h2 className={classes.title}>La musique contemporaine et l'Ensemble Hélios</h2>
         </GridItem>
         <GridItem>
-          <p className={classes.subdescr}>La musique contemporaine enfin, grâce aux grands virtuoses modernes, offre à la flûte un nouvel âge d’or et au quatuor de nouvelles pièces passionnantes : Copland, Denisov, Harvey, Tisné, Schuller, Hosokawa, Tanada... </p>
+          <p className={classes.subdescr}>La musique contemporaine, grâce aux grands virtuoses modernes, offre à la flûte un nouvel âge d’or et au quatuor de nouvelles pièces passionnantes : Copland, Denisov, Harvey, Tisné, Schuller, Hosokawa, Tanada... </p>
           <p className={classes.subdescr}>Bien plus, les musiciens d’HÉLIOS ont le plaisir de se voir dédier des compositions par des personnalités de grand talent : Louvier, Bacri, Méfano, Escaïch, Pécou, Rotaru, Finzi, Hersant, Feld...</p>
         </GridItem>
         <GridItem>
@@ -43,13 +43,13 @@ export default function ProductSection() {
         <GridItem>
         <div className={classes.subdescr}>
           Les musiciens d’HÉLIOS allient leur passion de la musique de chambre à un engagement constant pour la musique de leur temps.
-          Au fil des années, leur répertoire s’est enrichi de nombreuses œuvres qui leur sont dédiées, à ce jour une cinquantaine ! Leur détail, -compositeur, titre, date et lieu de création- est énuméré dans la rubrique "Oeuvres dédiées"
+          Au fil des années, leur répertoire s’est enrichi de nombreuses œuvres qui leur sont dédiées, à ce jour plus de 80 ! Leur détail, (compositeur, titre, date et lieu de création) est énuméré dans la rubrique "Oeuvres dédiées"
         </div>
         </GridItem>
         <GridItem>
         <div className={classes.subdescr}>
           L'Ensemble Hélios a eu le plaisir de travailler avec tous ses compositeurs.
-          Ces expériences sont irremplaçables: la musique y trouve sa réalisation la plus pure, passant d’un imaginaire à l’autre, de celui du compositeur à celui des interprètes.
+          Ces expériences sont irremplaçables : la musique y trouve sa réalisation la plus pure, passant d’un imaginaire à l’autre, de celui du compositeur à celui des interprètes.
           Ces échanges très riches n’ont fait que renforcer l’intime conviction des musiciens : il est nécessaire, non seulement de jouer la musique de son temps, mais encore de participer à un long travail de mémoire, en élaborant au contact du compositeur une interprétation la plus proche possible de son idéal.
           Il est souhaitable d'éditer les partitions pour transmettre fidèlement la pensée du créateur, et mieux encore d'enregistrer les oeuvres sous sa direction artistique.
         </div>

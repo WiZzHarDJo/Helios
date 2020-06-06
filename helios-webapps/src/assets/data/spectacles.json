@@ -1,39 +1,51 @@
 [
     {
+        "title":"« J'suis différent »",
+        "video":"kmJjmniexcA",
+        "description":"Un beau conte musical sur la tolérance, en compagnie notamment de Bach, Ravel, Saint-Saëns, Tchaïkovski. Avec l’aimable participation dePhilippe Laudenbach comme Récitant. LE SPECTACLE QUI FAIT LA DIFFERENCE !",
+        "info":"A voir en famille dès 4 ans. Durée : XX mn, créé en 2019"
+    },
+    {
         "title":"« Debussy, Miss et Chouchou »",
         "video":"kmJjmniexcA",
         "description":"Ce spectacle s'adresse aux enfants de 6 à 15 ans et aux grands enfants qui les accompagnent. Par Miss, gouvernante de Chouchou, fille de Claude Debussy, le spectateur rentre au sein du foyer du compositeur, mais baigne aussi dans l'actualité de la Belle Epoque. Extraits musicaux en direct et images d'archives aident à plonger dans cet univers vieux d'un siècle.",
         "info":"Durée : 55 mn, créé en 2015",
         "press":{
             "1":{
-                "author":"Judith Rablat-Tuil",
-                "newspaper":"Pariscope",
-                "text":"Voilà un spectacle musical dont on ressort intellectuellement plus riche ! Imaginé par Christel Rayneau, il retrace la vie du compositeur français Claude Debussy (1862-1918) par le biais des souvenirs de Miss, la gouvernante anglaise de sa fille adorée, Claude-Emma, surnommée « Chouchou ». Cette jeune anglaise pleine de malice, suffragette exilée à Paris, est incarnée par la lumineuse Emilie Chevrillon. Pendant une heure- que l’on aimerait plus longue tant le récit est captivant-, elle nous plonge dans le quotidien de Chouchou, de son élégante maman et de son illustre papa, mais aussi dans celui du monde tel qu’il allait au début du XXème siècle. La crue de la Seine de 1910, le naufrage du transatlantique « Titanic » en 1912, la Première guerre mondiale…les grands évènements de l’époque côtoient les anecdotes personnelles des Debussy. Tout est raconté simplement et de façon vivante. Ce n’est jamais ennuyeux ni pompeux, ce qui rend cette création jeune public formidable. Projetées en arrière-scène, des images d’époque aident à appréhender la France des années 1900, tandis que les belles partitions de Debussy, jouées en live par le Quatuor Hélios ( flûte et trio à cordes) accompagnent le récit empli de sensibilité de Miss. Grâce à la finesse et à la légèreté de sa mise en scène, Stéphanie Tesson relève haut la main un pari qui pouvait sembler osé : passionner les enfants avec Debussy. On a adoré ! A partir de 6 ans "
+                "author":"Judith Rablat-Tuil, Pariscope",
+                "alt":"Pariscope",
+                "photo":"pariscope-logo.png",
+                "text":"Voilà un spectacle musical dont on ressort intellectuellement plus riche ! Imaginé par Christel Rayneau, il retrace la vie du compositeur français Claude Debussy (1862-1918) (...) Pendant une heure -que l’on aimerait plus longue tant le récit est captivant-, (...) les grands évènements de l’époque côtoient les anecdotes personnelles des Debussy. (...) On a adoré ! A partir de 6 ans "
             },
             "2":{
-                "author":"Françoise Sabatier-Morel",
-                "newspaper":"Récompensé par TT sur Télérama",
+                "author":"Françoise Sabatier-Morel, Récompensé par TT sur Télérama",
+                "alt":"Récompensé par TT sur Télérama",
+                "photo":"telerama-logo.jpg",
                 "text":"Un spectacle musical, écrit et mis en scène avec subtilité, que le jeu vif et juste de la comédienne, Emilie Chevrillon, rend d'autant plus sensible."
             },
             "3":{
-                "author":"",
-                "newspaper":"RADIO CLASSIQUE Coup de coeur",
+                "author":"Radio Classique, Coup de coeur",
+                "alt":"RADIO CLASSIQUE Coup de coeur",
+                "photo":"radioclassique.png",
                 "text":"Un très très joli spectacle, qui mérite vraiment les éloges… Une comédienne au ton toujours juste."
             },
             "4":{
-                "author":"Emmanuelle Guiliani",
-                "newspaper":"La Croix",
+                "author":"Emmanuelle Guiliani, La Croix",
+                "alt":"La Croix",
+                "photo":"la-croix-logo.webp",
                 "text":"Porté par la présence lumineuse de la comédienne Emilie Chevrillon, le spectacle, souvent enjoué et plein d'humour, avec finesse et sans démagogie, met à la portée des jeunes oreilles une musique réputée difficile."
             },
             "5":{
-                "author":"",
-                "newspaper":"France Bleu",
+                "author":"France Bleu",
+                "alt":"France Bleu",
+                "photo":"logo-france-bleu-seo.jpg",
                 "text":"C'est un très joli spectacle....De la musique classique en pagaille, couplée avec des images d'archives."
             },
             "6":{
-                "author":"",
-                "newspaper":"La Muse",
-                "text":"Joli spectacle musical à partager avec des enfants dès 7 -8 ans. L’histoire de la famille Debussy vue par Miss, la gouvernante anglaise de Chouchou, dernière fille du grand compositeur. Quatre musiciens sont sur scène, ce qui assez exceptionnel et permet à tous une belle immersion dans l’univers musical du compositeur. C’est donc à un mini-concert au quel les enfants sont conviés, avec des extraits d’œuvres qui ponctuent les différents moments de la vie de Chouchou, que l’on voit grandir. Chouchou, la fille chérie des Debussy n'est pas sur scène. Elle est présente par des photos anciennes projetées astucieusement dans le décor. Le chef d'orchestre du spectacle, c'est Miss, très bien interprétée par Emilie Chevrillon. Vive, enjouée, elle a une belle présence et crée une proximité très agréable avec le public. Elle raconte le quotidien de la famille, qui vit au rythme des créations du compositeur. Si Debussy est un homme qui aime que le silence règne dans sa maison, c’est aussi un excellent père, comme le montrent les lettres touchantes qu'il envoie à sa fille. Un autre aspect intéressant du spectacle est d'avoir restitué le contexte historique de l’époque avec des images d'archives. "
+                "author":"La Muse",
+                "alt":"La Muse",
+                "photo":"logo_lamuse.png",
+                "text":"Joli spectacle musical à partager avec des enfants dès 7 -8 ans. (...) Quatre musiciens sont sur scène, ce qui assez exceptionnel et permet à tous une belle immersion dans l’univers musical du compositeur. C’est donc à un mini-concert au quel les enfants sont conviés, avec des extraits d’œuvres qui ponctuent les différents moments de la vie de Chouchou, que l’on voit grandir. Un autre aspect intéressant du spectacle est d'avoir restitué le contexte historique de l’époque avec des images d'archives."
             }
         }
     },
@@ -42,50 +54,50 @@
         "video":"k7svWN-tfaU",
         "description":"Ce spectacle s’adresse aux enfants de 4 à 11 ans, et à leurs parents. Sur scène, un acteur, deux marionnettes et 4 musiciens : l’enfant Mozart se raconte, anecdotes couvrant sa vie de voyages entre ses 4 et ses 11 ans. Un autre temps, un être hors du commun, et pourtant un enfant tellement semblable, à bien des égards, à celui assis dans la salle. Des extraits musicaux ponctuent le spectacle, parmi les plus connus du musicien génial",
         "info":"Durée : 50mn, créé en 2012",
-        "press":{
+        "ecole":{
             "1":{
                 "author":"11 écoles et 1000 enfants au concert, 31 Mai 2015",
-                "newspaper":"La république du centre",
+                "alt":"La république du centre",
                 "text":"340 enfants ont investi l'espace Georges-Blareau, à Sully, pour assister au concert scolaire organisé par les Amis du festival, vendredi. Depuis jeudi se succèdent de nombreuses écoles du canton dans la salle de spectacle. L'école du Centre et l'école Jeanne-d'Arc de Sully ainsi que l'école de Dampierre-en-Burly ont envoyé leurs classes du CP au CM2. Les petits auditeurs ont su apprécier la prestation du quatuor Hélios. Sur les airs les plus connus de Wolfgang Amadeus Mozart, un comédien et les quatre musiciens ont recréé l'univers du jeune prodige, âgé de six ans lorsqu'il commença à composer. Ce fut un voyage dans le temps avec Wolfi, marionnette de Mozart et celle de sa soeur Nannerl qui parcourut l'Europe en famille. Rires et applaudissements ont prouvé que le spectacle avait tenu toutes ses promesses ; puissance musicale et jeux de scènes d'envergures ont touché les enfants. "
             },
             "2":{
                 "author":"M-C Oberthur",
-                "newspaper":"Ecole active Bilingue, 75015",
+                "alt":"Ecole active Bilingue, 75015",
                 "text":"Bravo à tous les musiciens pour ce très beau spectacle ! Bravo au comédien qui fait vivre Mozart ! Et bravo à Mozart, sans qui nous ne serions pas là aujourd'hui ! MERCI !"
             },
             "3":{
                 "author":"Mme Duclos-Leconte",
-                "newspaper":"CE2 Ecole Etienne Marcel, Paris",
+                "alt":"CE2 Ecole Etienne Marcel, Paris",
                 "text":"Très beau spectacle tant visuel que pour nos oreilles, très adapté aux enfants, dossier pédagogique très bien pour le cycle 3. Félicitations"
             },
             "4":{
                 "author":"M. Thomas Professeur de musique ",
-                "newspaper":"Ecole St Louis, Paris",
+                "alt":"Ecole St Louis, Paris",
                 "text":"Spectacle simple, sensible et original ! A reproduire avec d'autres compositeurs !"
             },
             "5":{
                 "author":"Mme Charbit",
-                "newspaper":"CP Ecole Gustave Leven, Paris",
+                "alt":"CP Ecole Gustave Leven, Paris",
                 "text":"Bravo ! Très belle interprétation dans un cadre magnifique. Grâce à ce spectacle, j'ai pu introduire en classe de la musique classique, et évoquer la vie de Mozart. Merci infiniement."
             },
             "6":{
                 "author":"C. Mancion",
-                "newspaper":"Ecole Boissière, Paris",
+                "alt":"Ecole Boissière, Paris",
                 "text":"Ne changez rien ! Beaucoup d'émotions... C'est magnifique"
             },
             "7":{
                 "author":"",
-                "newspaper":"Ecole ST Jean de Passy, Paris",
+                "alt":"Ecole ST Jean de Passy, Paris",
                 "text":"Quelle belle prestation ! Bravo pour cette initiative de faire connaitre Mozart aux enfants.. On en redemande plus souvent pour découvrir d'autres musiciens. Merci à vous de la part des enfants de mon CP."
             },
             "8":{
                 "author":"MD Calliies",
-                "newspaper":"9éme1 Ecole Franklin, Paris",
+                "alt":"9éme1 Ecole Franklin, Paris",
                 "text":"Merci beaucoup ! Quels talents ! C'était très adapté aux enfants"
             },
             "9":{
                 "author":"Mme le Flohic",
-                "newspaper":"Ecole de la rue des Bauches, Paris",
+                "alt":"Ecole de la rue des Bauches, Paris",
                 "text":"Spectacle très intéressant. Les enfants ont été attentifs et ont beaucoup apprécié."
             }
         }
