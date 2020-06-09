@@ -47,6 +47,7 @@ const routes = () => {
         <Route path="/galerie" component={GaleriePage} />
         <Route path="/discographie" component={DiscographiePage} />
         <Route path="/contact" component={ContactPage} />
+        <Route component={HeliosPage}/>
       </Switch>
     </React.Fragment>
   );

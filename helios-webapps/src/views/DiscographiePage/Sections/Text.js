@@ -10,6 +10,8 @@ import Quote100 from "../../../components/Typography/Quote100.js";
 
 
 import {Card, Row, Col} from "antd";
+import MyCarousel from '../../../components/MyCarousel/MyCarousel.js';
+
 
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
@@ -25,6 +27,7 @@ import cdPlurielles from './../../../assets/img/cd-pluriel.jpg';
 import cdWolfgang from './../../../assets/img/cd-wolfgang.jpg';
 import cdFerdinand from './../../../assets/img/cd-ferdinand.jpg';
 
+import temoignage from "./../../../assets/data/tisne.json";
 
 
 const useStyles = makeStyles(styles);
@@ -105,6 +108,7 @@ export default function ProductSection() {
             </p>
           </Col>
         </Row>
+        <MyCarousel title="Témoignages" autoplay frames={temoignage}/>
          <iframe
             src="https://youtube.com/embed/KxwHEkRXPWs" frameBorder="0" allowFullScreen title="Enregistrement Tisné" style={{ width: "100%", height:"500px", marginBottom:"15px" }}>
           </iframe>

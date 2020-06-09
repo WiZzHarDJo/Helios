@@ -9,7 +9,7 @@ import GridItem from "../../../components/Grid/GridItem.js";
 import MyCarousel from '../../../components/MyCarousel/MyCarousel.js';
 import MyCarouselProf from '../../../components/MyCarouselProf/MyCarouselProf.js';
 
-import { Card} from 'antd';
+import {Card} from 'antd';
 import "antd/dist/antd.css";
 
 import _ from "lodash";

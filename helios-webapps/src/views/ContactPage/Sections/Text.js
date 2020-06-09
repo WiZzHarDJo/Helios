@@ -8,6 +8,7 @@ import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import {Card} from "antd";
+import {PhoneTwoTone, MailTwoTone} from "@ant-design/icons";
 
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
@@ -25,8 +26,8 @@ export default function ProductSection() {
         </GridItem>
         <GridItem>
           <Card title="Numéros et addresse email" style={{ width: "100%", marginBottom:"25px" }} bordered>
-          <h3>Présidente : Béatrice Imhaus tel:06733606 email:helios.bim@orange.fr</h3>
-          <h3>Directrice Artistique : Christel Rayneau tel:xxxxxxxxxxx email:wwwwwwwwwwwwwww</h3>
+          <h3>Présidente : Béatrice Imhaus <PhoneTwoTone /> 06 60 73 36 06 <MailTwoTone /> helios.bim@orange.fr</h3>
+          <h3>Directrice Artistique : Christel Rayneau <PhoneTwoTone /> 06 60 59 77 51 <MailTwoTone /> c-rayneau@wanadoo.fr</h3>
           </Card>
         </GridItem>
       </GridContainer>

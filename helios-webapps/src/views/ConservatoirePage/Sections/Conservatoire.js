@@ -26,21 +26,17 @@ export default function TeamSection() {
         </GridItem>
         <GridItem>
         <h5 className={classes.subdescr}>
-          L'Ensemble Hélios entre dans les murs pour tisser des projets à la carte.
+          L'Ensemble Hélios entre dans les murs pour tisser des projets à la carte autour de la musique de chambre.
           </h5>
         </GridItem>
       </GridContainer>
         <GridContainer>
-        <GridItem style={{marginBottom:"40px"}}>
+        <GridItem>
           <h3 className={classes.subtitle}>
           « Autour de la musique de chambre »
           </h3>
           <h4 className={classes.subdescr}>
-          L’Ensemble propose un projet de pédagogie et diffusion, qui s’articule autour du répertoire contemporain, pour les cycles 1, 2 et 3. <br/>
-          Cette intervention se fait sous forme de résidence et s’adapte à l’établissement concerné. <br/>
-          Elle peut s’organiser autour du répertoire d’un compositeur spécifique, et concerne alors toutes les classes. <br/>
-          Elle peut aussi s’organiser autour des classes de flûte, violon, alto, violoncelle par le montage d’œuvres pédagogiques pour les cycles 1 et 2, ou d’œuvres du répertoire pour le cycle 3. <br/><br/>
-          Hélios possède un très riche répertoire pour ce travail de musique de chambre, courtes pièces spécifiquement adaptées à de « mini-Hélios» et écrites à cette intention par des compositeurs de style et langage très variés : Alain Louvier, Jacques Castérède, Graciane Finzi, Enzo Gieco, Raymond Guiot, Gilles Carré, Christel Rayneau, Jean-Michel Damase, Rui Martins, Jean-René Combes-Damien etc….
+          L’Ensemble propose un projet de pédagogie et diffusion, qui s’articule autour du répertoire de musique de chambre. Chacune de ces interventions comporte un volet de pédagogie (cours avec les jeunes),  un volet de diffusion (concerts des jeunes et de l'Ensemble Hélios) et est construite de façon à répondre au profil et aux attentes de chaque établissement.
           </h4>
         </GridItem>
         <GridItem>
@@ -48,11 +44,32 @@ export default function TeamSection() {
           « En collaboration avec la classe de flûte »
           </h3>
           <h4 className={classes.subdescr}>
-          L'Ensemble propose un programme qui fait s'entrecroiser son propre répertoire et des ensembles de flûtes des trois cycles ( en duos, trios, quatuors). <br/><br/>
+          L'Ensemble propose un programme qui fait s'entrecroiser son propre répertoire et des ensembles de flûtes des trois cycles ( en duos, trios, quatuors... ). <br/><br/>
           A un quatuor de Feld dédié à Hélios, par exemple, répond l'exécution d'un trio de flûte par les étudiants du lieu. Le but est de mobiliser les classes de flûte, en générale très actives, et de montrer aux étudiants les aspects différents du travail du compositeur à travers des formations tranchées. <br/><br/>
-          Ce projet sollicite beaucoup les compositeurs flûtistes de tous les temps ( Wendling, Berbiguier, Furstenau, Devienne, Doppler, Belloq, Luypaerts...) mais encore des compositeurs plus variés ( Feld, Hersant, Louvier, Telemann ...)
+          Ce projet sollicite beaucoup les compositeurs flûtistes de tous les temps ( Wendling, Berbiguier, Furstenau, Devienne, Doppler, Belloq, Luypaerts...) mais encore des compositeurs plus variés ( Feld, Hersant, Louvier, Telemann ... )
           </h4>
-          <GridItem style={{marginBottom:"40px"}}>
+        </GridItem>
+        <GridItem>
+          <h3 className={classes.subtitle}>
+          « En collaboration avec les 4 classes de flûte, violon, alto et violoncelle »
+          </h3>
+          <h4 className={classes.subdescr}>
+          Hélios possède un très riche répertoire contemporain, pour les cycles 1, 2 et 3 permettant d'organiser un riche projet de musique de chambre, autour  de courtes pièces spécifiquement adaptées à de « mini-Hélios». <br/><br/>
+          Ces pièces ont été écrites à cette intention par des compositeurs de style et langage très variés : Alain Louvier, Jacques Castérède, Graciane Finzi, Enzo Gieco, Stéphane Bortoli, Sophie Lacaze, Raymond Guiot, Gilles Carré, Christel Rayneau, Jean-Michel Damase, Rui Martins, Jean-René Combes-Damien, Sophie Dufeutrelle, Jérôme Naulais, etc… .<br/><br/>
+          La plupart de ces pièces sont réunies en recueils aux Editions Billaudot. Ces recueils contiennent aussi de courtes pièces classiques adaptées aux cycles 1 et 2. <br/><br/>
+          <b>L'ensemble Hélios, lors d'une résidence souplement adaptées aux exigences de chaque conservatoire, fait travailler ce répertoire aux jeunes musiciens qui en donneront une restitution publique.</b>
+          </h4>
+        </GridItem>
+        <GridItem>
+          <h3 className={classes.subtitle}>
+          « En collaboration avec toutes les classes du conservatoire »
+          </h3>
+          <h4 className={classes.subdescr}>
+          Hélios propose des résidences avec un compositeur-ami ayant composé pour lui. L'évènement s'articule autour du répertoire de ce compositeur pour les cycles 1, 2 et éventuellement 3. <br/><br/>
+          L'Ensemble fait travailler les groupes. Le compositeur explique son langage, ses oeuvres, et accompagne les étudiants avec Hélios. La restitution mêle les jeunes et l'ensemble dans une production monographique.
+          </h4>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
         <h3 className={classes.subSubtitle}>
           Témoignages
         </h3>
@@ -91,8 +108,6 @@ export default function TeamSection() {
         />
         </div>
         </GridItem>
-        </GridItem>
-        
         </GridContainer>
     </div>
   );

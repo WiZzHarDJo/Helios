@@ -35,13 +35,20 @@ export default function ProductSection() {
         <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
           <h3 className={classes.subtitle}>
-          Des projets musicaux et/ou pédagoques pour les écoles
+          Des projets musicaux et/ou pédagogiques pour les écoles
           </h3>
           <h4 className={classes.subdescr}>
-          L'Ensemble Helios a élaboré de nombreuses actions pour le jeune public dans un cadre scolaire (ou dans le cadre de centres aérés, colonies, etc). Ils intègrent un recueil pédagogique pour les instituteurs ou professeurs. Les 3 spectacles qui sont proposés actuellement par l'Ensemble Helios sont présentés de façon détaillée ci-dessous. Il s'agit de : <br/>
-          • « Des mots aux sons » <br/>
-          • « Arthur et Chimène au temps des musiques.... » <br/>
-          • « Le tour du monde d'Arthur » <br/> <br/>
+          L'Ensemble Helios a élaboré de nombreuses actions pour le jeune public dans un cadre scolaire (ou dans le cadre de centres aérés, colonies, etc). <br/>
+          3 spectacle jeune Public sont proposés actuellement par l'Ensemble Helios. Il s'agit de : <br/>
+          • « <b>Comment Mozart vient aux enfants</b> » <br/>
+          • « <b>Debussy, Miss et Chouchou</b> » <br/>
+          • « <b>J'suis diffférent</b> » <br/>
+          Vous pouvez voir leurs descriptifs en Rubrique Spectacles. Dans le cas de séances scolaires, un épais dossier pédagogique comportant des éléments audio est fourni aux enseignants. <br/><br/>
+
+          A l'intérieur des écoles, l'Ensemble Hélios a élaboré des projets spécifiques, qui sont présentés de façon détaillée ci-dessous. Il s'agit de :<br/>
+          • « <b>Des mots aux sons</b> » <br/>
+          • « <b>Arthur et Chimène au temps des musiques...</b> » <br/>
+          • « <b>Le tour du monde d'Arthur</b> » <br/> <br/>
           Par ailleurs, l'Ensemble Hélios est ouvert à tout nouveau projet.<br/>
           N'hésitez pas à nous faire part de vos idées, suggestions afin que nous préparions un nouveau support de travail adapté à vos attentes.
           </h4>

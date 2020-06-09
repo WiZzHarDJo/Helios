@@ -20,7 +20,7 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Travailler avec nous</h2>
+          <h2 className={classes.title}>Construisez des projets avec nous</h2>
           <h4 className={classes.description}>
             Décrivez en quelques lignes de quelle manière vous souhaitez avoir une collaboration avec l'ensmble Hélios. Nous reviendrons vers vous en quelques jours.
           </h4>
@@ -28,7 +28,7 @@ export default function WorkSection() {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Name"
+                  labelText="Votre Nom"
                   id="name"
                   formControlProps={{
                     fullWidth: true
@@ -37,7 +37,7 @@ export default function WorkSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Email"
+                  labelText="Votre Email"
                   id="email"
                   formControlProps={{
                     fullWidth: true
@@ -45,7 +45,7 @@ export default function WorkSection() {
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
+                labelText="Votre Message"
                 id="message"
                 formControlProps={{
                   fullWidth: true,
@@ -58,7 +58,7 @@ export default function WorkSection() {
               />
               <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                  <Button color="primary">Send Message</Button>
+                  <Button color="primary">Envoyer votre Message</Button>
                 </GridItem>
               </GridContainer>
             </GridContainer>
