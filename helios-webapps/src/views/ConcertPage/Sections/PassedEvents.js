@@ -42,10 +42,14 @@ export default function ProductSection() {
           <p className={classes.subdescr}>
           {program.description}
           </p>
-          <p className={classes.subdescr}>
-          Programme de l'évènement : {program.artiste}
-          {program.duration}
-          </p>
+          {
+            'artiste' in program && (
+              <p className={classes.subdescr}>
+              <b>Programme de l'évènement :</b> {program.artiste}
+              {program.duration}
+              </p>
+            )
+          }
           <p className={classes.subdescr}>
           <b>{program.date}</b> <br/>
           {program.lieu}
@@ -81,10 +85,14 @@ export default function ProductSection() {
           <p className={classes.subdescr}>
           {program.description}
           </p>
-          <p className={classes.subdescr}>
-          Programme de l'évènement : {program.artiste}
-          {program.duration}
-          </p>
+          {
+            'artiste' in program && (
+              <p className={classes.subdescr}>
+              <b>Programme de l'évènement :</b> {program.artiste}
+              {program.duration}
+              </p>
+            )
+          }
           <p className={classes.subdescr}>
           <b>{program.date}</b> <br/>
           {program.lieu}

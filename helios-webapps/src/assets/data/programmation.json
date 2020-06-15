@@ -88,7 +88,7 @@
     {
         "title":"Concert : Un Romantique français à redécouvrir",
         "description":"Compositeur romantique trop oublié, Eugène Walckiers trouve en Hélios un partenaire enthousiaste. Ses riches quatuors et trios constituent un apport majeur dans le répertoire de la formation.",
-        "artiste":"Eugène Walckiers compositeur Romantique Françai",
+        "artiste":"Eugène Walckiers compositeur Romantique Français",
         "lieu":"Maison de Châteaubriand 87, rue de Châteaubriand, 92 290 Châtenay Malabris",
         "date":"Mardi 16 juin, 20h30",
         "img":"harpe.jpg",
@@ -102,6 +102,14 @@
         "date":"Samedi 20 juin, 16h",
         "img":"contemporain.jpg",
         "datum":"2020-06-20"
+    },{
+        "title":"Bain de forêt musical en forêt de Laigue",
+        "description":"Au Japon, les bienfaits pour le corps et l’esprit du shinrin yoku, pratique d’immersion et de méditation en forêt, sont bien connus. Elle prend ici la forme d’une marche de 3 heures, guidée par un médiateur et accompagnée par des musiciens, où un contact intime et attentif avec la nature et la musique donne le chemin vers la connaissance de soi, l’harmonie et le bien-être.",
+        "artiste":"DANZI duo op 64/1, JS BACH Allegro de la sonate BWV 1035, F DEVIENNE Andante, JS BACH andante de la sonate 1034, H VILLA-LOBOS le sifflet du geai, TELEMANN extraits des fantaisies pour flûte solo, K SAARIAHO Mirrors, A PIAZOLLA  Tango, JS BACH Sicilienne de sonate BWV 1035",
+        "lieu":"Festival des Forêts, Compiègne",
+        "date":"Dimanche 21 juin, 10h",
+        "img":"forest.jpg",
+        "datum":"2020-06-21"
     },
     {
         "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
@@ -117,6 +125,6 @@
         "lieu":"Tournée Centres de vacances CCAS",
         "date":"Entre le 6 et 18 Juillet",
         "img":"lafontaine.jpg",
-        "datum":"2020-06-18"
+        "datum":"2020-07-18"
     }
 ]

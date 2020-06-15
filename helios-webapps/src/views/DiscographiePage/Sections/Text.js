@@ -51,7 +51,7 @@ export default function ProductSection() {
             </p>
             <Quote100
               author="Franck Masquelier, Traversière Magazine Janvier 2019"
-              text="A découvrir particulièrement sur le CD 1 le quatuor 'Parfums de mer' magnifiquement interprété et mis en valeur par la virtuosité de Christel Rayneau et de son Ensemble Hélios. Les deux premiers mouvements sont très 'Debussystes' avec des couleurs sonores impressionistes et une virtuosité toute en retenue. Quant au troisième mouvement, il fait penser incontestablement à l'univers d'Albert Roussel, avec des ricochets rythmiques et des mélodies parfois intérieures, parfois entremêlées"
+              text="A découvrir particulièrement sur le CD 1 le quatuor 'Parfums de mer' magnifiquement interprété et mis en valeur par la virtuosité de Christel Rayneau et de son Ensemble Hélios. Les deux premiers mouvements sont très 'Debussystes' avec des couleurs sonores impressionistes et une virtuosité toute en retenue. Quant au troisième mouvement, il fait penser incontestablement à l'univers d'Albert Roussel, avec des ricochets rythmiques et des mélodies parfois intérieures, parfois entremêlées."
             />
           </Card>
         </GridItem>
@@ -61,6 +61,10 @@ export default function ProductSection() {
             <p className={classes.program}>
               CD monographique du compositeur John SERNEE (2018) <br/>Hélios y grave le quatuor que lui a dédié le compositeur, Sun Flowers
             </p>
+            <Quote100
+              author="John Sernee, compositeur du disque"
+              text="La réalisation du disque « Dialogues musicaux » a été une belle expérience humaine avec l’Ensemble Hélios, couplée à un très beau travail d’équipe. L'Ensemble Helios a déployé une grande énergie à tout réunir, il fallait  toute leur virtuosité pour interpréter mes compositions et j’en suis admiratif."
+            />
           </Card>
         </GridItem>
         <GridItem>
