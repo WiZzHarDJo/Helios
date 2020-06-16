@@ -29,6 +29,8 @@ import cdFerdinand from './../../../assets/img/cd-ferdinand.jpg';
 
 import temoignage from "./../../../assets/data/tisne.json";
 
+import MyPDF from './../../../assets/files/commande.pdf';
+
 
 const useStyles = makeStyles(styles);
 
@@ -39,6 +41,11 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
         <h2 className={classes.title}>Discographie de l'Ensemble Hélios</h2>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <div className={classes.subdescr}>
+            Si vous désirez commander un ou des disques de l'Ensemble Hélios, veuillez cliquez <a href={MyPDF} download="Bon de commande Ensemble Hélios.pdf"> ici </a> pour télécharger le formulaire à compléter.
+          </div>
         </GridItem>
         <GridItem>
           <Card title="LUYPAERTS deux générations de compositeurs" style={{ width: "100%", marginBottom:"25px" }} bordered>

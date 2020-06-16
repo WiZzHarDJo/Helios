@@ -21,6 +21,8 @@ import GaleriePage from "./views/GaleriePage/GaleriePage";
 import EditionPage from "./views/EditionPage/EditionPage";
 import DiscographiePage from "./views/DiscographiePage/DiscographiePage";
 import ContactPage from "./views/ContactPage/ContactPage";
+import ErrorPage from "./views/ErrorPage/ErrorPage";
+
 
 const routes = () => {
   return (
@@ -47,7 +49,7 @@ const routes = () => {
         <Route path="/galerie" component={GaleriePage} />
         <Route path="/discographie" component={DiscographiePage} />
         <Route path="/contact" component={ContactPage} />
-        <Route component={HeliosPage}/>
+        <Route component={ErrorPage}/>
       </Switch>
     </React.Fragment>
   );
