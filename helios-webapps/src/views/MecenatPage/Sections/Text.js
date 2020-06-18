@@ -64,7 +64,7 @@ export default function ProductSection() {
             </Panel>
             <Panel header="Récompenses et Reconnaissance" style={{textAlign: "left", fontSize:"30px"}}>
               <h4 className={classes.subdescrEdition}>
-                •	Les musiciens de l’Ensemble Hélios : 4 prix de CNSM & 10 prix internationaux <br/>
+                •	Les musiciens de l’Ensemble Hélios : 8 prix de CNSM (instrument et musique de chambre) & 10 prix internationaux <br/>
                 •	L’Ensemble Hélios :
                 <div className={classes.subdescrEdition}>
                   o	Lauréat des Fondations Cziffra et Menuhin <br/>

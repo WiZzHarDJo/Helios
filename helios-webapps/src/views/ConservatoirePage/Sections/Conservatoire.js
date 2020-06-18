@@ -45,7 +45,7 @@ export default function TeamSection() {
           </h3>
           <h4 className={classes.subdescr}>
           L'Ensemble propose un programme qui fait s'entrecroiser son propre répertoire et des ensembles de flûtes des trois cycles ( en duos, trios, quatuors... ). <br/><br/>
-          A un quatuor de Feld dédié à Hélios, par exemple, répond l'exécution d'un trio de flûte par les étudiants du lieu. Le but est de mobiliser les classes de flûte, en générale très actives, et de montrer aux étudiants les aspects différents du travail du compositeur à travers des formations tranchées. <br/><br/>
+          A un quatuor de Feld dédié à Hélios, par exemple, répond l'exécution d'un trio de flûte par les étudiants du lieu. Le but est de mobiliser les classes de flûte, en générale très actives et de montrer aux étudiants les aspects différents du travail du compositeur à travers des formations tranchées. <br/><br/>
           Ce projet sollicite beaucoup les compositeurs flûtistes de tous les temps ( Wendling, Berbiguier, Furstenau, Devienne, Doppler, Belloq, Luypaerts...) mais encore des compositeurs plus variés ( Feld, Hersant, Louvier, Telemann ... )
           </h4>
         </GridItem>

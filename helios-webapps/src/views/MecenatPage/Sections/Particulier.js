@@ -30,7 +30,7 @@ export default function ProductSection() {
           <div className={classes.subdescrEdition}>
           •	Musique classique (plus de 2000 concerts en 30 ans) <br/> <br/>
           •	Musique contemporaine (80 œuvres dédiées et une activité soutenue de création) <br/> <br/>
-          •	Projets pédagogiques vers le jeune public et le public familial (3 spectacles pour les enfants, : des actions au sein de l’Education Nationale et des conservatoires lui ont valu l’Habilitation du Rectorat de Paris) <br/> <br/>
+          •	Projets pédagogiques vers le jeune public et le public familial (3 spectacles pour les enfants : des actions au sein de l’Education Nationale et des conservatoires lui ont valu l’Habilitation du Rectorat de Paris) <br/> <br/>
           </div>
           </div>
 
