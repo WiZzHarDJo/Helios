@@ -36,7 +36,7 @@ export default function ProductSection() {
         <GridItem>
           <Card title="J.C. Bach Quatuor n°4 / IX" style={{ width: "100%", marginBottom:"25px" }} bordered>
             <iframe
-              src="https://youtube.com/embed/9rm0-cTZZEU" frameBorder="0" allowFullScreen title="J.C. Bach Quatuor n°4 / IX" style={{ width: "100%", height:"500px" }}>
+              src="https://youtube.com/embed/9rm0-cTZZEU" frameBorder="0" allowFullScreen title="J.C. Bach Quatuor n°4 / IX" style={{ width: "100%", height:"35rem" }}>
             </iframe>
             <p>
               Captation en direct (Mairie du 4ème, février 2013) et montage : Guy VERNET
@@ -51,7 +51,7 @@ export default function ProductSection() {
         <GridItem>
             <Card title="Fantaisie Pastorale de Doppler (adaptation T. Perrine)" style={{ width: "100%", marginBottom:"25px" }} bordered>
             <iframe
-              src="https://youtube.com/embed/Y2IM4KKAkUY" frameBorder="0" allowFullScreen title="Fantaisie Pastorale de Doppler (adaptation T. Perrine)" style={{ width: "100%", height:"500px" }}>
+              src="https://youtube.com/embed/Y2IM4KKAkUY" frameBorder="0" allowFullScreen title="Fantaisie Pastorale de Doppler (adaptation T. Perrine)" style={{ width: "100%", height:"35rem" }}>
             </iframe>
             <p>
               Captation en direct (Mairie du 4ème, février 2013) et montage : Guy VERNET

@@ -61,7 +61,9 @@ export default function ProductSection() {
           </div>
         </GridItem>
       </GridContainer>
-        <Row>
+        <Row type="flex" style={{ alignItems: "center" }}
+      justify="center"
+      gutter={10}>
           <Col span={3}>
           <Button size="large">
             <ArrowLeftOutlined />
@@ -70,7 +72,7 @@ export default function ProductSection() {
             </Link>
           </Button>
           </Col>
-          <Col span={15}>
+          <Col span={15} >
           </Col>
           <Col span={6}>
           <Button size="large">

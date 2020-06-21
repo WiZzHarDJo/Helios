@@ -24,7 +24,7 @@ export default function ProductSection() {
     return (
       <Card title={video.title} style={{ width: "100%", marginBottom:"25px" }} bordered>
         <iframe
-              src={`https://youtube.com/embed/${video.src}`} frameBorder="0" allowFullScreen title={video.title} style={{ width: "100%", height:"500px" }}>
+              src={`https://youtube.com/embed/${video.src}`} frameBorder="0" allowFullScreen title={video.title} style={{ width: "100%", height:"35rem" }}>
         </iframe>
         <p>
           {video.legend}
