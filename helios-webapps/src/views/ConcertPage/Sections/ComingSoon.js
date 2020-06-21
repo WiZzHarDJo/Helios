@@ -15,6 +15,11 @@ import {Row, Col} from "antd";
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
 
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
+
 import programmation from "./../../../assets/data/programmation.json";
 
 const useStyles = makeStyles(styles);
@@ -104,6 +109,38 @@ export default function ProductSection() {
     }
   }
 
+  const renderProgrammationMobile = (program, id) => {
+
+    if(!moment(program.datum).isBefore(now)){
+      return(
+        <GridItem key={id} style={{marginBottom:"40px"}}>
+      <h4 className={classes.subtitle} style={{marginBottom:"20px"}}>
+        {program.title}
+      </h4>
+          <p className={classes.partenaireDescr}>
+            <img src={require(`./../../../assets/img/${program.img}`)} alt={program.title} style={{height:"350px",width:"425px", objectFit:"cover"}}/>
+          </p>
+
+          <p className={classes.subdescr}>
+          {program.description}
+          </p>
+          {
+            'artiste' in program && (
+              <p className={classes.subdescr}>
+              <b>Programme de l'évènement :</b> {program.artiste}
+              {program.duration}
+              </p>
+            )
+          }
+          <p className={classes.subdescr}>
+          <b>{program.date}</b> <br/>
+          {program.lieu}
+          </p>
+    </GridItem>
+      )
+    }
+  }
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
@@ -125,7 +162,12 @@ export default function ProductSection() {
           Prochains évènements
           </h3>
         </GridItem>
-        {programmation.length && _.map(programmation, renderProgrammation)}
+        <BrowserView>
+          {programmation.length && _.map(programmation, renderProgrammation)}
+        </BrowserView>
+        <MobileView>
+        {programmation.length && _.map(programmation, renderProgrammationMobile)}
+        </MobileView>
 
       </GridContainer>
     </div>

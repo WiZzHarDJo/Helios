@@ -304,7 +304,7 @@ export default function ProductSection() {
             Un CD de ré-édition de la sonate pour flûte avec Alain Marion et Claude Bonneton, et du concerto pour flûte avec Jean-Pierre Rampal et l'orchestre de l'ORTF vient compléter ce panorama de la musique pour flûte du compositeur. Antoine Tisné, compositeur trop oublié depuis sa disparition, nous offre des oeuvres d'une grande force expressive, toutes empreintes de spiritualité.
           </p>
          <iframe
-            src="https://youtube.com/embed/KxwHEkRXPWs" frameBorder="0" allowFullScreen title="Enregistrement Tisné" style={{ width: "100%", height:"500px", marginBottom:"15px" }}>
+            src="https://youtube.com/embed/KxwHEkRXPWs" frameBorder="0" allowFullScreen title="Enregistrement Tisné" style={{ width: "100%", height:"235px", marginBottom:"15px" }}>
           </iframe>
           </Card>
         </GridItem>
