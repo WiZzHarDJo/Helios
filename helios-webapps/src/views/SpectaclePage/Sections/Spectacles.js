@@ -9,6 +9,11 @@ import GridItem from "../../../components/Grid/GridItem.js";
 import MyCarousel from '../../../components/MyCarousel/MyCarousel.js';
 import MyCarouselProf from '../../../components/MyCarouselProf/MyCarouselProf.js';
 
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
+
 import {Card} from 'antd';
 import "antd/dist/antd.css";
 
@@ -61,6 +66,30 @@ export default function ProductSection() {
     )
   }
 
+  const renderSpectacleMobile = (spectacle, id) => {
+    return (
+      <Card title={spectacle.title} key={id} style={{ width: "100%", marginBottom:"60px" }} bordered>
+        {
+          spectacle.video !== "" &&
+
+          <iframe
+              src={`https://youtube.com/embed/${spectacle.video}`} frameBorder="0" allowFullScreen title={spectacle.title} style={{ width: "100%", height:"235px" }}>
+          </iframe>
+        }
+        <p className={classes.subdescr}>
+          {spectacle.description}
+        </p>
+        <p className={classes.subdescr}>
+          <b>{spectacle.info}</b>
+        </p>
+        <div className={classes.rectorat}>
+            <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
+            <b className={classes.verticalAlign}>Le spectacle {spectacle.title} a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
+          </div>
+      </Card>
+    )
+  }
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
@@ -75,7 +104,12 @@ export default function ProductSection() {
       </GridContainer>
       <GridContainer>
         <GridItem>
-          {spectacleData.length && _.map(spectacleData, renderSpectacle) }
+          <BrowserView>
+            {spectacleData.length && _.map(spectacleData, renderSpectacle)}
+          </BrowserView>
+          <MobileView>
+            {spectacleData.length && _.map(spectacleData, renderSpectacleMobile)}
+          </MobileView>
       </GridItem>
       </GridContainer>
     </div>
