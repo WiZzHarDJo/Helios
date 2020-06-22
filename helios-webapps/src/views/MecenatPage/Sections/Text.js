@@ -48,7 +48,7 @@ export default function ProductSection() {
       <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
           <Collapse>
-            <Panel header="Saison musicale de l’Ensemble Hélios" style={{textAlign: "left", fontSize:"30px"}}>
+            <Panel header="Saison musicale de l’Ensemble Hélios" style={{textAlign: "left", fontSize:"25px"}}>
               <h4 className={classes.subdescrEdition}>
                 •	Une saison de concerts classiques <br/>
                 •	Une politique de création en compagnie des compositeurs les plus talentueux de notre temps <br/>
@@ -58,7 +58,7 @@ export default function ProductSection() {
                 •	L’Ensemble Hélios passe de nombreuses commandes aux compositeurs pour nourrir son importante activité de création (80 œuvres dédiées à ce jour) <br/>
               </h4>
             </Panel>
-            <Panel header="Actions culturelles et éducatives" style={{textAlign: "left", fontSize:"30px"}}>
+            <Panel header="Actions culturelles et éducatives" style={{textAlign: "left", fontSize:"25px"}}>
               <h4 className={classes.subdescrEdition}>
                 •	Les musiciens de l’Ensemble Hélios s’engagent pour faire découvrir la musique à tous les publics qu’il s’agisse des :
               <div className={classes.subdescrEdition}>
@@ -67,7 +67,7 @@ export default function ProductSection() {
               </div>
               </h4>
             </Panel>
-            <Panel header="Récompenses et Reconnaissance" style={{textAlign: "left", fontSize:"30px"}}>
+            <Panel header="Récompenses et Reconnaissance" style={{textAlign: "left", fontSize:"25px"}}>
               <h4 className={classes.subdescrEdition}>
                 •	Les musiciens de l’Ensemble Hélios : 8 prix de CNSM (instrument et musique de chambre) & 10 prix internationaux <br/>
                 •	L’Ensemble Hélios :
@@ -79,7 +79,7 @@ export default function ProductSection() {
                 </div>
               </h4>
             </Panel>
-            <Panel header="Associez-vous au projet qui vous ressemble" style={{textAlign: "left", fontSize:"30px"}}>
+            <Panel header="Associez-vous au projet qui vous ressemble" style={{textAlign: "left", fontSize:"25px"}}>
               <h4 className={classes.subdescrEdition}>
                 •	Concerts <br/>
                 •	Spectacles vers les publics empêchés <br/>
@@ -129,10 +129,10 @@ export default function ProductSection() {
 
           <MobileView>
             <div className={classes.title} style={{height:"150px"}}>
-              <Button block style={{height:"inherit", fontSize:"x-large", fontWeight:"bold", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
+              <Button block style={{height:"inherit", fontSize:"large", fontWeight:"bold", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
             </div>
             <div className={classes.title} style={{height:"150px"}}>
-              <Button block style={{height:"inherit", fontSize:"x-large", fontWeight:"bold", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
+              <Button block style={{height:"inherit", fontSize:"large", fontWeight:"bold", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
             </div>
           </MobileView>
 

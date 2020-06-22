@@ -11,6 +11,11 @@ import {Row, Col, Button} from "antd";
 import { ArrowLeftOutlined } from '@ant-design/icons';
 import { Link } from "react-router-dom";
 
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
+
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
 
@@ -61,7 +66,8 @@ export default function ProductSection() {
           </div>
         </GridItem>
       </GridContainer>
-        <Row type="flex" style={{ alignItems: "center" }}
+      <BrowserView>
+      <Row type="flex" style={{ alignItems: "center" }}
       justify="center"
       gutter={10}>
           <Col span={3}>
@@ -82,6 +88,21 @@ export default function ProductSection() {
           </Button>
           </Col>
         </Row>
+      </BrowserView>
+      <MobileView>
+          <Button size="large">
+            <ArrowLeftOutlined />
+            <Link to="/" className={classes.navLink}>
+              Retour
+            </Link>
+          </Button>
+
+          <Button size="large">
+            <Link to="/nathanaelle" className={classes.navLink}>
+              Découvrez un autre musicien
+            </Link>
+          </Button>
+      </MobileView>
     </div>
   );
 }
