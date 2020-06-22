@@ -37,6 +37,13 @@ const typographyStyle = {
     verticalAlign: "middle",
     maxWidth: "100%"
   },
+  quoteBlue100: {
+    padding: "10px 20px",
+    fontSize: "17.5px",
+    borderLeft: "5px solid #b4ddff",
+    verticalAlign: "middle",
+    maxWidth: "100%"
+  },
   quoteCenter: {
     padding: "10px 20px",
     fontSize: "17.5px",

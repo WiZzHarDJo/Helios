@@ -19,6 +19,7 @@ import "antd/dist/antd.css";
 
 import temoignages from "./../../../assets/data/temoignagesContemporain.json"
 import QuoteBlue from "../../../components/Typography/QuoteBlue.js";
+import QuoteBlue100 from "../../../components/Typography/QuoteBlue100.js";
 
 const useStyles = makeStyles(styles);
 
@@ -30,6 +31,10 @@ export default function ProductSection() {
 
   const renderTemoignage = (temoignageItem, id) => {
     return <QuoteBlue key={id} text={temoignageItem.citation} author={temoignageItem.author}/>
+  }
+
+  const renderTemoignageMobile = (temoignageItem, id) => {
+    return <QuoteBlue100 key={id} text={temoignageItem.citation} author={temoignageItem.author}/>
   }
 
   return (
@@ -47,7 +52,7 @@ export default function ProductSection() {
         </BrowserView>
         <MobileView>
         <div className={classes.subdescr}>
-          {temoignages.length && _.map(temoignages, renderTemoignage) }
+          {temoignages.length && _.map(temoignages, renderTemoignageMobile) }
         </div>
         </MobileView>
       </GridContainer>
