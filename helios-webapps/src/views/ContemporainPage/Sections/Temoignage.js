@@ -8,6 +8,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
+
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 import "antd/dist/antd.css";
@@ -35,9 +40,16 @@ export default function ProductSection() {
       </GridItem>
       </GridContainer>
       <GridContainer justify="center">
+        <BrowserView>
         <div style={{display: "inline-flex", flexWrap: "wrap", justifyContent:"center"}} className={classes.subdescr}>
           {temoignages.length && _.map(temoignages, renderTemoignage) }
         </div>
+        </BrowserView>
+        <MobileView>
+        <div className={classes.subdescr}>
+          {temoignages.length && _.map(temoignages, renderTemoignage) }
+        </div>
+        </MobileView>
       </GridContainer>
     </div>
   );
