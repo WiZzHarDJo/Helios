@@ -8,6 +8,11 @@ import GridItem from "../../../components/Grid/GridItem.js";
 
 import {Row, Col, Button, Collapse } from "antd";
 
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
+
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
 
@@ -102,23 +107,35 @@ export default function ProductSection() {
 
       <GridContainer>
         <GridItem style={{marginBottom:"40px"}}>
-        <Row
-          type="flex"
-          style={{ alignItems: "center" }}
-          justify="center"
-          gutter={10}
-        >
-          <Col span={12}>
+          <BrowserView>
+            <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+            >
+              <Col span={12}>
+                <div className={classes.title} style={{height:"150px"}}>
+                  <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
+                </div>
+              </Col>
+              <Col span={12}>
+              <div className={classes.title} style={{height:"150px"}}>
+                  <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
+                </div>
+              </Col>
+            </Row>
+          </BrowserView>
+
+          <MobileView>
             <div className={classes.title} style={{height:"150px"}}>
-              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
+              <Button block style={{height:"inherit", fontSize:"x-large", fontWeight:"bold", backgroundColor:"#ffe57f"}} onClick={() => setType(1)}>Vous êtes une entreprise</Button>
             </div>
-          </Col>
-          <Col span={12}>
-          <div className={classes.title} style={{height:"150px"}}>
-              <Button block style={{height:"inherit", fontSize:"xxx-large", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
+            <div className={classes.title} style={{height:"150px"}}>
+              <Button block style={{height:"inherit", fontSize:"x-large", fontWeight:"bold", backgroundColor:"#b4ddff"}} onClick={() => setType(2)}>Vous êtes un particulier</Button>
             </div>
-          </Col>
-        </Row>
+          </MobileView>
+
         {
           type===1 &&
           <Entreprise/>

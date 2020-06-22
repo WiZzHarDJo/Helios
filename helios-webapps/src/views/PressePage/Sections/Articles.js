@@ -372,7 +372,7 @@ export default function TeamSection() {
         </GridItem>
       </GridContainer>
       <GridContainer >
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
               <img src={crescendoLogo} alt="Logo Crescendo Magazine" className={classes.pressImg}/>
             <Quote100
               text="Pour Que l’Esprit Vive, association fondée en 1932, œuvre pour lutter contre l’isolement rural par l’art et la culture. Son infatigable directrice, Agnès Desjobert, développe le réseau des petits villages dont les habitants accueillent, le temps d’un week-end bien rempli, ponctuellement, puis régulièrement, des artistes professionnels. Dernier de la saison, le concert d’aujourd’hui se déroule à Jailly-les-Moulins, village de Bourgogne, très enclavé. Dix minutes avant, des dizaines de voitures stationnent, la nef de la petite église est bondée, certainement deux fois l’effectif total de la population (88 habitants).
@@ -385,7 +385,7 @@ export default function TeamSection() {
               linkText="https://www.crescendo-magazine.be/une-belle-et-singuliere-aventure-musicale/"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
               <img src={traversiereLogo} alt="Logo Traversière" className={classes.pressImg}/>
             <Quote100
               text="Ce samedi 6 avril a eu lieu au Temple St-Jean, rue de Grenelle à Paris, un concert exceptionnel du désormais célèbre quatuor avec flûte, l’ensemble Hélios. Mené de main de maitresse (!) par la brillante Christel Rayneau, cette formation aguerrie à tous les styles de répertoire nous a offert un moment inoubliable parce que rare par sa programmation moderne et éclectique, et éminemment précieux pour sa grande qualité artistique.
@@ -400,7 +400,7 @@ export default function TeamSection() {
               linkText="https://latraversiere.fr/webzine/retrospectives/ensemble-helios-concert-du-6-04-2019/"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
               <img src={pariscopeLogo} alt="Logo Pariscope" className={classes.pressImg}/>
             <Quote100
               text="Voilà un spectacle musical dont on ressort intellectuellement plus riche !
@@ -412,35 +412,35 @@ export default function TeamSection() {
               author="Judith Rablat-Tuil, Pariscope"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
               <img src={teleramaLogo} alt="Logo Télérama" className={classes.pressImg}/>
             <Quote100
               text="Un spectacle musical, écrit et mis en scène avec subtilité, que le jeu vif et juste de la comédienne, Emilie Chevrillon, rend d'autant plus sensible."
               author="Françoise Sabatier-Morel, Récompensé par TT sur Télérama"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={radioClassiqueLogo} alt="Logo Radio Classique" className={classes.roundPressImg}/>
             <Quote100
               text="Un très très joli spectacle, qui mérite vraiment les éloges… Une comédienne au ton toujours juste."
               author="Radio Classique, Coup de coeur"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={lacroixLogo} alt="Logo La Croix" className={classes.pressImg}/>
             <Quote100
               text="Porté par la présence lumineuse de la comédienne Emilie Chevrillon, le spectacle, souvent enjoué et plein d'humour, avec finesse et sans démagogie, met à la portée des jeunes oreilles une musique réputée difficile."
               author="Emmanuelle Guiliani, La Croix"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={franceBleueLogo} alt="Logo France Bleu" className={classes.roundPressImg}/>
             <Quote100
               text="C'est un très joli spectacle....De la musique classique en pagaille, couplée avec des images d'archives."
               author="France Bleu"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={laMuseLogo} alt="Logo La Muse" className={classes.pressImg}/>
             <Quote100
               text="Joli spectacle musical à partager avec des enfants dès 7 -8 ans. L’histoire de la famille Debussy vue par Miss, la gouvernante anglaise de Chouchou, dernière fille du grand compositeur.
@@ -450,7 +450,7 @@ export default function TeamSection() {
               author="La Muse"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={repCentreLogo} alt="Logo La République du Centre" className={classes.pressImg}/>
             <Quote100
               text="340 enfants ont investi l'espace Georges-Blareau, à Sully, pour assister au concert scolaire organisé par les Amis du festival, vendredi. Depuis jeudi se succèdent de nombreuses écoles du canton dans la salle de spectacle. L'école du Centre et l'école Jeanne-d'Arc de Sully ainsi que l'école de Dampierre-en-Burly ont envoyé leurs classes du CP au CM2.
@@ -460,7 +460,7 @@ export default function TeamSection() {
               author="La République du Centre '11 écoles et 1000 enfants au concert', 31 Mai 2015"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={bienPublicLogo} alt="Logo Le Bien public" className={classes.pressImg}/>
             <Quote100
               text="Pour le dernier concert de la saison, l'Ensemble Hélios a littéralement subjugué un public connaisseur venu nombreux en la Chapelle Ste Anne.
@@ -470,14 +470,14 @@ export default function TeamSection() {
               author="Chantal Blancher, Le Bien public 'Hors saison musical : un dernier concert très apprécié', 1er avril 2015"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <div style={{width:"400px"}}/>
             <Quote100
               text="J'étais impatient d'écouter le CD du Quatuor Hélios, consacré à des oeuvres du 20ème siècle. Je vous prie de partager avec vos partenaires mes compliments pour la finesse des interprétations."
               author="Henri Dutilleux, compositeur de musique classique et contemporaine"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={repCentreLogo} alt="Logo La République du Centre" className={classes.pressImg}/>
             <Quote100
               text="Samedi la salle des mariages recevait l'Ensemble Hélios. Hélios, c'est une pâte sonore intense et multicolore, un soleil ardent, un miroir de poésie qui unit dans un souffle commun une flûte somptueuse et un trio à cordes. Le Debussy des Epigraphes antiques réveille des mondes fascinants, le Trio de Roussel vibre dans la lumière d'Hélios, avant le rêve des 3 Nocturnes de Nicolas Bacri, figure majeure de la musique de notre temps, qui travaille à la résurrection d'un opéra de Bordes.
@@ -485,21 +485,21 @@ export default function TeamSection() {
               author="Philippe Haller, La République du Centre, 'Le soleil ardent d'Hélios', 25 novembre 2014"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
             <Quote100
               text="Le son chaleureux et lumineux de Christel Rayneau, sa capacité à intégrer les différents modes de jeu à la beauté de l'arc sonore du dessin, l'expérience bien connue de ses partenaires en musique contemporaine, la conviction commune aux quatre musiciens, tout concourt à nous faire partager un monde de sensations nourri d'une attention à tous les signes de l'imaginaire.
               La prise de son de Sébastien Nolly, très présente, très fidèle, ne mérite que des éloges et nous donne l'impression de recevoir les musiciens dans notre salon. La musique suggère bien plus encore, vibrante réussite d'un esprit aux aguets des mouvements de l'âme ; les interprètes y mettent tout leur coeur. La Monodie IV permet d'apprécier la délicate sensibilité de la flûtiste en solo."
               author="Sylviane Falcinelli, Décembre 2013"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={saoneLoireLogo} alt="Logo Journal de Saône et Loire" className={classes.pressImg}/>
             <Quote100
               text="Le public nombreux a salué l’interprétation remarquablement inspirée, l’étonnante virtuosité et la beauté des sonorités des musiciens. Une soirée riche en émotions musicales…."
               author="Journal de Saône et Loire, 15 octobre 2012"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
             <Quote100
               text="Les musiciens ont transmis leur bonheur au public qui les a beaucoup applaudis.
               On quitte le concert le sourire aux lèvres, en se sentant privilégié d’avoir assisté à quelques chose de très spécial, non-reproductible. Dommage pour les autres que cet événement n’ait pas été enregistré."
@@ -508,35 +508,35 @@ export default function TeamSection() {
               linkText="http://eborja.unblog.fr/musique-et-theatre/articles-recents/portrait-musical-de-gertrude-stein-avec-le-quatuor-helios/"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={siegenerLogo} alt="Logo Siegener Zeitung" className={classes.pressImg}/>
             <Quote100
               text="L’ensemble conquiert l’assemblée. L’interprétation dépasse l’ordinaire : une expérience musicale très intense."
               author="Siegener Zeitung, 5 décembre 2011"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={indeLogo} alt="Logo L'Indépendant" className={classes.pressImg}/>
             <Quote100
               text="Les quatre musiciens ont offert un superbe concert de musique de chambre, tout en sensibilité et délicatesse. Ce fut un des précieux moments du festival."
               author="L'Indépendant (Festival 'Aujourd'hui Musiques')"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={repCentreLogo} alt="Logo La République du Centre" className={classes.pressImg}/>
             <Quote100
               text="Il faut aussi cette magie indéfinissable qui permet aux musiciens de réellement communiquer avec le public. Ce fut le cas lundi soir : avec un programme parfaitement équilibré, les quatre musiciennes ont su montrer leur capacités techniques mais aussi donner de l'émotion et partager un vrai moment de musique."
               author="La République Du Centre"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
 
             <Quote100
               text="Une prestation de grande qualité, applaudie à sa juste valeur."
               author="La Gazette"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
 
           <img src={laPresseLogo} alt="Logo La Presse" className={classes.roundPressImg}/>
             <Quote100
@@ -544,35 +544,35 @@ export default function TeamSection() {
               author="La Presse (Festival de Besançon)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={percheLogo} alt="Logo Le Perche" className={classes.pressImg}/>
             <Quote100
               text="Les quatre musiciens du Quatuor HÉLIOS ont su marquer les mémoires, au cours d'une soirée musicale, où la qualité s'est disputée à la diversité."
               author="Le Perche (Printemps Musical du Perche)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={actionLogo} alt="Logo L'Action" className={classes.pressImg}/>
             <Quote100
               text="L'émotion, la sensibilité, une finesse et une précision de jeu des concertistes ont fait de ce spectacle un des meilleurs moments du Festival."
               author="L'Action (Printemps musical du Perche)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={ouestLogo} alt="Logo Ouest France" className={classes.roundPressImg}/>
             <Quote100
               text="Soirée de charme, soirée exceptionnelle, soirée de rêve : chacun l'a ressenti."
               author="Ouest France"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={dnaLogo} alt="Logo DNA" className={classes.pressImg}/>
             <Quote100
               text="Le Quatuor HÉLIOS vient d’ouvrir le deuxième Festival International de flûte d’Obernai. La transcription par Franz-Anton Hoffmeister de la sonate n°11 de Mozart a permis aux jeunes artistes d’exprimer leur ardent lyrisme dans un dialogue aéré, vif, passionné. Vivement ovationnées, les valeureuses quartettistes offraient deux bis très contrastés. M. Jindrich Feld et Mme Alain Marion étaient venus tout exprès de Prague et de Paris pour ce concert."
               author="Dernières Nouvelles d’Alsace (Festival 'Flûtes 2002' d’Obernai)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={lettreMusicienLogo} alt="Logo La Lettre du Musicien" className={classes.roundPressImg}/>
           <div style={{width:"100px"}}/>
             <Quote100
@@ -580,27 +580,27 @@ export default function TeamSection() {
               author="La Lettre du Musicien, n° 306 (décembre 2004)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={cnsmLogo} alt="Logo CNSM" className={classes.pressImg}/>
             <Quote100
               text="Quatre têtes bien faites, huit mains habiles unies dans une même pensée, un goût très sûr, un sens exquis de la mesure, juste ce qu’il faut de tact et de maîtrise pour avoir toutes les audaces, tel se présente l’Ensemble HÉLIOS, auquel je souhaite tout le succès qu’il mérite."
               author="Christian Lardé, (flûtiste, concertiste international, ancien professeur de musique de chambre au C.N.S.M. de Paris)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
           <img src={bolshoiLogo} alt="Logo Bolshoi" className={classes.pressImg}/>
             <Quote100
               text="J’ai été ravi et enthousiasmé de l’interprétation musicale de votre formation. L’exécution était d’une richesse admirable quant aux langages et coloris de la palette musicale, avec finesse d’interprétation et une grande maîtrise de chacune des musiciens. Sans aucun doute, le Quatuor HÉLIOS fait partie des meilleurs ensembles de musique de chambre européens"
               author="Igor Bogoulavsky, (Premier alto solo du Bolchoï Théâtre de Moscou, professeur au Conservatoire Gnessin de Moscou)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
             <Quote100
               text="J'ai bien reçu votre CD et suis parfaitement conquis, tout d'abord par ce programme panorama de ce siècle, et par le magnifique engagement musical de l'Ensemble."
               author="Bernard Pierreuse, (flûtiste, soliste de l’Orchestre de Liège, enseignant et auteur de l’ouvrage de référence 'Flûte Littérature' / éd. Jobert/Transtalantiques)"
             />
       </GridItem>
-      <GridItem style={{marginBottom:"20px"}}>
+      <GridItem style={{marginBottom:"30px"}}>
             <Quote100
               text="Les oeuvres d’Alain Louvier, Rui Martins et Jean-René Combes-Damiens furent écrites à l’intention de l’Ensemble HÉLIOS. Ses membres s’y montrent d’enthousiastes interprètes (…). Dans un état de totale concentration, de complet investissement, le quatuor saisit toutes ces pages à bras-le corps."
               author='Serge Grégory, (Mensuel "Répertoire")'
