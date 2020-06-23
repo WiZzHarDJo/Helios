@@ -425,7 +425,7 @@ export default function TeamSection() {
       </GridItem>
       <GridItem style={{marginBottom:"30px"}}>
               <img src={teleramaLogo} alt="Logo Télérama" className={classes.pressImg}/>
-            <Quote
+            <Quote100
               text="Mozart, un enfant prodige ou un enfant comme les autres ? L’un et l’autre, comme le montre le récit de son enfance entre quotidien, musique, voyages à travers l’Europe du XVIIIe siècle. L’histoire se raconte dans un dialogue où la voix de l’enfant se mêle à celle de l’artiste devenu adulte, avec ses souvenirs et la musique qui les fait naître. Dans un décor de chambre enfantine, l’Ensemble Hélios, composé d’une flûtiste et d’un trio à cordes, accompagne un comédien, qui incarne le musicien et donne vie à deux marionnettes représentant le petit Amadeus et sa sœur Nannerl. Ecrite par la flûtiste Christel Rayneau, cette promenade en terre mozartienne constitue une belle entrée dans l’univers musical du compositeur."
               author="Françoise Sabatier-Morel, Télérama"
               link
