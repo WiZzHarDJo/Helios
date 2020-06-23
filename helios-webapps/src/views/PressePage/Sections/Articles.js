@@ -106,6 +106,17 @@ export default function TeamSection() {
           <div className={classes.typo}>
               <img src={teleramaLogo} alt="Logo Télérama" className={classes.pressImg}/>
             <Quote
+              text="Mozart, un enfant prodige ou un enfant comme les autres ? L’un et l’autre, comme le montre le récit de son enfance entre quotidien, musique, voyages à travers l’Europe du XVIIIe siècle. L’histoire se raconte dans un dialogue où la voix de l’enfant se mêle à celle de l’artiste devenu adulte, avec ses souvenirs et la musique qui les fait naître. Dans un décor de chambre enfantine, l’Ensemble Hélios, composé d’une flûtiste et d’un trio à cordes, accompagne un comédien, qui incarne le musicien et donne vie à deux marionnettes représentant le petit Amadeus et sa sœur Nannerl. Ecrite par la flûtiste Christel Rayneau, cette promenade en terre mozartienne constitue une belle entrée dans l’univers musical du compositeur."
+              author="Françoise Sabatier-Morel, Télérama"
+              link
+              linkText="https://sortir.telerama.fr/concerts/ensemble-helios-comment-mozart-vient-aux-enfants,n4851549.php"
+            />
+          </div>
+      </GridItem>
+      <GridItem>
+          <div className={classes.typo}>
+              <img src={teleramaLogo} alt="Logo Télérama" className={classes.pressImg}/>
+            <Quote
               text="Un spectacle musical, écrit et mis en scène avec subtilité, que le jeu vif et juste de la comédienne, Emilie Chevrillon, rend d'autant plus sensible."
               author="Françoise Sabatier-Morel, Récompensé par TT sur Télérama"
             />
@@ -410,6 +421,15 @@ export default function TeamSection() {
               Grâce à la finesse et à la légèreté de sa mise en scène, Stéphanie Tesson relève haut la main un pari qui pouvait sembler osé : passionner les enfants avec Debussy.
               On a adoré ! A partir de 6 ans"
               author="Judith Rablat-Tuil, Pariscope"
+            />
+      </GridItem>
+      <GridItem style={{marginBottom:"30px"}}>
+              <img src={teleramaLogo} alt="Logo Télérama" className={classes.pressImg}/>
+            <Quote
+              text="Mozart, un enfant prodige ou un enfant comme les autres ? L’un et l’autre, comme le montre le récit de son enfance entre quotidien, musique, voyages à travers l’Europe du XVIIIe siècle. L’histoire se raconte dans un dialogue où la voix de l’enfant se mêle à celle de l’artiste devenu adulte, avec ses souvenirs et la musique qui les fait naître. Dans un décor de chambre enfantine, l’Ensemble Hélios, composé d’une flûtiste et d’un trio à cordes, accompagne un comédien, qui incarne le musicien et donne vie à deux marionnettes représentant le petit Amadeus et sa sœur Nannerl. Ecrite par la flûtiste Christel Rayneau, cette promenade en terre mozartienne constitue une belle entrée dans l’univers musical du compositeur."
+              author="Françoise Sabatier-Morel, Télérama"
+              link
+              linkText="https://sortir.telerama.fr/concerts/ensemble-helios-comment-mozart-vient-aux-enfants,n4851549.php"
             />
       </GridItem>
       <GridItem style={{marginBottom:"30px"}}>
