@@ -38,14 +38,14 @@ export default function HeaderLinks(props) {
                         "Gallerie médias"
                       ]}
                       dropdownLinks={[
-                        "/",
+                        "/helios",
                         "/discographie",
                         "/edition",
                         "/galerie"]}
                     />
       </ListItem>
       <ListItem className={classes.listItem}>
-          <Link to="/concerts" className={classes.navLink}>
+          <Link to="/" className={classes.navLink}>
             Concerts
           </Link>
       </ListItem>

@@ -10,7 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
-import {Row, Col} from "antd";
+import {Row, Col, Card} from "antd";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
@@ -34,7 +34,8 @@ export default function ProductSection() {
     if(id % 2 === 0 && !moment(program.datum).isBefore(now)){
       return (
         <GridItem key={id} style={{marginBottom:"40px"}}>
-      <h4 className={classes.subtitle}>
+          <Card>
+          <h4 className={classes.subtitle}>
         {program.title}
       </h4>
       <Row
@@ -66,13 +67,15 @@ export default function ProductSection() {
           </p>
         </Col>
         </Row>
+          </Card>
     </GridItem>
     )
     }
     else if(!moment(program.datum).isBefore(now)){
       return(
         <GridItem key={id} style={{marginBottom:"40px"}}>
-      <h4 className={classes.subtitle} style={{marginBottom:"20px"}}>
+          <Card>
+          <h4 className={classes.subtitle} style={{marginBottom:"20px"}}>
         {program.title}
       </h4>
       <Row
@@ -104,6 +107,7 @@ export default function ProductSection() {
           </p>
         </Col>
         </Row>
+          </Card>
     </GridItem>
       )
     }
@@ -114,7 +118,8 @@ export default function ProductSection() {
     if(!moment(program.datum).isBefore(now)){
       return(
         <GridItem key={id} style={{marginBottom:"40px"}}>
-      <h4 className={classes.subtitle} style={{marginBottom:"20px"}}>
+          <Card>
+          <h4 className={classes.subtitle} style={{marginBottom:"20px"}}>
         {program.title}
       </h4>
           <p className={classes.partenaireDescr}>
@@ -136,6 +141,8 @@ export default function ProductSection() {
           <b>{program.date}</b> <br/>
           {program.lieu}
           </p>
+          </Card>
+
     </GridItem>
       )
     }

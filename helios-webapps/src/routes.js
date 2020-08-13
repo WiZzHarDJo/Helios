@@ -28,14 +28,14 @@ const routes = () => {
   return (
     <React.Fragment>
       <Switch>
-        <Route path="/" exact component={HeliosPage}/>
+        <Route path="/" exact component={ConcertPage}/>
+        <Route path="/helios" exact component={HeliosPage}/>
         <Route path="/christel" exact component={ChristelPage}/>
         <Route path="/vinciane" exact component={VincianePage}/>
         <Route path="/ecole" exact component={EcolePage}/>
         <Route path="/conservatoire" exact component={ConservatoirePage}/>
         <Route path="/christophe" exact component={ChristophePage}/>
         <Route path="/nathanaelle" exact component={NathanaellePage}/>
-        <Route path="/concerts" exact component={ConcertPage}/>
         <Route path="/spectacles" exact component={SpectaclePage}/>
         <Route path="/presse" exact component={PressePage}/>
         <Route path="/mecenat" exact component={MecenatPage}/>

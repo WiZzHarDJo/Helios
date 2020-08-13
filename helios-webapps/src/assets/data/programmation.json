@@ -126,5 +126,97 @@
         "date":"Entre le 6 et 18 Juillet",
         "img":"lafontaine.jpg",
         "datum":"2020-07-18"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Touristra Vacances 'Le Lac Marin', Route de Port d'Albret, 40140 SOUSTONS",
+        "date":"Mercredi 12 août, 21h30",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-12"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Camping Campéole Arotxa, 639 Chemin Olhasso, 64310 SAINT PEE SUR NIVELLE",
+        "date":"Jeudi 13 août, 21h30",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-13"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Touristra Vacances « La Forêt des Landes », 91 avenue Julian Grimaud 40220 TARNOS",
+        "date":"Vendredi 14 août, 21h15",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-14"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Centre de vacances CCAS « La chambre d’amour », 16-18 rue de Bouney 64600 ANGLET",
+        "date":"Samedi 15 août, 21h",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-15"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"VVF Villages 'Les Plages des Landes', Rue de Chambrelan-Le Huchet, 40660 MOLIETS",
+        "date":"Lundi 17 août, 21h",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-17"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"VARTES Tourisme, Village de vacances « Le Junka », Port Albret Avenue de la Plage, 40480 VIEUX BOUCAU LES BAINS",
+        "date":"Mardi 18 août, 21h",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-18"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Camping Campéole « L’étang Blanc », 2 route Louis de Bourmont, 40510 SEIGNOSSE",
+        "date":"Mercredi 19 août, 21h30",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-19"
+    },
+    {
+        "title":"Journées du Patrimoine : « Hommage au patrimoine musical français »",
+        "description":"",
+        "artiste":"Wolfgang Amadeus Mozart : « Quatuor en ré kw 285 », Maurice Ravel : « Pavane pour une infante défunte », Jean-Yves Malmasson : « Les Chants du Séraphin » (Dédié à Hélios Création 2017), Claudes Debussy : « Préludes », Michèle Foison : « 4 Regards avec Récitant »",
+        "lieu":"Eglise de Bû, 28410",
+        "date":"Samedi 19 Septembre, 20h30",
+        "img":"programmation/patrimoine.jpg",
+        "datum":"2020-09-19"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Montpellier",
+        "date":"Samedi 3 Octobre",
+        "img":"lafontaine.jpg",
+        "datum":"2020-10-03"
+    },{
+        "title":"Concert : « Voyages en mer »",
+        "description":"",
+        "artiste":"Graciane Finzi : « Océan, mer » (Création 2009, dédié à Hélios), Marco di Bari : « Et les ondes chantent, même… » (Création 2015, dédié à Hélios), Albert Roussel : « Trio op 40 pour flûte, alto et cello », Guy-Claude Luypaerts : « Parfums de mer - Brume, Sérénité, Vent » (Création 2013, dédié à Hélios)",
+        "lieu":"Eglise de Bû, 28410",
+        "date":"Samedi 19 Septembre, 20h30",
+        "img":"programmation/sailing.jpg",
+        "datum":"2020-09-19"
+    },{
+        "title":"L'Ensemble Hélios invite : Françoise de Maubus",
+        "description":"",
+        "artiste":"Rosi Wertheim : « 3 préludes pour Lancelot flûte et trio à cordes », Clémence Granval : « Valse mélancolique flûte et harpe », Graciane Finzi : « Océan, mer » (Création 2009, dédié à Hélios), Mel Bonis : « Scènes de la forêt », Edith Canat de Chizy : « Beyond », Charlotte Sohy : « Tryptique champêtre »  ",
+        "lieu":"Théatre Liberté, Toulon",
+        "date":"Mercredi 14 Octobre, 20h",
+        "img":"programmation/demaubus.jpg",
+        "datum":"2020-10-14"
+    },{
+        "title":"Concert : Intégrale des quatuors de Mozart",
+        "description":"L’intégrale des quatuors avec flûte de Mozart reste un grand classique du répertoire de l'Ensemble Hélios.",
+        "lieu":"Cercle interalliés, Salon Foch, 33 rue du Faubourg St Honoré, 75008 Paris",
+        "date":"Mardi 17 novembre, 20h45",
+        "img":"mozart-child.jpg",
+        "datum":"2020-11-17"
     }
 ]
