@@ -4,7 +4,10 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
+import {
+  BrowserView,
+  MobileView
+} from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
@@ -41,6 +44,7 @@ export default function LandingPage(props) {
         {...rest}
       />
       <Parallax filter image={require("../../assets/img/helios-landing.jpeg")}/>
+      <BrowserView>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <WhoAreWeSection />
@@ -50,6 +54,18 @@ export default function LandingPage(props) {
           <PartenaireSection />
         </div>
       </div>
+      </BrowserView>
+      <MobileView>
+      <div className={classNames(classes.main)}>
+        <div className={classes.container}>
+          <WhoAreWeSection />
+        </div>
+          <TeamSection />
+        <div className={classes.container}>
+          <PartenaireSection />
+        </div>
+      </div>
+      </MobileView>
       <Footer />
     </div>
   );

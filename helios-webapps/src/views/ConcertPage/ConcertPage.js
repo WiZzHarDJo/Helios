@@ -4,7 +4,10 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
+import {
+  BrowserView,
+  MobileView
+} from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
@@ -51,13 +54,24 @@ export default function LandingPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          <ComingSoon />
-          <PassedEvents />
-          <Historique />
+      <BrowserView>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+            <ComingSoon />
+            <PassedEvents />
+            <Historique />
+          </div>
         </div>
-      </div>
+      </BrowserView>
+      <MobileView>
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>
+            <ComingSoon />
+            <PassedEvents />
+            <Historique />
+          </div>
+        </div>
+      </MobileView>
       <Footer />
     </div>
   );
