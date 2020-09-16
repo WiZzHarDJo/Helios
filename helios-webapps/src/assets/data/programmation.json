@@ -189,17 +189,10 @@
         "img":"programmation/patrimoine.jpg",
         "datum":"2020-09-19"
     },{
-        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
-        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
-        "lieu":"Montpellier",
-        "date":"Samedi 3 Octobre",
-        "img":"lafontaine.jpg",
-        "datum":"2020-10-03"
-    },{
         "title":"Concert : « Voyages en mer »",
         "description":"",
         "artiste":"Graciane Finzi : « Océan, mer » (Création 2009, dédié à Hélios), Marco di Bari : « Et les ondes chantent, même… » (Création 2015, dédié à Hélios), Albert Roussel : « Trio op 40 pour flûte, alto et cello », Guy-Claude Luypaerts : « Parfums de mer - Brume, Sérénité, Vent » (Création 2013, dédié à Hélios)",
-        "lieu":"Eglise de Bû, 28410",
+        "lieu":"Festival de Chinon, La Grand'Cour, 3 route de la Melière, 37 500 Seuilly",
         "date":"Samedi 19 Septembre, 20h30",
         "img":"programmation/sailing.jpg",
         "datum":"2020-09-19"
@@ -211,6 +204,14 @@
         "date":"Mercredi 14 Octobre, 20h",
         "img":"programmation/demaubus.jpg",
         "datum":"2020-10-14"
+    },{
+        "title":"Ballade Musicale : « Du Baroque au Contemporain » ",
+        "description":"Ce concert très festif vous emmène à la découverte du riche répertoire d'Hélios.",
+        "artiste":"Mozart, Ledeuil, Bach, Haendel, Haydn, Rimski-Korsakov",
+        "lieu":"Centre de vacances BRUSC, 83 110 Sanary",
+        "date":"Vendredi 16 Octobre, 11h30",
+        "img":"programmation/forest.jpg",
+        "datum":"2020-10-16"
     },{
         "title":"Concert : Intégrale des quatuors de Mozart",
         "description":"L’intégrale des quatuors avec flûte de Mozart reste un grand classique du répertoire de l'Ensemble Hélios.",
