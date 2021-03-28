@@ -2,7 +2,7 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import img1 from "./../../../assets/img/logo-liberté.png";
+import img1 from "./../../../assets/img/mmc-logo.png";
 import img2 from "./../../../assets/img/logo-sacem.jpg";
 import img3 from "./../../../assets/img/rectorat-logo.png";
 import img4 from "./../../../assets/img/logo-billaudot.png";
@@ -41,7 +41,7 @@ export default function WorkSection() {
         >
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-              <a href="https://www.mnl-paris.com"> <b>Musique Nouvelle en Liberté</b></a>
+              <a href="https://musiquecontemporaine.org/"> <b>Maison de la Musique Contemporaine</b></a>
             </p>
           </Col>
           <Col span={12}>

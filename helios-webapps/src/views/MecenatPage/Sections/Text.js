@@ -16,7 +16,7 @@ import {
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
 
-import img1 from "./../../../assets/img/logo-liberté.png";
+import img1 from "./../../../assets/img/mmc-logo.png";
 import img2 from "./../../../assets/img/logo-sacem.jpg";
 import img3 from "./../../../assets/img/rectorat-logo.png";
 import img4 from "./../../../assets/img/logo-billaudot.png";
@@ -160,7 +160,7 @@ export default function ProductSection() {
         >
           <Col span={12}>
             <p className={classes.partenaireDescr}>
-              <a href="https://www.mnl-paris.com"> <b>Musique Nouvelle en Liberté</b></a>
+              <a href="https://musiquecontemporaine.org/"> <b>Maison de la Musique Contemporaine</b></a>
             </p>
           </Col>
           <Col span={12}>

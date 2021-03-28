@@ -50,7 +50,7 @@ export default function LandingPage(props) {
       <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>L'Ensemble Hélios, une cinquantaine d'oeuvres contemporaines dédiées</h1>
+              <h1 className={classes.title}>L'Ensemble Hélios, bientôt une centaine d'oeuvres contemporaines dédiées</h1>
             </GridItem>
           </GridContainer>
         </div>

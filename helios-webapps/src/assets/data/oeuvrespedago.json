@@ -1,81 +1,97 @@
 [
     {
-        "author":"Sophie LACAZE (née en 1963)",
+        "author":"Sophie LACAZE",
+        "birth":"(née en 1963)",
         "creation":"1997",
         "name":"Short stories"
     },
     {
-        "author":"Stéphane Bortoli (né en 1956)",
+        "author":"Stéphane Bortoli",
+        "birth":"(né en 1956)",
         "creation":"1997",
         "name":"Modus vivendi"
     },
     {
-        "author":"Jérôme NAULAIS (né en 1951)",
+        "author":"Jérôme NAULAIS",
+        "birth":"(né en 1951)",
         "creation":"2004",
         "name":"Océane"
     },
     {
-        "author":"Alain LOUVIER (né en 1945)",
+        "author":"Alain LOUVIER",
+        "birth":"(né en 1945)",
         "creation":"2009",
         "name":"Bach"
     },
     {
-        "author":"Alain LOUVIER (né en 1945)",
+        "author":"Alain LOUVIER",
+        "birth":"(né en 1945)",
         "creation":"2009",
         "name":"Bachélios"
     },
     {
-        "author":"Gilles CARRE (né en 1956)",
+        "author":"Gilles CARRE",
+        "birth":"(né en 1956)",
         "creation":"2011",
         "name":"Il pleuvait souvent un peu trop..."
     },
     {
-        "author":"Graciane FINZI (née en 1945)",
+        "author":"Graciane FINZI",
+        "birth":"(née en 1945)",
         "creation":"2011",
         "name":"Et passe le temps"
     },
     {
-        "author":"Graciane FINZI (née en 1945)",
+        "author":"Graciane FINZI",
+        "birth":"(née en 1945)",
         "creation":"2011",
         "name":"Etude sur les différents modes de jeux"
     },
     {
-        "author":"Graciane FINZI (née en 1945)",
+        "author":"Graciane FINZI",
+        "birth":"(née en 1945)",
         "creation":"2011",
         "name":"Ping-Pong"
     },
     {
-        "author":"Jacques CASTEREDE (1926-2014)",
+        "author":"Jacques CASTEREDE",
+        "birth":"(1926-2014)",
         "creation":"",
         "name":"2 pièces"
     },
     {
-        "author":"Richard PHILLIPS (né en 1934)",
+        "author":"Richard PHILLIPS",
+        "birth":"(né en 1934)",
         "creation":"2010",
         "name":"Pièces"
     },
     {
-        "author":"Enzo GIECO (né en 1938)",
+        "author":"Enzo GIECO",
+        "birth":"(né en 1938)",
         "creation":"2012",
         "name":"Cocimex"
     },
     {
-        "author":"Christel RAYNEAU (née en 1963)",
+        "author":"Christel RAYNEAU",
+        "birth":"(née en 1963)",
         "creation":"2013",
         "name":"4 saisons au jardin"
     },
     {
-        "author":"Jean René COMBES DAMIENS (né en 1957)",
+        "author":"Jean René COMBES DAMIENS",
+        "birth":"(né en 1957)",
         "creation":"2016",
         "name":"La fable de libellule"
     },
     {
-        "author":"Guy-claude LUYPAERTS (né en 1949)",
+        "author":"Guy-claude LUYPAERTS",
+        "birth":"(né en 1949)",
         "creation":"2017",
         "name":"La touche"
     },
     {
         "author":"Olivier OMBREDANNE",
+        "birth":"",
         "creation":"2018",
         "name":"Danzon sous la pluie 2018"
     }

@@ -35,7 +35,7 @@ export default function HeaderLinks(props) {
                         "L'ensemble Hélios",
                         "Discographie",
                         "Edition Musicale",
-                        "Gallerie médias"
+                        "Galerie médias"
                       ]}
                       dropdownLinks={[
                         "/helios",

@@ -13,6 +13,8 @@ import styles from "../../../assets/jss/material-kit-react/views/landingPageSect
 
 import images from "../../../assets/data/arthur&chimene.json";
 import images1 from "../../../assets/data/tourMondeArthur.json";
+import soleil from "../../../assets/data/monsieurSoleil.json"
+import miette from "../../../assets/data/miette.json"
 import imagesPedago from "../../../assets/data/pedagogie.json";
 
 const useStyles = makeStyles(styles);
@@ -42,13 +44,15 @@ export default function ProductSection() {
           3 spectacle jeune Public sont proposés actuellement par l'Ensemble Helios. Il s'agit de : <br/>
           • « <b>Comment Mozart vient aux enfants</b> » <br/>
           • « <b>Debussy, Miss et Chouchou</b> » <br/>
-          • « <b>J'suis diffférent</b> » <br/>
+          • « <b>J'suis diffférent</b> » <br/> <br/>
           Vous pouvez voir leurs descriptifs en Rubrique Spectacles. Dans le cas de séances scolaires, un épais dossier pédagogique comportant des éléments audio est fourni aux enseignants. <br/><br/>
 
           A l'intérieur des écoles, l'Ensemble Hélios a élaboré des projets spécifiques, qui sont présentés de façon détaillée ci-dessous. Il s'agit de :<br/>
           • « <b>Des mots aux sons</b> » <br/>
           • « <b>Arthur et Chimène au temps des musiques...</b> » <br/>
-          • « <b>Le tour du monde d'Arthur</b> » <br/> <br/>
+          • « <b>Le tour du monde d'Arthur</b> » <br/>
+          • « <b>Miette et Prof et le monde merveilleux de la musique</b> » <br/>
+          • « <b>Monsieur Soleil aime la musique</b> » <br/> <br/>
           Par ailleurs, l'Ensemble Hélios est ouvert à tout nouveau projet.<br/>
           N'hésitez pas à nous faire part de vos idées, suggestions afin que nous préparions un nouveau support de travail adapté à vos attentes.
           </h4>
@@ -129,7 +133,51 @@ export default function ProductSection() {
           <Carousel images={images1}/>
           <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
-            <b className={classes.verticalAlign}>"Le tour du monde d'Arthur " a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
+            <b className={classes.verticalAlign}>"Le tour du monde d'Arthur" a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
+          </div>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
+          Sensiblisation aux musiques classique et contemporaine <br/>
+          « Miette et Prof et le monde merveilleux de la musique »
+          </h3>
+          <h4 className={classes.subdescr}>
+          Lors de leurs interventions dans les classes et en compagnie des marionettes Miette et Prof, les 2 musiciens initient les petits à la musique et aux mots pour la dire. <br/>
+          Les enfants sont auditeurs, mais aussi acteurs, par le chant et les jeux musicaux. <br/>
+          Document de suivi communiqué aux enseignants
+          </h4>
+          <h4 className={classes.subdescr}>
+          Durée : 4 séances de présentation & d’échange avec les élèves (45 min chaque)
+          </h4>
+          <Carousel images={miette}/>
+          <div className={classes.rectorat}>
+            <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
+            <b className={classes.verticalAlign}>Le spectacle "Miette et Prof et le monde merveilleux de la musique" a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
+          </div>
+        </GridItem>
+        <GridItem style={{marginBottom:"40px"}}>
+          <h3 className={classes.subtitle}>
+          Sensiblisation aux musiques classique et contemporaine <br/>
+          « Monsieur Soleil aime la musique »
+          </h3>
+          <h4 className={classes.subdescr}>
+          Action pédagogique, conçue pour les enfants pour voyager dans la musique, au fil de l’histoire … <br/>
+          • En compagnie du « Roi Soleil » et de Lully <br/>
+          • En rencontrant les compositeurs Mozart et Ries <br/>
+          • En voyageant au Japon, Pays du « Soleil Levant », avec ses Haïkus <br/>
+          • En chantant sous le soleil d’Espagne, avec ses castagnettes <br/>
+          • En dansant le Tango en Argentine <br/>
+          • En écoutant des musiciens contemporains <br/>
+          • Avec une flûte, un violon, un alto et un violoncelle <br/>
+          • De la naissance de la musique au constat que la musique est infinie <br/>
+          </h4>
+          <h4 className={classes.subdescr}>
+          Durée : 1 séance de présentation (1h)
+          </h4>
+          <Carousel images={soleil}/>
+          <div className={classes.rectorat}>
+            <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
+            <b className={classes.verticalAlign}>Le spectacle "Monsieur Soleil aime la musique" a reçu l'habilitation de la délégation académique aux arts et à la culture du rectorat de Paris.</b>
           </div>
         </GridItem>
         </GridContainer>

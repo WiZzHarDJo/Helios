@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 import styles from "./../../assets/jss/material-kit-react/components/footerStyle.js";
 
-import img1 from './../../assets/img/logo-liberté.png';
+import img1 from './../../assets/img/mmc-logo.png';
 import img2 from "./../../assets/img/logo-sacem.jpg";
 import img3 from "./../../assets/img/rectorat-logo.png";
 import img4 from "./../../assets/img/logo-billaudot.png";
