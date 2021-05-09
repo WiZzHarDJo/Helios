@@ -59,7 +59,7 @@ export default function ProductSection() {
           </Col>
           <Col span={6}>
           <Button size="large">
-            <Link to="/vinciane" className={classes.navLink}>
+            <Link to="/isabelle" className={classes.navLink}>
               Découvrez un autre musicien
             </Link>
           </Button>

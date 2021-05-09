@@ -7,7 +7,7 @@ import HeliosPage from "./views/HeliosPage/HeliosPage";
 import EcolePage from './views/EcolePage/EcolePage';
 import ConservatoirePage from "./views/ConservatoirePage/ConservatoirePage";
 import ChristelPage from "./views/ChristelPage/ChristelPage";
-import VincianePage from "./views/VincianePage/VincianePage";
+import IsabellePage from "./views/IsabellePage/IsabellePage";
 import ChristophePage from "./views/ChristophePage/ChristophePage";
 import NathanaellePage from "./views/NathanaellePage/NathanaellePage";
 import PressePage from './views/PressePage/PressPage';
@@ -31,7 +31,7 @@ const routes = () => {
         <Route path="/" exact component={ConcertPage}/>
         <Route path="/helios" exact component={HeliosPage}/>
         <Route path="/christel" exact component={ChristelPage}/>
-        <Route path="/vinciane" exact component={VincianePage}/>
+        <Route path="/isabelle" exact component={IsabellePage}/>
         <Route path="/ecole" exact component={EcolePage}/>
         <Route path="/conservatoire" exact component={ConservatoirePage}/>
         <Route path="/christophe" exact component={ChristophePage}/>

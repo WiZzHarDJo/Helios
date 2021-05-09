@@ -26,7 +26,7 @@ import "antd/dist/antd.css";
 
 import team1 from "../../../assets/img/christel.jpg";
 import team2 from "../../../assets/img/nathanaelle.png";
-import team3 from "../../../assets/img/vincianne.png";
+import team3 from "../../../assets/img/isabelle.png";
 import team4 from "../../../assets/img/christophe.png";
 
 const useStyles = makeStyles(styles);
@@ -102,19 +102,18 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-              Vinciane Béranger
+              Isabelle Lequien
               <br />
                 <small className={classes.smallTitle}>Alto</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                Altiste aux multiples facettes, Vinciane Béranger souhaite mieux faire connaître l’alto, et créer des ponts entre les diverses formes d’expression.
-                Membre du Quatuor Manfred jusqu’à 2008 ...
+                Isabelle Lequien débute l'apprentissage de la musique par le violon et le piano et se tourne très vite vers la sonorité chaleureuse de l'alto. Elle obtient en 1985 un1er prix au CNSM de Paris ...
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <Button size="large">
-                <Link to="/vinciane" className={classes.navLink}>
+                <Link to="/isabelle" className={classes.navLink}>
                   En savoir plus +
                 </Link>
                 </Button>

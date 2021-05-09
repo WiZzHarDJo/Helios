@@ -27,21 +27,37 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-        <h2 className={classes.title}>Vinciane Béranger</h2>
+        <h2 className={classes.title}>Isabelle Lequien</h2>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-            Altiste aux multiples facettes, Vinciane Béranger souhaite mieux faire connaître l’alto, et créer des ponts entre les diverses formes d’expression. Membre du Quatuor Manfred jusqu’à 2008, elle explore aujourd’hui de nouveaux horizons, car l’improvisation, la musique de son temps et le contact avec ses auteurs l’intéressent particulièrement. Les liens entre texte parlé et musique enrichissent son travail : représentation scénique autour de la musique ou de la littérature (spectacles autour de Berlioz, de Moby Dick), et théâtre musical (Rebotier et Aperghis). Avec sa viole d’amour, elle aborde les répertoires baroques et contemporains.
+          Isabelle Lequien débute l'apprentissage de la musique par le violon et le
+piano et se tourne très vite vers la sonorité chaleureuse de l'alto.
+Elle obtient en 1985 un1er prix au CNSM de Paris dans la classe de Colette Lequien.
+Passionnée de musique de chambre elle intègre le cycle de perfectionnement du
+CNSM dans la classe de Christian Ivaldi et fonde le quatuor avec piano Fidelio qui remporte le 1er prix "Sergio Lorenzi" au concours international de
+Trieste (Italie).
+
           </div>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-            Elle se produit régulièrement comme soliste avec des orchestres européens et américains et participe aux festivals Juventus à Cambrai, de Marlboro (USA), d’Ile de France, d’Aix en Provence, d’Auvers-sur-Oise, aux Folles Journées de Nantes, aux Rencontres musicales d’Evian, aux Flâneries de Reims… Titulaire du Certificat d’Aptitude d’alto, elle est actuellement professeur d’alto et d’improvisation au CRR de Saint-Maur-des-Fossés et au Conservatoire du 6ème arrondissement de Paris.
+          Elle devient l’altiste du quatuor à cordes Quad (avec Jeanne Marie Conquer-violon notamment) puis du trio Celmis avec Christophe Poiget-violon et Jean Ferry-violoncelle en 2018.
+Elle forme un duo avec le pianiste Aurélien pontier.
+Elle partage son activité musicale entre des concerts en
+soliste ou en musique de chambre (la Roque d'Anthéron, festivals de Stresa et de Malte, salle Gaveau à Paris,
+Théatres de St Quentin en Yvelines, du Rond Point des Champs Elysées à Paris, de la criée à
+Marseille, week ends de l'Ermitage à La Baule, les Estivales en Puisaye Forterre , etc..).
+
           </div>
         </GridItem>
         <GridItem>
           <div className={classes.subdescr}>
-            Admise à l’âge de 16 ans au Conservatoire National Supérieur de Musique de Paris dans la classe de Gérard Caussé, Vinciane Béranger obtient un premier prix d’alto à l’unanimité et un premier prix de musique de chambre. Elle s’est perfectionnée auprès de Kim Kashkashian en Allemagne et a achevé sa formation au Curtis Institute de Philadelphie en tant que lauréate de la Bourse Lavoisier du Ministère des Affaires Etrangères et du programme Fulbright. Lauréate du Connelly Memorial Prize au Concours International de Washington, et du Concours International de Rome, Deuxième Prix du Concours International de Berne, Premier Prix du Concours d’Illzach, elle est aussi lauréate de la Fondation Natexis-Banques Populaires. Elle joue un alto de Pietro Giovanni Mantegazza, daté de 1770.
+          Elle se tourne vers des expériences théâtrales d’abord au sein du trio « Arts d’Echos » (notamment « l’Hypothèse Mozart » pièce-musicale sur un texte de Frédéric Sounac, mise en scène Bernard Bloch à l’affiche la saison 2008-2009) puis seule avec deux monologues: « Madame Marguerite » » de Roberto Athayde et « Le Sas » de Michel Azama, en collaboration avec le compositeur Thierry Machuel mise en scène Karine Kadi, qu’elle joue au CRR de Boulogne Billancourt en 2017.
+Très attirée par la pédagogie elle obtient le CA d’alto en 1995.
+Elle enseigne depuis au CRD d’Auxerre et au CRR de Boulogne Billancourt.
+Elle rejoint Michel Michalakakos au CNSM de Paris en 1997 et Gérard Caussé en 2007.
+
           </div>
         </GridItem>
       </GridContainer>

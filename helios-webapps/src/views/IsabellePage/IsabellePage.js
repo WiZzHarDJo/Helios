@@ -44,7 +44,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/vincianne.jpg")}/>
+      <Parallax filter image={require("../../assets/img/isabelle.jpg")}/>
       <BrowserView>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
