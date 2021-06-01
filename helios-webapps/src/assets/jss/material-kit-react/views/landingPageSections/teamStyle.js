@@ -19,12 +19,15 @@ const teamStyle = {
     marginLeft: "auto",
     marginRight: "auto"
   },
-  cardTitle,
+  cardTitle:{
+    fontSize: "25px",
+  },
   smallTitle: {
     color: "#6c757d"
   },
   description: {
-    color: "#999"
+    color: "#999",
+    fontSize:"15px"
   },
   justifyCenter: {
     justifyContent: "center !important"
@@ -42,7 +45,18 @@ const teamStyle = {
   },
   margin5: {
     margin: "5px"
-  }
+  },
+  parent: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(550px, 1fr))",
+    gridTemplateRows: "repeat(2, 1fr)",
+    gridColumnGap: "2rem",
+    gridRowGap: "2rem",
+    },
+    div1: { gridArea: 1 / 1 / 2 / 2 },
+    div2: { gridArea: 1 / 2 / 2 / 3 },
+    div3 :{ gridArea: 2 / 1 / 3 / 2 },
+    div4: { gridArea: 2 / 2 / 3 / 3 }
 };
 
 export default teamStyle;

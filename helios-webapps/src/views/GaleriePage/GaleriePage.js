@@ -45,7 +45,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/galerie.jpg")}>
+      <Parallax image={require("../../assets/img/tri/galerie.jpg")}>
       <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -57,16 +57,16 @@ export default function LandingPage(props) {
       <BrowserView>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <Videos />
           <Photos />
+          <Videos />
         </div>
       </div>
       </BrowserView>
       <MobileView>
       <div className={classNames(classes.main)}>
         <div className={classes.container}>
-          <Videos />
           <Photos />
+          <Videos />
         </div>
       </div>
       </MobileView>

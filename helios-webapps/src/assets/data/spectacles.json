@@ -56,46 +56,52 @@
         "info":"Durée : 50mn, créé en 2012",
         "ecole":{
             "1":{
+                "author":"Françoise Sabatier-Morel, Récompensé par TT sur Télérama",
+                "alt":"Récompensé par TT sur Télérama",
+                "photo":"telerama-logo.jpg",
+                "text":"Mozart, un enfant prodige ou un enfant comme les autres ? L’un et l’autre, comme le montre le récit de son enfance entre quotidien, musique, voyages à travers l’Europe du XVIIIe siècle. L’histoire se raconte dans un dialogue où la voix de l’enfant se mêle à celle de l’artiste devenu adulte, avec ses souvenirs et la musique qui les fait naître. Dans un décor de chambre enfantine, l’Ensemble Hélios, composé d’une flûtiste et d’un trio à cordes, accompagne un comédien, qui incarne le musicien et donne vie à deux marionnettes représentant le petit Amadeus et sa sœur Nannerl. Ecrite par la flûtiste Christel Rayneau, cette promenade en terre mozartienne constitue une belle entrée dans l’univers musical du compositeur."
+            },
+            "2":{
                 "author":"11 écoles et 1000 enfants au concert, 31 Mai 2015",
                 "alt":"La république du centre",
                 "text":"340 enfants ont investi l'espace Georges-Blareau, à Sully, pour assister au concert scolaire organisé par les Amis du festival, vendredi. Depuis jeudi se succèdent de nombreuses écoles du canton dans la salle de spectacle. L'école du Centre et l'école Jeanne-d'Arc de Sully ainsi que l'école de Dampierre-en-Burly ont envoyé leurs classes du CP au CM2. Les petits auditeurs ont su apprécier la prestation du quatuor Hélios. Sur les airs les plus connus de Wolfgang Amadeus Mozart, un comédien et les quatre musiciens ont recréé l'univers du jeune prodige, âgé de six ans lorsqu'il commença à composer. Ce fut un voyage dans le temps avec Wolfi, marionnette de Mozart et celle de sa soeur Nannerl qui parcourut l'Europe en famille. Rires et applaudissements ont prouvé que le spectacle avait tenu toutes ses promesses ; puissance musicale et jeux de scènes d'envergures ont touché les enfants. "
             },
-            "2":{
+            "3":{
                 "author":"M-C Oberthur",
                 "alt":"Ecole active Bilingue, 75015",
                 "text":"Bravo à tous les musiciens pour ce très beau spectacle ! Bravo au comédien qui fait vivre Mozart ! Et bravo à Mozart, sans qui nous ne serions pas là aujourd'hui ! MERCI !"
             },
-            "3":{
+            "4":{
                 "author":"Mme Duclos-Leconte",
                 "alt":"CE2 Ecole Etienne Marcel, Paris",
                 "text":"Très beau spectacle tant visuel que pour nos oreilles, très adapté aux enfants, dossier pédagogique très bien pour le cycle 3. Félicitations"
             },
-            "4":{
+            "5":{
                 "author":"M. Thomas Professeur de musique ",
                 "alt":"Ecole St Louis, Paris",
                 "text":"Spectacle simple, sensible et original ! A reproduire avec d'autres compositeurs !"
             },
-            "5":{
+            "6":{
                 "author":"Mme Charbit",
                 "alt":"CP Ecole Gustave Leven, Paris",
                 "text":"Bravo ! Très belle interprétation dans un cadre magnifique. Grâce à ce spectacle, j'ai pu introduire en classe de la musique classique, et évoquer la vie de Mozart. Merci infiniement."
             },
-            "6":{
+            "7":{
                 "author":"C. Mancion",
                 "alt":"Ecole Boissière, Paris",
                 "text":"Ne changez rien ! Beaucoup d'émotions... C'est magnifique"
             },
-            "7":{
+            "8":{
                 "author":"",
                 "alt":"Ecole ST Jean de Passy, Paris",
                 "text":"Quelle belle prestation ! Bravo pour cette initiative de faire connaitre Mozart aux enfants.. On en redemande plus souvent pour découvrir d'autres musiciens. Merci à vous de la part des enfants de mon CP."
             },
-            "8":{
+            "9":{
                 "author":"MD Calliies",
                 "alt":"9éme1 Ecole Franklin, Paris",
                 "text":"Merci beaucoup ! Quels talents ! C'était très adapté aux enfants"
             },
-            "9":{
+            "10":{
                 "author":"Mme le Flohic",
                 "alt":"Ecole de la rue des Bauches, Paris",
                 "text":"Spectacle très intéressant. Les enfants ont été attentifs et ont beaucoup apprécié."

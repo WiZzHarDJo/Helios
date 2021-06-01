@@ -74,7 +74,7 @@ export default function Footer(props) {
           >
             Joaquim Giret-Imhaus
           </a>{" "}
-          pour Hélios.
+          pour l'Ensemble Hélios.
               </div>
             </ListItem>
           </List>

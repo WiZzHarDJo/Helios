@@ -2,11 +2,15 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+import "./responsive.css";
+
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+
+import arbre from "../../../assets/img/tri/arbre.jpg"
 
 const useStyles = makeStyles(styles);
 
@@ -20,6 +24,8 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <GridContainer>
+        <div style={{display:"flex", alignItems: "center", marginBottom:"20px"}} className="responsive">
+        <img src={arbre} className="responsiveImg"/>
         <GridItem>
           <p className={classes.subdescr}>
             Bien plus que la rencontre fortuite d’une flûtiste et d’un trio à cordes, l’Ensemble HÉLIOS est une formation constituée, réunissant quatre artistes dont l'engagement et le talent portent le genre du quatuor pour flûte et cordes à son plein épanouissement. Articulé autour d'un quatuor flûte et trio à cordes, les musiciens d'Hélios se présentent aussi en géométrie variable. La harpe s'ajoute souvent  à la formation pour le répertoire du quintette flûte, trio à cordes et harpe. Duos et trios apparaissent aussi dans les programmations.
@@ -30,6 +36,9 @@ export default function ProductSection() {
           <p className={classes.subdescr}>
             Leur répertoire comprend aujourd’hui plus de deux cents quatuors couvrant les époques classique et romantique, et la première moitié du XXe siècle. Leur redécouverte – ponctuée d’un premier enregistrement mondial – des exceptionnels quatuors de Ferdinand Ries (1784-1838) a marqué une étape décisive dans la remise en lumière de ce répertoire.
           </p>
+        </GridItem>
+        </div>
+        <GridItem>
           <p className={classes.subdescr}>
             Par ailleurs, ils allient leur passion de la musique de chambre à un engagement constant pour la musique contemporaine. Ils ont rapidement suscité de nombreuses compositions nouvelles et assurent chaque année plusieurs créations (80 oeuvres dédiées à ce jour). 
           </p>

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Components from "./views/Components/Components";
 import SpectaclePage from "./views/SpectaclePage/SpectaclePage";
 import ConcertPage from './views/ConcertPage/ConcertPage';
 import HeliosPage from "./views/HeliosPage/HeliosPage";
@@ -40,7 +39,6 @@ const routes = () => {
         <Route path="/presse" exact component={PressePage}/>
         <Route path="/mecenat" exact component={MecenatPage}/>
         <Route path="/login-page" component={LoginPage} />
-        <Route path="/components" component={Components} />
         <Route path="/oeuvres" component={OeuvresPage} />
         <Route path="/programme" component={ProgramPage} />
         <Route path="/classique" component={ClassiquePage} />

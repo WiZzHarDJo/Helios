@@ -1,0 +1,18 @@
+.responsiveImg {
+  width: 30vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .responsive {
+      flex-direction: column-reverse;
+    }
+    .responsiveImg {
+        width: 50vw;
+      }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .responsiveImg {
+        width: 70vw;
+      }
+  }

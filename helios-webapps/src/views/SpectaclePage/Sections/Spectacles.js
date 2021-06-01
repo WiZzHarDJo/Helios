@@ -56,7 +56,7 @@ export default function ProductSection() {
         {
           spectacle.ecole != null &&
 
-          <MyCarouselProf title="La presse en parle" autoplay frames={spectacle.ecole}/>
+          <MyCarousel title="La presse en parle" autoplay frames={spectacle.ecole}/>
         }
         <div className={classes.rectorat}>
             <img src={rectoratLogo} alt="Logo du rectorat" className={classes.rectoratImg}/>
