@@ -1,20 +1,18 @@
 [
-    {
-        "author":"Igor Bogoulavsky, (Premier alto solo du Bolchoï Théâtre de Moscou, professeur au Conservatoire Gnessin de Moscou)",
-        "alt":"Bolshoi",
-        "photo":"bolshoi-logo-big.gif",
-        "text":"J’ai été ravi et enthousiasmé de l’interprétation musicale de votre formation. L’exécution était d’une richesse admirable quant aux langages et coloris de la palette musicale, avec finesse d’interprétation et une grande maîtrise de chacune des musiciens. Sans aucun doute, le Quatuor HÉLIOS fait partie des meilleurs ensembles de musique de chambre européens"
-    },
-    {
-        "author":"Henri Dutilleux, compositeur de musique classique et contemporaine",
-        "text":"J'étais impatient d'écouter le CD du Quatuor Hélios, consacré à des oeuvres du 20ème siècle. Je vous prie de partager avec vos partenaires mes compliments pour la finesse des interprétations."
-    },
-    {
-        "author":"Serge Grégory, (Mensuel Répertoire)",
-        "text":"Les oeuvres d’Alain Louvier, Rui Martins et Jean-René Combes-Damiens furent écrites à l’intention de l’Ensemble HÉLIOS. Ses membres s’y montrent d’enthousiastes interprètes (…). Dans un état de totale concentration, de complet investissement, le quatuor saisit toutes ces pages à bras-le corps."
-    },
-    {
-        "author":"Bernard Pierreuse, (flûtiste, soliste de l’Orchestre de Liège, enseignant et auteur de l’ouvrage de référence 'Flûte Littérature' / éd. Jobert/Transtalantiques)",
-        "text":"J'ai bien reçu votre CD et suis parfaitement conquis, tout d'abord par ce programme panorama de ce siècle, et par le magnifique engagement musical de l'Ensemble."
-    }
+  {
+    "author": "Igor Bogoulavsky, (Premier alto solo du Bolchoï Théâtre de Moscou, professeur au Conservatoire Gnessin de Moscou)",
+    "text": "J’ai été ravi et enthousiasmé de l’interprétation musicale de votre formation. L’exécution était d’une richesse admirable quant aux langages et coloris de la palette musicale, avec finesse d’interprétation et une grande maîtrise de chacune des musiciens. Sans aucun doute, le Quatuor HÉLIOS fait partie des meilleurs ensembles de musique de chambre européens"
+  },
+  {
+    "author": "Henri Dutilleux, compositeur de musique classique et contemporaine",
+    "text": "J'étais impatient d'écouter le CD du Quatuor Hélios, consacré à des oeuvres du 20ème siècle. Je vous prie de partager avec vos partenaires mes compliments pour la finesse des interprétations."
+  },
+  {
+    "author": "Serge Grégory, (Mensuel Répertoire)",
+    "text": "Les oeuvres d’Alain Louvier, Rui Martins et Jean-René Combes-Damiens furent écrites à l’intention de l’Ensemble HÉLIOS. Ses membres s’y montrent d’enthousiastes interprètes (…). Dans un état de totale concentration, de complet investissement, le quatuor saisit toutes ces pages à bras-le corps."
+  },
+  {
+    "author": "Bernard Pierreuse, (flûtiste, soliste de l’Orchestre de Liège, enseignant et auteur de l’ouvrage de référence 'Flûte Littérature' / éd. Jobert/Transtalantiques)",
+    "text": "J'ai bien reçu votre CD et suis parfaitement conquis, tout d'abord par ce programme panorama de ce siècle, et par le magnifique engagement musical de l'Ensemble."
+  }
 ]

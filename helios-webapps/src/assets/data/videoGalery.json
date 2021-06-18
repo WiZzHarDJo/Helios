@@ -1,69 +1,77 @@
 [
-    {
-        "title":"Quatuor pour Tango (LUYPAERTS)",
-        "src":"oPg8IBd6ym8",
-        "legend":""
-    },{
-        "title":"Trio Milonga funerale (LEDEUIL)",
-        "src":"x5xw4RrHKz4",
-        "legend":""
-    },{
-        "title":"Trio Tango nostalgias (LEDEUIL)",
-        "src":"kOqbUN7kmm0",
-        "legend":""
-    },{
-        "title":"Ucelli della Luna de Fabrice Gregorutti",
-        "src":"GL3mr_oG26M",
-        "legend":""
-    },
-    {
-        "title":"Eglise d'Etais Les Sauvins, 25 septembre 2011",
-        "src":"UQAJFcZfFQ0",
-        "legend":""
-    },
-    {
-        "title":"Shutters Shut de Finzi",
-        "src":"yayAZo3QH1U",
-        "legend":""
-    },
-    {
-        "title":"3 préludes de Debussy",
-        "src":"SWfT6SeMzGY",
-        "legend":""
-    },
-    {
-        "title":"Océan de Alain Kremski",
-        "src":"MwVgdH7UA-U",
-        "legend":"Captation en direct Festival des Forêts, juin 2016"
-    },
-    {
-        "title":"Wendling, 1er Mouvement opus 10/1",
-        "src":"2rQQmtKgYpw",
-        "legend":"Captation en direct (Mairie du 4ème, février 2013) et montage : Guy Vernet"
-    },
-    {
-        "title":"La Légende de Saint Julien l’Hospitalier de Benoît Menut - 28 juin 2015",
-        "src":"VpBJF5n9um8",
-        "legend":"Commande et Création : Festival des Forêts 28 juin 2015 captation en direct"
-    },
-    {
-        "title":"Substance, pour flûte et trio à cordes, de Virginie Aster",
-        "src":"DQ_0hAu3Rtw",
-        "legend":"Concert de création 2012, captation en direct"
-    },
-    {
-        "title":"Thierry Escaïch, Variations Gothiques",
-        "src":"4me3Z9ypBGo",
-        "legend":"Captation en direct (Mairie du 4ème, février 2013) et montage : Guy Vernet"
-    },
-    {
-        "title":"J.C. Bach Quatuor n°4 / IX",
-        "src":"9rm0-cTZZEU",
-        "legend":" Captation en direct (Mairie du 4ème, février 2013) et montage : Guy Vernet"
-    },
-    {
-        "title":"Fantaisie Pastorale de Doppler (adaptation T. Perrine)",
-        "src":"Y2IM4KKAkUY",
-        "legend":"Captation en direct ( Mairie du 4ème, février 2013) et montage : Guy Vernet"
-    }
+  {
+    "title": "Quatuor pour Tango (LUYPAERTS)",
+    "src": "oPg8IBd6ym8",
+    "legend": ""
+  },
+  {
+    "title": "Trio Milonga funerale (LEDEUIL)",
+    "src": "x5xw4RrHKz4",
+    "legend": ""
+  },
+  {
+    "title": "Trio Tango nostalgias (LEDEUIL)",
+    "src": "kOqbUN7kmm0",
+    "legend": ""
+  },
+  {
+    "title": "Ucelli della Luna de Fabrice Gregorutti",
+    "src": "GL3mr_oG26M",
+    "legend": ""
+  },
+  {
+    "title": "Eglise d'Etais Les Sauvins, 25 septembre 2011",
+    "src": "UQAJFcZfFQ0",
+    "legend": ""
+  },
+  {
+    "title": "Shutters Shut de Finzi",
+    "src": "yayAZo3QH1U",
+    "legend": ""
+  },
+  {
+    "title": "3 préludes de Debussy",
+    "src": "SWfT6SeMzGY",
+    "legend": ""
+  },
+  {
+    "title": "Océan de Alain Kremski",
+    "src": "MwVgdH7UA-U",
+    "legend": "Captation en direct Festival des Forêts, juin 2016"
+  },
+  {
+    "title": "Wendling, 1er Mouvement opus 10/1",
+    "src": "2rQQmtKgYpw",
+    "legend": "Captation en direct (Mairie du 4ème, février 2013) et montage : Guy Vernet"
+  },
+  {
+    "title": "La Légende de Saint Julien l’Hospitalier de Benoît Menut - 28 juin 2015",
+    "src": "VpBJF5n9um8",
+    "legend": "Commande et Création : Festival des Forêts 28 juin 2015 captation en direct"
+  },
+  {
+    "title": "Substance, pour flûte et trio à cordes, de Virginie Aster",
+    "src": "DQ_0hAu3Rtw",
+    "legend": "Concert de création 2012, captation en direct"
+  },
+  {
+    "title": "Thierry Escaïch, Variations Gothiques",
+    "src": "4me3Z9ypBGo",
+    "legend": "Captation en direct (Mairie du 4ème, février 2013) et montage : Guy Vernet"
+  },
+  {
+    "title": "J.C. Bach Quatuor n°4 / IX",
+    "src": "9rm0-cTZZEU",
+    "legend": " Captation en direct (Mairie du 4ème, février 2013) et montage : Guy Vernet"
+  },
+  {
+    "title": "Fantaisie Pastorale de Doppler (adaptation T. Perrine)",
+    "src": "Y2IM4KKAkUY",
+    "legend": "Captation en direct ( Mairie du 4ème, février 2013) et montage : Guy Vernet"
+  },
+  {
+    "title": "Enregistrement du CD d'Antoine Tisné, Les voix de l'ombre",
+    "src": "KxwHEkRXPWs",
+    "legend": ""
+  }
 ]

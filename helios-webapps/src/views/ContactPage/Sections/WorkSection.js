@@ -21,8 +21,10 @@ export default function WorkSection() {
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Construisez des projets avec nous</h2>
-          <h4 className={classes.description}>
-            Décrivez en quelques lignes de quelle manière vous souhaitez avoir une collaboration avec l'ensmble Hélios. Nous reviendrons vers vous en quelques jours.
+          <h4 className={classes.subdescr}>
+            Décrivez en quelques lignes de quelle manière vous souhaitez avoir
+            une collaboration avec l'Ensemble Hélios. Nous reviendrons vers vous
+            en quelques jours.
           </h4>
           <form>
             <GridContainer>
@@ -31,7 +33,7 @@ export default function WorkSection() {
                   labelText="Votre Nom"
                   id="name"
                   formControlProps={{
-                    fullWidth: true
+                    fullWidth: true,
                   }}
                 />
               </GridItem>
@@ -40,7 +42,7 @@ export default function WorkSection() {
                   labelText="Votre Email"
                   id="email"
                   formControlProps={{
-                    fullWidth: true
+                    fullWidth: true,
                   }}
                 />
               </GridItem>
@@ -49,16 +51,16 @@ export default function WorkSection() {
                 id="message"
                 formControlProps={{
                   fullWidth: true,
-                  className: classes.textArea
+                  className: classes.textArea,
                 }}
                 inputProps={{
                   multiline: true,
-                  rows: 5
+                  rows: 5,
                 }}
               />
               <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                  <Button color="primary">Envoyer votre Message</Button>
+                  <Button color="info">Envoyer votre Message</Button>
                 </GridItem>
               </GridContainer>
             </GridContainer>

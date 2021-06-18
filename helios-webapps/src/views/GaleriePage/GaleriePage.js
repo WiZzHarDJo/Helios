@@ -4,16 +4,13 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import {
-  BrowserView,
-  MobileView
-} from "react-device-detect";
+import { BrowserView, MobileView } from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
 import Footer from "../../components/Footer/Footer.js";
 import GridContainer from "../../components/Grid/GridContainer.js";
-import GridItem from "../../components/Grid/GridItem.js"
+import GridItem from "../../components/Grid/GridItem.js";
 import HeaderLinks from "../../components/Header/HeaderLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 
@@ -22,7 +19,6 @@ import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import Videos from "./Sections/Videos";
 import Photos from "./Sections/Photos";
-
 
 const dashboardRoutes = [];
 
@@ -41,34 +37,36 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
       <Parallax image={require("../../assets/img/tri/galerie.jpg")}>
-      <div className={classes.container}>
+        <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>L'Ensemble Hélios, une galerie de belles musiques</h1>
+              <h1 className={classes.title}>
+                L'Ensemble Hélios, photos et videos
+              </h1>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
       <BrowserView>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          <Photos />
-          <Videos />
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+            <Photos />
+            <Videos />
+          </div>
         </div>
-      </div>
       </BrowserView>
       <MobileView>
-      <div className={classNames(classes.main)}>
-        <div className={classes.container}>
-          <Photos />
-          <Videos />
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>
+            <Photos />
+            <Videos />
+          </div>
         </div>
-      </div>
       </MobileView>
       <Footer />
     </div>
