@@ -159,8 +159,7 @@ export default function ProductSection() {
           {programmation.length && _.map(newprogra, renderProgrammation)}
         </BrowserView>
         <MobileView>
-          {programmation.length &&
-            _.map(programmation, renderProgrammationMobile)}
+          {programmation.length && _.map(newprogra, renderProgrammationMobile)}
         </MobileView>
       </GridContainer>
     </div>

@@ -531,7 +531,7 @@ export default function ProductSection() {
                 </p>
                 <p className={classes.subdescr}>
                   Les oeuvres basques pour piano de Charles BORDES figurent sur
-                  ce CD, interprétées par François-René Duchâche et Olivier
+                  ce CD, interprétées par François-René Duchâble et Olivier
                   Laville. <br />
                   <br />
                   Le pianiste François-René Duchâble, qui avait entendu

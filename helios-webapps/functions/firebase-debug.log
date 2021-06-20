@@ -1,0 +1,58 @@
+[debug] [2021-06-20T23:38:25.226Z] ----------------------------------------------------------------------
+[debug] [2021-06-20T23:38:25.228Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\joaqu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-06-20T23:38:25.229Z] CLI Version:   9.13.1
+[debug] [2021-06-20T23:38:25.229Z] Platform:      win32
+[debug] [2021-06-20T23:38:25.229Z] Node Version:  v14.15.4
+[debug] [2021-06-20T23:38:25.230Z] Time:          Mon Jun 21 2021 01:38:25 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2021-06-20T23:38:25.230Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-20T23:38:25.237Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-20T23:38:25.237Z] > authorizing via signed-in user (joaquim.imhaus@gmail.com)
+[debug] [2021-06-20T23:38:25.237Z] [iam] checking project helios-contact-form for permissions ["firebase.projects.get"]
+[debug] [2021-06-20T23:38:25.239Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/helios-contact-form:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-06-20T23:38:25.855Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 20 Jun 2021 23:38:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=547","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-20T23:38:25.879Z] [functions] Using node@14 from host.
+[debug] [2021-06-20T23:38:25.880Z] defaultcredentials: writing to file C:\Users\joaqu\AppData\Roaming\firebase\joaquim_imhaus_gmail.com_application_default_credentials.json
+[debug] [2021-06-20T23:38:25.882Z] DEBUG: Setting GAC to C:\Users\joaqu\AppData\Roaming\firebase\joaquim_imhaus_gmail.com_application_default_credentials.json
+[debug] [2021-06-20T23:38:25.884Z] > refreshing access token with scopes: []
+[debug] [2021-06-20T23:38:25.884Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-20T23:38:25.966Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 20 Jun 2021 23:38:27 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-20T23:38:25.974Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/helios-contact-form/adminSdkConfig [none]
+[debug] [2021-06-20T23:38:26.279Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/helios-contact-form/adminSdkConfig 200
+[debug] [2021-06-20T23:38:26.279Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/helios-contact-form/adminSdkConfig {"projectId":"helios-contact-form","storageBucket":"helios-contact-form.appspot.com","locationId":"europe-west"}
+[debug] [2021-06-20T23:38:26.288Z] [functions] Watching "C:\Users\joaqu\Desktop\Projets\Helios\helios-webapps\functions" for Cloud Functions...
+[debug] [2021-06-20T23:38:26.300Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-06-20T23:38:26.300Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-06-20T23:38:26.300Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-06-20T23:38:26.300Z] DEBUG: [worker-~diagnostic~-4173bfcb-91f5-4541-a085-a0fd518ea88e]: Assigning socketPath: \\?\pipe\C:\Users\joaqu\Desktop\Projets\Helios\helios-webapps\functions\31448
+[debug] [2021-06-20T23:38:26.300Z] DEBUG: [worker-~diagnostic~-4173bfcb-91f5-4541-a085-a0fd518ea88e]: BUSY
+[debug] [2021-06-20T23:38:26.484Z] DEBUG: [runtime-status] [31448] Functions runtime initialized. {"cwd":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions","node_version":"14.15.4"}
+[debug] [2021-06-20T23:38:26.485Z] DEBUG: [runtime-status] [31448] Disabled runtime features: undefined
+[debug] [2021-06-20T23:38:26.487Z] DEBUG: [runtime-status] [31448] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.9.0","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.489Z] DEBUG: [runtime-status] [31448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.14.1","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.490Z] DEBUG: [runtime-status] [31448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.14.1","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.492Z] DEBUG: [runtime-status] [31448] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-06-20T23:38:26.492Z] DEBUG: [runtime-status] [31448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.14.1","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.545Z] DEBUG: [runtime-status] [31448] Checked functions.config() {"config":{}}
+[debug] [2021-06-20T23:38:26.545Z] DEBUG: [runtime-status] [31448] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.14.1","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2021-06-20T23:38:26.545Z] DEBUG: [runtime-status] [31448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.14.1","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.546Z] DEBUG: [runtime-status] [31448] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.9.0","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.546Z] DEBUG: [runtime-status] [31448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.14.1","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-06-20T23:38:26.547Z] DEBUG: [runtime-status] [31448] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.9.0","resolution":"C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (C:\Users\joaqu\Desktop\Projets\Helios\helios-webapps\functions\index.js:6:44)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at initializeRuntime (C:\Users\joaqu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:684:29)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async handleMessage (C:\Users\joaqu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:723:20) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (C:\\Users\\joaqu\\Desktop\\Projets\\Helios\\helios-webapps\\functions\\index.js:6:44)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at initializeRuntime (C:\\Users\\joaqu\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:684:29)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async handleMessage (C:\\Users\\joaqu\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:723:20)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2021-06-20T23:38:26.624Z] DEBUG: [worker-~diagnostic~-4173bfcb-91f5-4541-a085-a0fd518ea88e]: exited
+[debug] [2021-06-20T23:38:26.624Z] DEBUG: [worker-~diagnostic~-4173bfcb-91f5-4541-a085-a0fd518ea88e]: FINISHED
