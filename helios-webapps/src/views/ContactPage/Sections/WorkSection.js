@@ -41,7 +41,7 @@ export default function WorkSection() {
   };
   const sendEmail = () => {
     Axios.post(
-      "https://us-central1-contactformlisting.cloudfunctions.net/submit",
+      "https://us-central1-helios-contact-form.cloudfunctions.net/submit",
       formData
     )
       .then((res) => {
@@ -58,6 +58,8 @@ export default function WorkSection() {
 
     setSuccessSnack(true);
   };
+
+  console.log(formData);
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
