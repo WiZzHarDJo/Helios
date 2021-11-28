@@ -13,7 +13,6 @@ import { Email } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "./../CustomDropdown/CustomDropdown.js";
-import Button from "./../CustomButtons/Button.js";
 
 import styles from "./../../assets/jss/material-kit-react/components/headerLinksStyle.js";
 
@@ -37,11 +36,11 @@ export default function HeaderLinks(props) {
             "Edition Musicale",
             "Soutenez-nous",
           ]}
-          dropdownLinks={["/helios", "/discographie", "/edition", "/mecenat"]}
+          dropdownLinks={["/", "/discographie", "/edition", "/mecenat"]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/" className={classes.navLink}>
+        <Link to="/concerts" className={classes.navLink}>
           Concerts
         </Link>
       </ListItem>

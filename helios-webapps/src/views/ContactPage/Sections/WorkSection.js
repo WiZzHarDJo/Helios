@@ -68,7 +68,7 @@ export default function WorkSection() {
           <h4 className={classes.subdescr}>
             Décrivez en quelques lignes de quelle manière vous souhaitez avoir
             une collaboration avec l'Ensemble Hélios. Nous reviendrons vers vous
-            en quelques jours.
+            très rapidement.
           </h4>
         </GridItem>
         {successSnack && (

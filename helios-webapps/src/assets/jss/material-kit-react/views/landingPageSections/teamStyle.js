@@ -32,6 +32,10 @@ const teamStyle = {
     color: "#999",
     fontSize: "15px",
   },
+  bigDescription: {
+    color: "#999",
+    fontSize: "20px",
+  },
   justifyCenter: {
     justifyContent: "center !important",
   },

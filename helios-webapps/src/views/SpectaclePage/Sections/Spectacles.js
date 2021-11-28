@@ -57,7 +57,7 @@ export default function ProductSection() {
         )}
         {spectacle.ecole != null && (
           <MyCarousel
-            title="La presse en parle"
+            title="Ils en parlent"
             autoplay
             frames={spectacle.ecole}
           />
@@ -124,16 +124,17 @@ export default function ProductSection() {
             Soucieux de ne pas se cantonner dans le rôle du musicien classique,
             curieux d’élargir ses modes d’expression et de toucher un public
             familial, l'Ensemble Hélios écrit et produit ses spectacles. <br />
+            <br />
             Christel Rayneau, Directrice artistique de l'Ensemble Hélios créé
             les textes et les livrets pédagogiques. Tous ses spectacles ont reçu
             l'habilitation de la délégation académique aux arts et à la culture
             du rectorat de Paris.
           </h5>
-          <h6>
-            • « <b>Comment Mozart vient aux enfants ?</b> » <br />• «{" "}
-            <b>Debussy, Miss et Chouchou</b> » <br />• «<b>J'suis diffférent</b>{" "}
-            » <br />
-          </h6>
+          {/* <p className={classes.subdescr}>
+            <h4>• « Comment Mozart vient aux enfants ? »</h4>
+            <h4>• « Debussy, Miss et Chouchou »</h4>
+            <h4>• « J'suis diffférent »</h4>
+          </p> */}
         </GridItem>
       </GridContainer>
       <GridContainer>
