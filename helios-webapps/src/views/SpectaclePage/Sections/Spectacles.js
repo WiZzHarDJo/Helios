@@ -18,7 +18,7 @@ import _ from "lodash";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
-import rectoratLogo from "./../../../assets/img/logo-rectorat.jpg";
+import rectoratLogo from "./../../../assets/img/logo/logo-rectorat.jpg";
 
 import spectacleData from "./../../../assets/data/spectacles.json";
 

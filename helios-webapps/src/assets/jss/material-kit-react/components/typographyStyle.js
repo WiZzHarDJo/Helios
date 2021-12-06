@@ -60,7 +60,6 @@ const typographyStyle = {
   quoteAuthor: {
     display: "block",
     fontSize: "80%",
-    fontSize: "16px",
     fontWeight: "bold",
     color: "#777",
   },

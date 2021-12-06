@@ -3,210 +3,280 @@
     "author": "Thierry PECOU",
     "birth": "(né en 1965)",
     "creation": "Création : Beynes, La Barbacane - mai 1996",
+    "imageUrl": "https://images.unsplash.com/photo-1472312656035-eeef4726de6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG9yY2hlc3RyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Quatuor II"
   },
   {
     "author": "Rui MARTINS",
     "birth": "(né en 1958)",
     "creation": "Création : Paris, Eglise St Roch - 18 janvier 1997",
+    "imageUrl": "https://images.unsplash.com/photo-1611920507986-b41638a9054f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    "black": false,
     "name": "Labyrinthe"
   },
   {
     "author": "Thierry ESCAÏCH",
     "birth": "(né en 1965)",
     "creation": "Création : Festival de St-Prouant, Vendée - 1998",
+    "imageUrl": "https://images.unsplash.com/photo-1462952895297-8fd4123c3113?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Variations gothiques (Commande du Ministère de la Culture)"
   },
   {
     "author": "Paul MEFANO",
     "birth": "(né en 1937)",
     "creation": "Création : Versailles, Galerie du Petit Trianon - 1998",
+    "imageUrl": "https://images.unsplash.com/photo-1581161462962-d0faecc52557?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Hélios"
   },
   {
     "author": "Jean-René COMBES-DAMIENS",
     "birth": "(né en 1957)",
     "creation": "Création : Société Nationale de musique, Paris - 15 février 1999",
+    "imageUrl": "https://images.unsplash.com/photo-1533594285052-5a88351dab21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hhZG93JTIwd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "…Son ombre (sur un poème de Samuel Beckett)"
   },
   {
     "author": "Alain LOUVIER",
     "birth": "(né en 1945)",
     "creation": "Création : Perpignan, Festival Aujourd’hui Musiques - 29 novembre 1999",
+    "imageUrl": "https://images.unsplash.com/photo-1529788295308-1eace6f67388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNsaXBzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Eclipse"
   },
   {
     "author": "Sophie LACAZE",
     "birth": "(née en 1963)",
     "creation": "Création : Massy, Espace Liberté - 8 octobre 2000",
+    "imageUrl": "https://images.unsplash.com/photo-1482160549825-59d1b23cb208?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG9ybiUyMGxldHRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": true,
     "name": "Broken words"
   },
   {
     "author": "Raùl MALDONADO & Robert COINEL",
     "birth": "(né en 1937 & né en 1950)",
     "creation": "Création : Levallois Perret, Festival Ravel - 14 juin 2001",
+    "imageUrl": "https://images.unsplash.com/photo-1503340255617-313667ba2688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5kYWxvdXNpZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Soplos del sur"
   },
   {
     "author": "Jindrich FELD",
     "birth": "(1925-2007)",
     "creation": "Création : Festival International Flûtes 2002 d’Obernai - 11 avril 2002",
+    "imageUrl": "https://images.unsplash.com/photo-1543244001-b3206d7e83df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Nocturne, «en mémoire de Jean-Pierre Rampal»"
   },
   {
     "author": "Roman LEDIENOV",
     "birth": "(né en 1930)",
     "creation": "Création : Festival du Lot, Château de Montplan - 29 septembre 2002",
+    "imageUrl": "https://images.unsplash.com/photo-1482627988233-7c68311232ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Prélude et choral"
   },
   {
     "author": "Daniel TOSI",
     "birth": "(né en 1953)",
     "creation": "Création : Perpignan, Festival Aujourd’hui Musiques - 21 novembre 2002",
+    "imageUrl": "https://images.unsplash.com/photo-1502502277-679c4bce0757?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Vague… monolithique… complexée"
   },
   {
     "author": "Michaël GAVAZZI",
     "birth": "(né en 1970)",
     "creation": "Création : Perpignan, Festival Aujourd’hui Musiques - 21 novembre 2002",
+    "imageUrl": "https://images.unsplash.com/photo-1549849171-09f62448709e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3VufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Du soleil"
   },
   {
     "author": "Nicolas COYEZ",
     "birth": "(né en 1979)",
     "creation": "Création : Perpignan, Festival Aujourd’hui Musiques - 21 novembre 2002",
+    "imageUrl": "https://images.unsplash.com/photo-1561238160-3fd50893667f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Mélioya"
   },
   {
     "author": "Nicolas BACRI",
     "birth": "(né en 1961)",
     "creation": "Création : Perpignan, Festival Aujourd’hui Musiques - 21 novembre 2002",
+    "imageUrl": "https://images.unsplash.com/photo-1532722737563-4ba2d562319a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+    "black": false,
     "name": "Trois Nocturnes"
   },
   {
     "author": "Simon OGANESSIAN",
     "birth": "(né en 1940)",
     "creation": "Création : Aubervilliers, Espace Renaudie - 7 mars 2003",
-    "name": "Quatuor "
+    "imageUrl": "https://images.unsplash.com/photo-1613142659418-718b2ae6940d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=905&q=80",
+    "black": false,
+    "name": "Quatuor"
   },
   {
     "author": "Alina PIECHOWSKA",
     "birth": "(née en 1937)",
     "creation": "Création : Paris, CDMC - 8 mars 2004",
+    "imageUrl": "https://images.unsplash.com/photo-1619468153516-a3d994d014d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Quatuor n° 3, «Les Ephémères»"
   },
   {
     "author": "Doïna ROTARU",
     "birth": "(née en 1951)",
     "creation": "Création : Paris, CDMC - 8 mars 2004",
+    "imageUrl": "https://images.unsplash.com/photo-1562350683-774f43c5bdca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJhYnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Antara (Commande du Ministère de la Culture)"
   },
   {
     "author": "Graciane FINZI",
     "birth": "(née en 1945)",
     "creation": "Création : Paris, CDMC - 8 mars 2004",
+    "imageUrl": "https://images.unsplash.com/photo-1574236998825-f97c7226363c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW9vbiUyMHdpbmRvd3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "La lune à la fenêtre"
   },
   {
     "author": "Jean-Michel DAMASE",
     "birth": "(1928-2013)",
     "creation": "Création : Salle Cortot, Paris – 06 janvier 2006",
+    "imageUrl": "https://images.unsplash.com/photo-1499377193864-82682aefed04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=882&q=80",
+    "black": false,
     "name": "15 minutes"
   },
   {
     "author": "Ivane BELLOCQ",
     "birth": "(né en 1958)",
     "creation": "Création : Festival des Karellis – juillet 2006",
+    "imageUrl": "https://images.unsplash.com/photo-1506747958701-808cb3805b0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+    "black": false,
     "name": "Soleil noir"
   },
   {
     "author": "Mikhail BRONNER",
     "birth": "(né en 1952)",
     "creation": "Création : Festival d’automne de Moscou – novembre 2006",
+    "imageUrl": "https://images.unsplash.com/photo-1453828423292-392a660a502f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Time to remember"
   },
   {
     "author": "Michel DECOUST",
     "birth": "(né en 1936)",
     "creation": "Création : L’Archipel, Paris – 03 décembre 2006",
+    "imageUrl": "https://images.unsplash.com/photo-1619538212562-ae91f146661a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Je détisse l’étrange (Commande de Musique Nouvelle en Liberté)"
   },
   {
     "author": "Jean-René COMBES-DAMIENS",
     "birth": "(né en 1957)",
     "creation": "Création : Festival de Haute-Chevreuse – mars 2007",
+    "imageUrl": "https://images.unsplash.com/photo-1491398625058-068a549b86d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+    "black": false,
     "name": "La lumière fut parfaite…"
   },
   {
     "author": "Sophie LACAZE",
     "birth": "(née en 1963)",
     "creation": "Création : L’Archipel, Paris – 13 mai 2007",
+    "imageUrl": "https://images.unsplash.com/photo-1602847213180-50e43a80bef4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": true,
     "name": "L’agneau mystique"
   },
   {
     "author": "Charles CHAYNES",
     "birth": "(1925-2016)",
     "creation": "Création : Festival de l’abbaye de Lessay – 20 juillet 2007",
+    "imageUrl": "https://images.unsplash.com/photo-1600033505533-c05f8392124b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
+    "black": false,
     "name": "Images de la poésie grecque"
   },
   {
     "author": "Philippe HERSANT",
     "birth": "(né en 1948)",
     "creation": "Création : Salle Cortot, Paris – 20 décembre 2007",
+    "imageUrl": "https://images.unsplash.com/photo-1621003464605-d12c07691367?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+    "black": true,
     "name": "Héliades (Commande de l’association Vivace Arte)"
   },
   {
     "author": "Antoine DUHAMEL",
     "birth": "(1925-2014)",
     "creation": "Création : Valmondois – 16 février 2008",
+    "imageUrl": "https://images.unsplash.com/photo-1564356652943-f241b69e1cc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2luZG1pbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Daumier face à Don Quichotte"
   },
   {
     "author": "Jean-Baptiste DEVILLERS",
     "birth": "(né en 1953)",
     "creation": "Création : Festival de la Haute Vallée de Chevreuse - Eglise de Lévi St Nom (78) – 10 octobre 2008",
+    "imageUrl": "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Qui se récria (Commande du Ministère de la Culture)"
   },
   {
     "author": "Félix IBARRONDO",
     "birth": "(né en 1943)",
     "creation": "Création : Dimanches musicaux de Gif sur Yvette (91) – 18 janvier 2009",
+    "imageUrl": "https://images.unsplash.com/photo-1562575214-ffefa379432a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
+    "black": false,
     "name": "Uritz"
   },
   {
     "author": "Antoine DUHAMEL",
     "birth": "(1925-2014)",
     "creation": "Création : Auditorium du Grand Palais – Paris – 30 janvier 2009",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pablo_picasso_1.jpg",
+    "black": false,
     "name": "4 images de Picasso"
   },
   {
     "author": "Graciane FINZI",
     "birth": "(née en 1945)",
     "creation": "Création : Monastier-sur-Gazeil – 24 octobre 2009",
+    "imageUrl": "https://images.unsplash.com/photo-1491378630646-3440efa57c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Océan Mer"
   },
   {
     "author": "Jacques CASTEREDE",
     "birth": "(1926-2014)",
     "creation": "Création : Théâtre de Longjumeau – 22 janvier 2010",
+    "imageUrl": "https://images.unsplash.com/photo-1509396591411-549811e332fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Ombres et Clartés"
   },
   {
     "author": "Jean-René COMBES-DAMIEN",
     "birth": "(né en 1957)",
     "creation": "Création : Salle des fêtes de Saint-Mandé - 30mai 2011",
+    "imageUrl": "https://images.unsplash.com/photo-1617641992431-ebcf6c60c30b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Quintette pour flûte, violon, 2 altos et cello"
   },
   {
     "author": "Enzo GIECO",
     "birth": "(né en 1938)",
     "creation": "Création : Eglise d'Etais la sauvin - 25 septembre 2011",
+    "imageUrl": "https://images.unsplash.com/photo-1528569937393-ee892b976859?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Recuerdos de ma tierra"
   },
   {
     "author": "Graciane FINZI",
     "birth": "(née en 1945)",
     "creation": "Création : Le Grand Palais - 14 janvier 2012",
+    "imageUrl": "https://images.unsplash.com/photo-1591195219696-e9cc80367aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    "black": false,
     "name": "Shutters shut",
     "video": "https://youtu.be/yayAZo3QH1U"
   },
@@ -214,6 +284,8 @@
     "author": "Virginie ASTER",
     "birth": "(née en 1970)",
     "creation": "Création : Espace Gérard Philippe Fontenay sous bois – 5 février 2012 ",
+    "imageUrl": "https://images.unsplash.com/photo-1598763556084-70eb15b2dd75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "black": false,
     "name": "Substance ",
     "video": "https://youtu.be/DQ_0hAu3Rtw",
     "legend": "Concert de création 2012, captation en direct"
@@ -222,90 +294,120 @@
     "author": "Yoko KUBO",
     "birth": "(née en 1956)",
     "creation": "Création : Festival Musique au présent de Mâcon -12 octobre 2012",
+    "imageUrl": "https://images.unsplash.com/photo-1608562719218-920013a7a249?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "black": false,
     "name": "Rachis"
   },
   {
     "author": "Christel RAYNEAU",
     "birth": "(née en 1963)",
     "creation": "Création : Mairie du 7ème Paris -24 janvier 2013",
+    "imageUrl": "https://images.unsplash.com/photo-1614188045365-d939ecc018d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Hugo et nous"
   },
   {
     "author": "Guy Claude LUYPAERTS",
     "birth": "(né en 1949)",
     "creation": "Création : Mois Molière- Versailles 18 juin 2013",
+    "imageUrl": "https://images.unsplash.com/photo-1547382442-d17c21625a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80&h=300",
+    "black": false,
     "name": "Parfums de mer"
   },
   {
     "author": "Benoit MENUT",
     "birth": "(né en 1977)",
     "creation": "Création : Grand Palais 8 janvier 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=810&q=80",
+    "black": false,
     "name": "Danses"
   },
   {
     "author": "Gilles SCHUEHMACHER",
     "birth": "(né en 1977)",
     "creation": "Création : Angers Château du roi René 16 mars 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1529836668040-3af4843d9651?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Night of light"
   },
   {
     "author": "Krassimir TASKOV",
     "birth": "(né en 1955)",
     "creation": "Création : Centre culturel bulgare 4 avril 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1573671935872-7c0e2d096245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJlbGllZnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": true,
     "name": "Belief"
   },
   {
     "author": "Efrem PODGAITS",
     "birth": "(né en 1949)",
     "creation": "Création : Centre culturel bulgare 4 avril 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1519412666065-94acb3f8838f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Concertino"
   },
   {
     "author": "Valéry AUBERTIN",
     "birth": "(né en 1970)",
     "creation": "Création : Hôtel de Noailles St Germain 25 mai 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1523115191856-c203e76215a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmlyZCUyMHRha2luZyUyMG9mZnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Envol"
   },
   {
     "author": "Lucien GUERINEL",
     "birth": "(né en 1930)",
     "creation": "Création : Mois Molière Versailles juin 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1506202687253-52e1b29d3527?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Impressions d'automne"
   },
   {
     "author": "Alexandre GASPAROV",
     "birth": "(né en 1961)",
     "creation": "Création : Festival Belle-Ile en Mer juillet 2014",
+    "imageUrl": "https://images.unsplash.com/photo-1638317037996-f86e745cf657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG9yY2hlc3RyYSUyMGZsdXRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Quatuor avec flûte"
   },
   {
     "author": "Thérèse BRENET",
     "birth": "(née en 1935)",
     "creation": "Création : Eglise Ste Croix Paris 19 avril 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1554266183-2696fdafe3ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80&h=300",
+    "black": false,
     "name": "L'oiseau lyre "
   },
   {
     "author": "Alexandre OUZOUNOV",
     "birth": "(né en 1955)",
     "creation": "Création : mois Molière 19 juin 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1562569633-622303bafef5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "Léonides"
   },
   {
     "author": "Jacques LENOT",
     "birth": "(né en 1945)",
     "creation": "Création : Eglise Ste Croix Paris 19 avril 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1514213949578-58fe7b8ff146?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
+    "black": false,
     "name": "Quatuor avec flûte"
   },
   {
     "author": "Philippe RAYNAUD",
     "birth": "(né en 1956)",
     "creation": "Création : mois Molière 19 juin 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1570566920413-fd6410fec24c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGxldHRlciUyMGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "black": true,
     "name": "A comme....."
   },
   {
     "author": "Benoit MENUT",
     "birth": "(né en 1977)",
     "creation": "Commande et Création : Festival des Forêts 28 juin 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1548093190-e40f9b1b4082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "La légende de St Julien l'Hospitalier",
     "video": "https://youtu.be/VpBJF5n9um8"
   },
@@ -313,54 +415,72 @@
     "author": "Bruno DUCOL",
     "birth": "(né en 1949)",
     "creation": "Création : Festival de la Prée 17 mai 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1587571065775-0d2ae0c863e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=432&q=80&h=350",
+    "black": false,
     "name": "Hymne au soleil"
   },
   {
     "author": "Marco di BARI",
     "birth": "(né en 1958)",
     "creation": "Création : Festival de Belle Ile en mer 24 Juillet 2015",
+    "imageUrl": "https://images.unsplash.com/photo-1621685474063-40b5904d330c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+    "black": false,
     "name": "Et les ondes chantent, même..."
   },
   {
     "author": "Paul WEHAGE",
     "birth": "(né en 1963)",
     "creation": "",
+    "imageUrl": "https://images.unsplash.com/photo-1590867286409-5a5937ad5255?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "black": false,
     "name": "L'aube spirituelle"
   },
   {
     "author": "Jean-Thierry BOISSEAU ",
     "birth": "(né en 1949)",
     "creation": "",
+    "imageUrl": "https://media.istockphoto.com/photos/christmas-star-of-the-nativity-of-bethlehem-nativity-of-jesus-christ-picture-id1297022393?b=1&k=20&m=1297022393&s=170667a&w=0&h=9O0oYMtQZwXg8nHZRE4Zpvdzx8jyHz_S5FiQuIYpFdc=",
+    "black": false,
     "name": "L'astre qui sur nous veille encore"
   },
   {
     "author": "Pavel BIKOV",
     "birth": "(né en 1951)",
     "creation": "",
+    "imageUrl": "https://images.unsplash.com/photo-1513326738677-b964603b136d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+    "black": false,
     "name": "Rhapsodie sur des thèmes russes"
   },
   {
     "author": "Nicolas BACRI",
     "birth": "(né en 1961)",
     "creation": "Création : Maison Atelier Foujita 21 Mai 2016",
+    "imageUrl": "https://images.rtl.fr/~c/1200v800/rtl/www/1330576-leonard-tsuguharu-foujita.jpg",
+    "black": false,
     "name": "Hommage à Foujita (Commande de Musique nouvelle en Liberté)"
   },
   {
     "author": "Alessandro SOLBIATI",
     "birth": "(né en 1956)",
     "creation": "Création : Festival de Seine et Marne 22 Mai 2016",
+    "imageUrl": "https://leblogdephil.com/wp-content/uploads/2017/03/guernicagr.jpg",
+    "black": false,
     "name": "Guernica"
   },
   {
     "author": "John SERNEE",
     "birth": "(né en 1948)",
     "creation": "Création : Château de Courances 18 juin 2016",
+    "imageUrl": "https://images.unsplash.com/photo-1536633125620-8a3245c11ffa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1589&q=80",
+    "black": false,
     "name": "Flowers of sun"
   },
   {
     "author": "Alain KREMSKI",
     "birth": "(1940-2018)",
     "creation": "Création : Festival des forêts 26 juin 2016",
+    "imageUrl": "https://images.unsplash.com/photo-1559962219-f52ccd86944e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Océan",
     "video": "https://youtu.be/MwVgdH7UA-U",
     "legend": "Captation en direct Festival des Forêts juin 2016"
@@ -369,30 +489,40 @@
     "author": "Antonin REY",
     "birth": "(né en 1987)",
     "creation": "Création : 23 avril 2017 Galeries Nationales du Grand Palais ",
+    "imageUrl": "https://images.unsplash.com/photo-1567515175297-ae6359e5b187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    "black": true,
     "name": "L'appel du marbre"
   },
   {
     "author": "Tobias FEIERABEND",
     "birth": "(né en 1993)",
     "creation": "Création : 23 avril 2017 Galeries Nationales du Grand Palais",
+    "imageUrl": "https://images.unsplash.com/photo-1533985062386-ef0837f31bc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Comme un revers de l'air..."
   },
   {
     "author": "Olivier PENARD",
     "birth": "(né en 1974)",
     "creation": "Création : 20 mai 2017 Atelier Foujita Villiers le Bâcle",
+    "imageUrl": "https://images.unsplash.com/photo-1515095497-ee4506a6fe21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=831&q=80",
+    "black": false,
     "name": "Nyx"
   },
   {
     "author": "Jean-Yves MALMASSON",
     "birth": "(né en 1963)",
     "creation": "Création : 25 juin 2017 Festival des forêts",
+    "imageUrl": "https://images.unsplash.com/photo-1494631781929-c23495644b46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": true,
     "name": "Les chants du Séraphin"
   },
   {
     "author": "Jean-Christophe ROSAZ",
     "birth": "(né en 1961)",
     "creation": "Création : 28 janvier 2018 Eglise St Pierre le Moustier (58)",
+    "imageUrl": "https://images.unsplash.com/photo-1520446266423-6daca23fe8c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Hymne à Hélios",
     "video": "https://youtu.be/SVZ8UE3K6DE",
     "legend": "Captation en direct de la création"
@@ -401,30 +531,40 @@
     "author": "Martin HERCHENRÖDER",
     "birth": "(né en 1961)",
     "creation": "Création : 10 mars 2018 Collège Néerlandais",
+    "imageUrl": "https://images.unsplash.com/photo-1514970746-d4a465d514d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    "black": true,
     "name": "Voyages d'Hiver"
   },
   {
     "author": "Valéry ARZOUMANOV",
     "birth": "(né en 1944)",
     "creation": "Création : 15 juin 2018 Mois Molière Versailles",
+    "imageUrl": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Quatuor"
   },
   {
     "author": "Alain LOUVIER",
     "birth": "(né en 1945)",
     "creation": "Création : 7 juillet Mairie du 4ème Paris",
+    "imageUrl": "https://images.unsplash.com/photo-1579037440434-eaf51bade044?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    "black": false,
     "name": "Le soleil s'est noyé dans son sang qui se fige..."
   },
   {
     "author": "Chiharu WAKABAYACHI",
     "birth": "(né en 1961)",
     "creation": "Création : 31 janvier 2019 Musée des Beaux Arts Reims",
+    "imageUrl": "https://images.unsplash.com/photo-1535752385016-16aa049b6a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=923&q=80",
+    "black": false,
     "name": "Le grand fond blanc"
   },
   {
     "author": "Fabrice GREGORUTTI",
     "birth": "(né en 1960)",
     "creation": "Création : 6 avril 2019 Temple St JEAN 75007",
+    "imageUrl": "https://media.istockphoto.com/photos/flock-of-migrating-ducks-and-geese-flying-in-front-of-full-moon-picture-id1257912862?b=1&k=20&m=1257912862&s=170667a&w=0&h=Z2eLv3PuqHJURzM2TmM_VKx8BnRXIx0_3sac4oaYg6E=",
+    "black": false,
     "name": "Ucelli della luna",
     "video": "https://youtu.be/GL3mr_oG26M"
   },
@@ -432,48 +572,64 @@
     "author": "Elise BERTRAND",
     "birth": "(née en 2000)",
     "creation": "Création : 9 novembre 2021, Festival Présences Contemporaines",
+    "imageUrl": "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=393&q=80",
+    "black": false,
     "name": "Lettera Amorosa"
   },
   {
     "author": "Eric LEDEUIL",
     "birth": "(né en 1970)",
     "creation": "Création : 18 juin 2019 Festival du Mois Molière",
+    "imageUrl": "https://images.unsplash.com/photo-1594206630984-c2d2af87cbee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    "black": false,
     "name": "Tango Brillante"
   },
   {
     "author": "Edith  CANAT de CHIZY",
     "birth": "(née en 1950)",
     "creation": "Création : 2020, Co-commande du Festival Présences féminines, dédié à Hélios)",
+    "imageUrl": "https://images.unsplash.com/photo-1561951336-2c39636c8269?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJleW9uZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
     "name": "Beyond"
   },
   {
     "author": "Rémi BRICOUT",
     "birth": "(né en 1989)",
     "creation": "Création : 2020",
+    "imageUrl": "https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80&h=300",
+    "black": false,
     "name": "Commande en cours"
   },
   {
     "author": "Blaise UBALDINI",
     "birth": "(né en 1979)",
     "creation": "Création : 2020",
+    "imageUrl": "https://images.unsplash.com/photo-1627818750348-21ae2410c4cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=645&q=80",
+    "black": false,
     "name": "Stranded on the lake shore"
   },
   {
     "author": "Violetta DINESCU",
     "birth": "(née en 1953)",
     "creation": "Création : 4 novembre 2021, Festival Musiques démesurées",
+    "imageUrl": "https://media.istockphoto.com/photos/defocused-hope-concept-hand-igniting-a-candle-with-shining-flame-and-picture-id1287307447?b=1&k=20&m=1287307447&s=170667a&w=0&h=HlHsjmxMjcTmUFS82UVhOi2kWqYtRrZPQFx3B3Ko66o=",
+    "black": false,
     "name": "Allons vers l'autre flamme"
   },
   {
     "author": "Jean-René COMBES-DAMIENS",
     "birth": "(né en 1957)",
     "creation": "Création : 4 novembre 2021, Festival Musiques démesurées",
+    "imageUrl": "https://images.unsplash.com/photo-1533073526757-2c8ca1df9f1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Tu seras... (sur un texte de Rudyard Kipling)"
   },
   {
     "author": "Ben FOSKETT",
     "birth": "(né en 1977)",
     "creation": "Création : 4 novembre 2021, Festival Musiques démesurées",
+    "imageUrl": "https://images.unsplash.com/photo-1530137042862-c3ac690ba64f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
     "name": "Le bal"
   }
 ]

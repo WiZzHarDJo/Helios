@@ -1,98 +1,130 @@
 [
-    {
-        "author":"Sophie LACAZE",
-        "birth":"(née en 1963)",
-        "creation":"1997",
-        "name":"Short stories"
-    },
-    {
-        "author":"Stéphane Bortoli",
-        "birth":"(né en 1956)",
-        "creation":"1997",
-        "name":"Modus vivendi"
-    },
-    {
-        "author":"Jérôme NAULAIS",
-        "birth":"(né en 1951)",
-        "creation":"2004",
-        "name":"Océane"
-    },
-    {
-        "author":"Alain LOUVIER",
-        "birth":"(né en 1945)",
-        "creation":"2009",
-        "name":"Bach"
-    },
-    {
-        "author":"Alain LOUVIER",
-        "birth":"(né en 1945)",
-        "creation":"2009",
-        "name":"Bachélios"
-    },
-    {
-        "author":"Gilles CARRE",
-        "birth":"(né en 1956)",
-        "creation":"2011",
-        "name":"Il pleuvait souvent un peu trop..."
-    },
-    {
-        "author":"Graciane FINZI",
-        "birth":"(née en 1945)",
-        "creation":"2011",
-        "name":"Et passe le temps"
-    },
-    {
-        "author":"Graciane FINZI",
-        "birth":"(née en 1945)",
-        "creation":"2011",
-        "name":"Etude sur les différents modes de jeux"
-    },
-    {
-        "author":"Graciane FINZI",
-        "birth":"(née en 1945)",
-        "creation":"2011",
-        "name":"Ping-Pong"
-    },
-    {
-        "author":"Jacques CASTEREDE",
-        "birth":"(1926-2014)",
-        "creation":"",
-        "name":"2 pièces"
-    },
-    {
-        "author":"Richard PHILLIPS",
-        "birth":"(né en 1934)",
-        "creation":"2010",
-        "name":"Pièces"
-    },
-    {
-        "author":"Enzo GIECO",
-        "birth":"(né en 1938)",
-        "creation":"2012",
-        "name":"Cocimex"
-    },
-    {
-        "author":"Christel RAYNEAU",
-        "birth":"(née en 1963)",
-        "creation":"2013",
-        "name":"4 saisons au jardin"
-    },
-    {
-        "author":"Jean René COMBES DAMIENS",
-        "birth":"(né en 1957)",
-        "creation":"2016",
-        "name":"La fable de libellule"
-    },
-    {
-        "author":"Guy-claude LUYPAERTS",
-        "birth":"(né en 1949)",
-        "creation":"2017",
-        "name":"La touche"
-    },
-    {
-        "author":"Olivier OMBREDANNE",
-        "birth":"",
-        "creation":"2018",
-        "name":"Danzon sous la pluie 2018"
-    }
+  {
+    "author": "Sophie LACAZE",
+    "birth": "(née en 1963)",
+    "creation": "1997",
+    "imageUrl": "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=396&q=80",
+    "black": true,
+    "name": "Short stories"
+  },
+  {
+    "author": "Stéphane Bortoli",
+    "birth": "(né en 1956)",
+    "creation": "1997",
+    "imageUrl": "https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=896&q=80",
+    "black": true,
+    "name": "Modus vivendi"
+  },
+  {
+    "author": "Jérôme NAULAIS",
+    "birth": "(né en 1951)",
+    "creation": "2004",
+    "imageUrl": "https://images.unsplash.com/photo-1551802871-c08d586520a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2NlYW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "black": true,
+    "name": "Océane"
+  },
+  {
+    "author": "Alain LOUVIER",
+    "birth": "(né en 1945)",
+    "creation": "2009",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg",
+    "black": false,
+    "name": "Bach"
+  },
+  {
+    "author": "Alain LOUVIER",
+    "birth": "(né en 1945)",
+    "creation": "2009",
+    "imageUrl": "https://media2.ledevoir.com/images_galerie/nwd_683261_526783/image.jpg",
+    "black": false,
+    "name": "Bachélios"
+  },
+  {
+    "author": "Gilles CARRE",
+    "birth": "(né en 1956)",
+    "creation": "2011",
+    "imageUrl": "https://images.unsplash.com/photo-1518182170546-07661fd94144?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHJhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "black": false,
+    "name": "Il pleuvait souvent un peu trop..."
+  },
+  {
+    "author": "Graciane FINZI",
+    "birth": "(née en 1945)",
+    "creation": "2011",
+    "imageUrl": "https://images.unsplash.com/photo-1533749047139-189de3cf06d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGltZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
+    "name": "Et passe le temps"
+  },
+  {
+    "author": "Graciane FINZI",
+    "birth": "(née en 1945)",
+    "creation": "2011",
+    "imageUrl": "https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": true,
+    "name": "Etude sur les différents modes de jeux"
+  },
+  {
+    "author": "Graciane FINZI",
+    "birth": "(née en 1945)",
+    "creation": "2011",
+    "imageUrl": "https://images.unsplash.com/photo-1624936187819-6a64403d63eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
+    "name": "Ping-Pong"
+  },
+  {
+    "author": "Jacques CASTEREDE",
+    "birth": "(1926-2014)",
+    "creation": "",
+    "imageUrl": "https://images.unsplash.com/photo-1530037768512-3c9a22715452?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvaW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "black": false,
+    "name": "2 pièces"
+  },
+  {
+    "author": "Richard PHILLIPS",
+    "birth": "(né en 1934)",
+    "creation": "2010",
+    "imageUrl": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": false,
+    "name": "Pièces"
+  },
+  {
+    "author": "Enzo GIECO",
+    "birth": "(né en 1938)",
+    "creation": "2012",
+    "imageUrl": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=955&q=80",
+    "black": false,
+    "name": "Cocimex"
+  },
+  {
+    "author": "Christel RAYNEAU",
+    "birth": "(née en 1963)",
+    "creation": "2013",
+    "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+    "black": false,
+    "name": "4 saisons au jardin"
+  },
+  {
+    "author": "Jean René COMBES DAMIENS",
+    "birth": "(né en 1957)",
+    "creation": "2016",
+    "imageUrl": "https://images.unsplash.com/photo-1590079055098-d0fb8e034f1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80",
+    "black": false,
+    "name": "La fable de libellule"
+  },
+  {
+    "author": "Guy-claude LUYPAERTS",
+    "birth": "(né en 1949)",
+    "creation": "2017",
+    "imageUrl": "https://images.unsplash.com/photo-1483691278019-cb7253bee49f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "black": true,
+    "name": "La touche"
+  },
+  {
+    "author": "Olivier OMBREDANNE",
+    "birth": "",
+    "creation": "2018",
+    "imageUrl": "https://media.istockphoto.com/photos/back-view-of-a-carefree-woman-on-rain-by-the-river-picture-id1304173435?b=1&k=20&m=1304173435&s=170667a&w=0&h=5p4fWTAHH5PK6PYWia3Lc4zlVMUEwLIDmSAf-s9whwA=",
+    "black": false,
+    "name": "Danzon sous la pluie 2018"
+  }
 ]

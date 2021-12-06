@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 import Quote100 from "../../../components/Typography/Quote100.js";
-import rectoratLogo from "./../../../assets/img/logo-rectorat.jpg";
+import rectoratLogo from "./../../../assets/img/logo/logo-rectorat.jpg";
 import Carousel from "../../../components/Carousel/Carousel.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
