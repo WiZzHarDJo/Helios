@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import _ from "lodash";
 import moment from "moment";
-import axios from "axios";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -17,8 +16,7 @@ import "antd/dist/antd.css";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
-import programmation from "./../../../assets/data/programmation.json";
-import newprogra from "./../../../assets/data/nouvelleprogra.json";
+import programmation from "./../../../assets/data/prograChronologieBrouillon.json";
 
 import "moment/locale/fr";
 moment.locale("fr");
@@ -27,45 +25,14 @@ const useStyles = makeStyles(styles);
 
 export default function ProductSection() {
   const classes = useStyles();
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const response = await axios.get(
-          `https://helios-api.herokuapp.com/concerts/`
-        );
-        console.log("data concerts", response.data);
-        setData(response.data);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    getData();
-  }, []);
+  const [data, setData] = useState(programmation);
 
   const now = moment();
-
-  const formatDate = (date) => {
-    //gerer cas 1er jour du mois, ajouter 1er
-    let prettyDate = moment(date)
-      .format("LLLL")
-      .replace(/\b1\b/g, "1er");
-    //Enlever 00:00
-    return prettyDate.replace("00:00", "");
-  };
-
-  const formatHour = (heure) => {
-    //ajouter h
-    let prettyHour = heure.replace(":", "h");
-    //Enlever :00
-    return prettyHour.replace(":00", "");
-  };
 
   const renderProgrammation = (program, id) => {
     if (id % 2 === 0 && !moment(program.datum).isBefore(now)) {
       return (
-        <GridItem key={program._id} style={{ marginBottom: "40px" }}>
+        <GridItem key={id} style={{ marginBottom: "40px" }}>
           <Card>
             <h4 className={classes.subtitle}>{program.title}</h4>
             <Row
@@ -83,10 +50,7 @@ export default function ProductSection() {
                   </p>
                 )}
                 <p className={classes.subdescr}>
-                  <b>
-                    {formatDate(program.datum)}, {formatHour(program.heure)}
-                  </b>{" "}
-                  <br />
+                  <b>{program.date}</b> <br />
                   {program.lieu}
                 </p>
               </Col>
@@ -109,7 +73,7 @@ export default function ProductSection() {
       );
     } else if (!moment(program.datum).isBefore(now)) {
       return (
-        <GridItem key={program._id} style={{ marginBottom: "40px" }}>
+        <GridItem key={id} style={{ marginBottom: "40px" }}>
           <Card>
             <h4 className={classes.subtitle} style={{ marginBottom: "20px" }}>
               {program.title}
@@ -142,10 +106,7 @@ export default function ProductSection() {
                   </p>
                 )}
                 <p className={classes.subdescr}>
-                  <b>
-                    {formatDate(program.datum)}, {formatHour(program.heure)}
-                  </b>{" "}
-                  <br />
+                  <b>{program.date}</b> <br />
                   {program.lieu}
                 </p>
               </Col>
@@ -156,10 +117,10 @@ export default function ProductSection() {
     }
   };
 
-  const renderProgrammationMobile = (program) => {
+  const renderProgrammationMobile = (program, id) => {
     if (!moment(program.datum).isBefore(now)) {
       return (
-        <GridItem key={program._id} style={{ marginBottom: "40px" }}>
+        <GridItem key={id} style={{ marginBottom: "40px" }}>
           <Card>
             <h4 className={classes.subtitle} style={{ marginBottom: "20px" }}>
               {program.title}
@@ -180,10 +141,7 @@ export default function ProductSection() {
               </p>
             )}
             <p className={classes.subdescr}>
-              <b>
-                {formatDate(program.datum)}, {formatHour(program.heure)}
-              </b>{" "}
-              <br />
+              <b>{program.date}</b> <br />
               {program.lieu}
             </p>
           </Card>

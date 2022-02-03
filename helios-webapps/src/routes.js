@@ -16,7 +16,8 @@ import OeuvresPage from "./views/OeuvresPage/OeuvresPage";
 import ProgramPage from "./views/ProgramPage/ProgramPage";
 import ClassiquePage from "./views/ClassiquePage/ClassiquePage";
 import ContemporainPage from "./views/ContemporainPage/ContemporainPage";
-import GaleriePage from "./views/GaleriePage/GaleriePage";
+import GaleriePhotoPage from "./views/GaleriePhotoPage/GaleriePhotoPage";
+import GalerieVideoPage from "./views/GalerieVideoPage/GalerieVideoPage";
 import EditionPage from "./views/EditionPage/EditionPage";
 import DiscographiePage from "./views/DiscographiePage/DiscographiePage";
 import ContactPage from "./views/ContactPage/ContactPage";
@@ -26,8 +27,8 @@ const routes = () => {
   return (
     <React.Fragment>
       <Switch>
-        <Route path="/" exact component={ConcertPage} />
-        <Route path="/helios" exact component={HeliosPage} />
+        <Route path="/" exact component={HeliosPage} />
+        <Route path="/concerts" exact component={ConcertPage} />
         <Route path="/christel" exact component={ChristelPage} />
         <Route path="/isabelle" exact component={IsabellePage} />
         <Route path="/ecole" exact component={EcolePage} />
@@ -43,7 +44,8 @@ const routes = () => {
         <Route path="/classique" component={ClassiquePage} />
         <Route path="/contemporain" component={ContemporainPage} />
         <Route path="/edition" component={EditionPage} />
-        <Route path="/galerie" component={GaleriePage} />
+        <Route path="/photos" component={GaleriePhotoPage} />
+        <Route path="/videos" component={GalerieVideoPage} />
         <Route path="/discographie" component={DiscographiePage} />
         <Route path="/contact" component={ContactPage} />
         <Route component={ErrorPage} />

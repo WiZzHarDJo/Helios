@@ -25,7 +25,7 @@
   },
   {
     "author": "Paul MEFANO",
-    "birth": "(né en 1937)",
+    "birth": "(1937-2020)",
     "creation": "Création : Versailles, Galerie du Petit Trianon - 1998",
     "imageUrl": "https://images.unsplash.com/photo-1581161462962-d0faecc52557?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "black": false,
@@ -571,7 +571,7 @@
   {
     "author": "Elise BERTRAND",
     "birth": "(née en 2000)",
-    "creation": "Création : 9 novembre 2021, Festival Présences Contemporaines",
+    "creation": "Création : 1er avril 2022, Festival Présences Contemporaines",
     "imageUrl": "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=393&q=80",
     "black": false,
     "name": "Lettera Amorosa"
@@ -595,15 +595,15 @@
   {
     "author": "Rémi BRICOUT",
     "birth": "(né en 1989)",
-    "creation": "Création : 2020",
+    "creation": "Création : 8 avril 2022, Paris",
     "imageUrl": "https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80&h=300",
     "black": false,
-    "name": "Commande en cours"
+    "name": "Quatuor"
   },
   {
     "author": "Blaise UBALDINI",
     "birth": "(né en 1979)",
-    "creation": "Création : 2020",
+    "creation": "Création : 27 janvier 2022",
     "imageUrl": "https://images.unsplash.com/photo-1627818750348-21ae2410c4cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=645&q=80",
     "black": false,
     "name": "Stranded on the lake shore"
@@ -631,5 +631,13 @@
     "imageUrl": "https://images.unsplash.com/photo-1530137042862-c3ac690ba64f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "black": false,
     "name": "Le bal"
+  },
+  {
+    "author": "Lisa Heute",
+    "birth": "(né en 1991)",
+    "creation": "Création : 27 janvier 2022, Fondation suisse",
+    "imageUrl": "https://images.unsplash.com/photo-1563599188389-5daf647ebd71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "black": false,
+    "name": "Je demeure... (sur un texte de Guillaume Apollinaire)"
   }
 ]

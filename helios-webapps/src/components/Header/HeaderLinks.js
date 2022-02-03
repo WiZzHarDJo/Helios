@@ -36,11 +36,11 @@ export default function HeaderLinks(props) {
             "Edition Musicale",
             "Soutenez-nous",
           ]}
-          dropdownLinks={["/helios", "/discographie", "/edition", "/mecenat"]}
+          dropdownLinks={["/", "/discographie", "/edition", "/mecenat"]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/" className={classes.navLink}>
+        <Link to="/concerts" className={classes.navLink}>
           Concerts
         </Link>
       </ListItem>
@@ -94,8 +94,8 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent",
           }}
-          dropdownList={["Galerie médias", "Presse"]}
-          dropdownLinks={["/galerie", "/presse"]}
+          dropdownList={["Galerie photo", "Galerie vidéo", "Presse"]}
+          dropdownLinks={["/photos", "/videos", "/presse"]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
