@@ -29,11 +29,29 @@ export default function ProductSection() {
 
   const now = moment();
 
+  const renderHeures = (heure, id) => {
+    return (
+      <div
+        style={{
+          minWidth: "5rem",
+          textAlign: "center",
+          marginRight: "1rem",
+          paddingLeft: "1rem",
+          paddingRight: "1rem",
+          fontWeight: "bold",
+        }}
+        key={id}
+      >
+        {heure}
+      </div>
+    );
+  };
+
   const renderProgrammation = (program, id) => {
     if (id % 2 === 0 && !moment(program.datum).isBefore(now)) {
       return (
         <GridItem key={id} style={{ marginBottom: "40px" }}>
-          <Card>
+          <Card hoverable>
             <h4 className={classes.subtitle}>{program.title}</h4>
             <Row
               type="flex"
@@ -51,6 +69,9 @@ export default function ProductSection() {
                 )}
                 <p className={classes.subdescr}>
                   <b>{program.date}</b> <br />
+                  <div style={{ display: "flex" }}>
+                    {program.heures.map(renderHeures)}
+                  </div>
                   {program.lieu}
                 </p>
               </Col>
@@ -107,6 +128,9 @@ export default function ProductSection() {
                 )}
                 <p className={classes.subdescr}>
                   <b>{program.date}</b> <br />
+                  <div style={{ display: "flex" }}>
+                    {program.heures.map(renderHeures)}
+                  </div>
                   {program.lieu}
                 </p>
               </Col>
@@ -142,6 +166,9 @@ export default function ProductSection() {
             )}
             <p className={classes.subdescr}>
               <b>{program.date}</b> <br />
+              <div style={{ display: "flex" }}>
+                {program.heures.map(renderHeures)}
+              </div>
               {program.lieu}
             </p>
           </Card>
