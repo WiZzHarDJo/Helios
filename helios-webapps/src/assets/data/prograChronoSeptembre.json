@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Spectacle musical : « J’suis différent » - séance scolaire",
+    "imageUrl": "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "description": "Spectacle musical jeune public, « J’suis différent » permet à ses jeunes auditeurs tout un chemin de réflexion et de plaisir.",
+    "duration": "50min",
+    "lieu": "Conservatoire du 5ème, Rue de Pontoise, 75 005 Paris",
+    "date": "Jeudi 29 Septembre 2022",
+    "img": "edition.jpg",
+    "datum": "2022-09-29"
+  },
+  {
+    "title": "Concert Parité",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1556379118-7034d926d258?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1732&q=80",
+    "artiste": "Rebecca Clarke, Rosy Wertheim, Graciane Finzi, Mozart, Lisa Heute",
+    "lieu": "162 Av Charles de Gaulle, Neuilly sur Seine",
+    "date": "Jeudi 29 Septembre 2022",
+    "img": "edition.jpg",
+    "datum": "2022-09-29"
+  },
+  {
+    "title": "Spectacle musical : « J’suis différent » - séance scolaire",
+    "imageUrl": "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "description": "Spectacle musical jeune public, « J’suis différent » permet à ses jeunes auditeurs tout un chemin de réflexion et de plaisir.",
+    "duration": "50min",
+    "lieu": "Conservatoire du 5ème, Rue de Pontoise, 75 005 Paris",
+    "date": "Vendredi 30 Septembre 2022",
+    "img": "edition.jpg",
+    "datum": "2022-09-30"
+  },
+  {
+    "title": "Festival de la Côte",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "artiste": "Christoph Willibald Glück, Witold Lutoslawski, Benjamin Britten, Jacques Lenot, Debussy, Jules Mouquet",
+    "lieu": "Château de Prangins, 3 Av. Général Guiguer, 1197 Prangins, Suisse",
+    "date": "Mardi 06 Octobre 2022, 16h",
+    "img": "edition.jpg",
+    "datum": "2022-10-06"
+  },
+  {
+    "title": "Concert : « Le voyage et le temps »",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "artiste": "Graciane Finzi, Joseph Haydn, Zoltan Kodaly, Eric Ledeuil, Rui Martens",
+    "lieu": "Château de Prangins, 3 Av. Général Guiguer, 1197 Prangins, Suisse",
+    "date": "Dimanche 9 Octobre 2022, à 16h",
+    "img": "edition.jpg",
+    "datum": "2022-10-09"
+  },
+  {
+    "title": "Spectacle musical : Des mots aux sons - séance scolaire",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1460036521480-ff49c08c2781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+    "lieu": "Festival Musiques démesurées, Petit Vélo, 10 Rue Fontgieve, 63 000 Clermont-Ferrand",
+    "date": "Jeudi 10 Novembre 2022, à 9h15, 10h30 et 14h30",
+    "img": "edition.jpg",
+    "datum": "2022-11-10"
+  },
+  {
+    "title": "Spectacle musical : « J’suis différent » - séance scolaire",
+    "imageUrl": "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "description": "Spectacle musical jeune public, « J’suis différent » permet à ses jeunes auditeurs tout un chemin de réflexion et de plaisir.",
+    "duration": "50min",
+    "lieu": "CRR, 22 Rue de la Belle Feuille, 92100 Boulogne Billancourt",
+    "date": "Vendredi 18 Novembre 2022, à 10h00, 14h30 et 19h",
+    "img": "edition.jpg",
+    "datum": "2022-11-18"
+  },
+  {
+    "title": "Concert",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1567619822659-2094d3ebef04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1027&q=80",
+    "artiste": "Mozart, Bach, Volkmar Andrae, Lisa Heute, Bizet-Borne, Graciane Finzi",
+    "lieu": "Chapelle de Ginette, 2 Rue de l'École des Postes, 78 000 Versailles",
+    "date": "Mardi 29 Novembre 2022, à 20h30",
+    "img": "edition.jpg",
+    "datum": "2022-11-29"
+  },
+  {
+    "title": "Spectacle musical : « J’suis différent » - séance scolaire",
+    "imageUrl": "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "description": "Spectacle musical jeune public, « J’suis différent » permet à ses jeunes auditeurs tout un chemin de réflexion et de plaisir.",
+    "duration": "50min",
+    "lieu": "Salle Paroissiale, 5 Rue Pierre Curie, 78330 Fontenay-le-Fleury",
+    "date": "Dimanche 11 Décembre 2022, à 16h",
+    "img": "edition.jpg",
+    "datum": "2022-12-11"
+  },
+  {
+    "title": "Programme Foujita",
+    "description": "Chansons sur Paris aimées par Foujita",
+    "artiste": "Debussy, Nicolas Bacri, Zoltan Kodaly, Volkmar Andrae, Chiharu Wakabayashi",
+    "imageUrl": "https://images.rtl.fr/~c/1200v800/rtl/www/1330576-leonard-tsuguharu-foujita.jpg",
+    "lieu": "Maison du Japon, 7K bd Jourdan 75014",
+    "date": "Vendredi 13 Janvier 2023",
+    "datum": "2023-01-13"
+  },
+  {
+    "title": "Spectacle musical : Des mots aux sons - séance scolaire",
+    "description": "Construite sur des œuvres de femmes bâties sur des textes littéraires, cette séance scolaire propose aux enfants de collège un bain musical et une réflexion sur la création.",
+    "artiste": "Sophie Lacaze, Graciane Finzi, Lisa Heute, Christel Rayneau",
+    "imageUrl": "https://images.unsplash.com/photo-1460036521480-ff49c08c2781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+    "lieu": "",
+    "date": "Vendredi 20 Janvier 2023",
+    "datum": "2023-01-20"
+  },
+  {
+    "title": "Concert : Chatoiements Impressionnistes",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1651138718222-45478b9e854b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "artiste": "Debussy, Volkmar Andrae, Zoltan Kodaly, Eric Satie, Chiharu Wakabayashi, Bizet-Borne",
+    "lieu": "Pour Que l'Esprit Vive, Baigneux-les-Juifs, 21450 Côte d’or",
+    "date": "Samedi 21 et Dimanche 22 Janvier 2023, 15h30",
+    "img": "background-classique.jpg",
+    "datum": "2023-01-21"
+  },
+  {
+    "title": "Concert autour de musiciens suisses",
+    "description": "",
+    "imageUrl": "https://images.unsplash.com/photo-1604791648993-2c4e866efb5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "artiste": "Joseph Lauber, Michaël Jarell, Bernard Reichel, Karol Beffa, Volkmar Andrae",
+    "lieu": "23 Fondation Suisse 7K bd Jourdan 75014",
+    "date": "Vendredi 31 mars 2023",
+    "img": "background-classique.jpg",
+    "datum": "2023-03-31"
+  }
+]

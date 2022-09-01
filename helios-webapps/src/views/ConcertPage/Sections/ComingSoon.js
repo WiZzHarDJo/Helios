@@ -16,7 +16,7 @@ import "antd/dist/antd.css";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
-import programmation from "./../../../assets/data/prograChronologieBrouillon.json";
+import programmation from "./../../../assets/data/prograChronoSeptembre.json";
 
 import "moment/locale/fr";
 moment.locale("fr");
