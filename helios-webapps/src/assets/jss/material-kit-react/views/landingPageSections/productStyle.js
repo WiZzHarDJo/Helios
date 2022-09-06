@@ -3,7 +3,7 @@ import { title } from "./../../../../../assets/jss/material-kit-react.js";
 const productStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center"
+    textAlign: "center",
   },
   title: {
     ...title,
@@ -11,7 +11,7 @@ const productStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
-    fontSize:"35px"
+    fontSize: "35px",
   },
   subtitle: {
     ...title,
@@ -20,66 +20,67 @@ const productStyle = {
     minHeight: "16px",
     textDecoration: "none",
     textAlign: "left",
-    fontSize:"30px"
-  },subSubtitle: {
+    fontSize: "30px",
+  },
+  subSubtitle: {
     ...title,
     marginBottom: "0.5rem",
     marginTop: "15px",
     minHeight: "16px",
     textDecoration: "none",
     textAlign: "left",
-    fontSize:"25px"
+    fontSize: "25px",
   },
-  subdescr:{
+  subdescr: {
     color: "#3C4858",
     //textAlign: "left",
     fontSize: "19px",
     marginBottom: "30px",
-    textAlign:"justify"
+    textAlign: "justify",
   },
-  program:{
+  program: {
     color: "#3C4858",
     fontSize: "19px",
   },
-  partenaireDescr:{
+  partenaireDescr: {
     color: "#3C4858",
     fontSize: "19px",
   },
-  subdescrEdition:{
+  subdescrEdition: {
     color: "#3C4858",
     textAlign: "left",
     fontSize: "19px",
     paddingLeft: "2rem",
-    fontWeight:"normal"
+    fontWeight: "normal",
   },
-  subdescrMid:{
+  subdescrMid: {
     color: "#3C4858",
     textAlign: "left",
     fontSize: "19px",
   },
-  subdescrMidBold:{
+  subdescrMidBold: {
     color: "#3C4858",
     fontSize: "19px",
-    fontWeight:"bold"
+    fontWeight: "bold",
   },
-  rectorat:{
+  rectorat: {
     display: "inline",
-    color: "#3C4858"
+    color: "#3C4858",
   },
-  verticalAlign:{
-    verticalAlign: "middle"
+  verticalAlign: {
+    verticalAlign: "middle",
   },
-  rectoratImg:{
+  rectoratImg: {
     marginRight: "10px",
-    verticalAlign: "middle"
+    verticalAlign: "middle",
   },
   typo: {
     marginBottom: "40px",
     position: "relative",
     width: "100%",
-    display:"flex",
+    display: "flex",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   note: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
@@ -92,16 +93,21 @@ const productStyle = {
     left: "0",
     marginLeft: "20px",
     position: "absolute",
-    width: "260px"
+    width: "260px",
   },
-  pressImg:{
-    width:"400px",
-    verticalAlign: "middle"
+  pressImg: {
+    width: "400px",
+    verticalAlign: "middle",
   },
-  roundPressImg:{
-    width:"200px",
-    verticalAlign: "middle"
-  }
+  roundPressImg: {
+    width: "200px",
+    verticalAlign: "middle",
+  },
+  line: {
+    height: "0.5rem",
+    background: "#23d997",
+    marginBottom: "3rem",
+  },
 };
 
 export default productStyle;
