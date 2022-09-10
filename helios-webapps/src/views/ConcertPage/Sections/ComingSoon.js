@@ -216,8 +216,8 @@ export default function ProductSection() {
   const renderProgrammation = (program, id) => {
     if (id % 2 === 0 && !moment(program.datum).isBefore(now)) {
       return (
-        <Hide>
-          <GridItem key={id} style={{ marginBottom: "40px" }}>
+        <Hide key={id}>
+          <GridItem style={{ marginBottom: "40px" }}>
             <motion.div variants={photoAnim}>
               <Card>
                 <h4 className={classes.subtitle}>{program.title}</h4>
@@ -284,8 +284,8 @@ export default function ProductSection() {
       );
     } else if (!moment(program.datum).isBefore(now)) {
       return (
-        <Hide>
-          <GridItem key={id} style={{ marginBottom: "40px" }}>
+        <Hide key={id}>
+          <GridItem style={{ marginBottom: "40px" }}>
             <motion.div variants={photoAnim}>
               <Card>
                 <h4
@@ -361,8 +361,8 @@ export default function ProductSection() {
   const renderProgrammationMobile = (program, id) => {
     if (!moment(program.datum).isBefore(now)) {
       return (
-        <Hide>
-          <GridItem key={id} style={{ marginBottom: "40px" }}>
+        <Hide key={id}>
+          <GridItem style={{ marginBottom: "40px" }}>
             <motion.div variants={photoAnim}>
               <Card>
                 <h4
