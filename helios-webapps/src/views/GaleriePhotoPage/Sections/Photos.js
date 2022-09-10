@@ -14,6 +14,7 @@ import styles from "../../../assets/jss/material-kit-react/views/landingPageSect
 import imageCarousel from "../../../assets/data/galeriePhoto.json";
 import imageCarouselNB from "../../../assets/data/galeriePhotoNB.json";
 import imageCarouselConcert from "../../../assets/data/galeriePhotoConcert.json";
+import imageCarouselRodin from "../../../assets/data/galeriePhotoRodin.json";
 
 const useStyles = makeStyles(styles);
 
@@ -31,19 +32,28 @@ export default function ProductSection() {
         <GridItem style={{ marginBottom: "5vh" }}>
           <Carousel images={imageCarousel} />
           <div style={{ color: "black", fontWeight: "bold" }}>
-            Crédit photographies : Annik MARIN
+            Crédit photographies :
+            <a href="https://www.annikmarinphotos.com/"> Annik MARIN</a>
           </div>
         </GridItem>
         <GridItem>
           <Carousel images={imageCarouselNB} />
           <div style={{ color: "black", fontWeight: "bold" }}>
-            Crédit photographies : Annik MARIN
+            Crédit photographies :
+            <a href="https://www.annikmarinphotos.com/"> Annik MARIN</a>
           </div>
         </GridItem>
         <GridItem>
           <Carousel images={imageCarouselConcert} />
           <div style={{ color: "black", fontWeight: "bold" }}>
             Concert donné au Cercle de l'Union Interalliée
+          </div>
+        </GridItem>
+
+        <GridItem>
+          <Carousel images={imageCarouselRodin} />
+          <div style={{ color: "black", fontWeight: "bold" }}>
+            Concert donné aux Jardins du Musée Rodin Bari
           </div>
         </GridItem>
       </GridContainer>

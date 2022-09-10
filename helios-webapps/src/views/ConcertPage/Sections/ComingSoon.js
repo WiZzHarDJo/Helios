@@ -10,6 +10,7 @@ import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import { Row, Col, Card } from "antd";
+import { PhoneTwoTone } from "@ant-design/icons";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
@@ -28,6 +29,7 @@ export default function ProductSection() {
   const [data, setData] = useState(programmation);
 
   const now = moment();
+  const year = new Date().getFullYear();
 
   const renderProgrammation = (program, id) => {
     if (id % 2 === 0 && !moment(program.datum).isBefore(now)) {
@@ -53,6 +55,29 @@ export default function ProductSection() {
                   <b>{program.date}</b> <br />
                   {program.lieu}
                 </p>
+                {("billeterie" in program || "phone" in program) && (
+                  <p className={classes.subdescr}>
+                    {"billeterie" in program && (
+                      <>
+                        <b>
+                          <a
+                            href={program.billeterie}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Réservez vos billets
+                          </a>
+                        </b>
+                        <br />
+                      </>
+                    )}
+                    {"phone" in program && (
+                      <>
+                        <PhoneTwoTone /> {program.phone}
+                      </>
+                    )}
+                  </p>
+                )}
               </Col>
               <Col span={10}>
                 <p className={classes.partenaireDescr}>
@@ -109,6 +134,29 @@ export default function ProductSection() {
                   <b>{program.date}</b> <br />
                   {program.lieu}
                 </p>
+                {("billeterie" in program || "phone" in program) && (
+                  <p className={classes.subdescr}>
+                    {"billeterie" in program && (
+                      <>
+                        <b>
+                          <a
+                            href={program.billeterie}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Réservez vos billets
+                          </a>
+                        </b>
+                        <br />
+                      </>
+                    )}
+                    {"phone" in program && (
+                      <>
+                        <PhoneTwoTone /> {program.phone}
+                      </>
+                    )}
+                  </p>
+                )}
               </Col>
             </Row>
           </Card>
@@ -144,6 +192,29 @@ export default function ProductSection() {
               <b>{program.date}</b> <br />
               {program.lieu}
             </p>
+            {("billeterie" in program || "phone" in program) && (
+              <p className={classes.subdescr}>
+                {"billeterie" in program && (
+                  <>
+                    <b>
+                      <a
+                        href={program.billeterie}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Réservez vos billets
+                      </a>
+                    </b>
+                    <br />
+                  </>
+                )}
+                {"phone" in program && (
+                  <>
+                    <PhoneTwoTone /> {program.phone}
+                  </>
+                )}
+              </p>
+            )}
           </Card>
         </GridItem>
       );
@@ -154,6 +225,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer>
         <GridItem style={{ marginBottom: "40px" }}>
+          <h2 className={classes.title}>
+            Saison {year}-{year + 1}
+          </h2>
           <h3 className={classes.subtitle}>Prochains évènements</h3>
         </GridItem>
         <BrowserView>

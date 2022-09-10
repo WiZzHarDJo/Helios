@@ -26,6 +26,7 @@ export default function Videos() {
         title={video.title}
         style={{ width: "100%", marginBottom: "25px" }}
         bordered
+        key={id}
       >
         <iframe
           src={`https://youtube.com/embed/${video.src}`}

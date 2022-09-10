@@ -3,7 +3,7 @@ import ReactCardFlip from "react-card-flip";
 import { Card } from "antd";
 
 const OeuvreCard = ({ artworkItem }) => {
-  const { author, creation, name, birth, video, imageUrl, black } = artworkItem;
+  const { author, creation, name, birth, imageUrl, black } = artworkItem;
 
   const [isFlipped, setIsFlipped] = useState(false);
 
