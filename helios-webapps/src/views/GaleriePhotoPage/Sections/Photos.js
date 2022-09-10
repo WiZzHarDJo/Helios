@@ -53,7 +53,7 @@ export default function ProductSection() {
         <GridItem>
           <Carousel images={imageCarouselRodin} />
           <div style={{ color: "black", fontWeight: "bold" }}>
-            Concert donné aux Jardins du Musée Rodin Bari
+            Concert donné aux Jardins du Musée Rodin
           </div>
         </GridItem>
       </GridContainer>
