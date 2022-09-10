@@ -17,7 +17,7 @@ import Parallax from "../../components/Parallax/Parallax.js";
 import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
-import ComingSoon from "./Sections/ComingSoonFramerMotion";
+import ComingSoon from "./Sections/ComingSoon";
 
 const dashboardRoutes = [];
 

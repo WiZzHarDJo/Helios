@@ -18,6 +18,7 @@ import { BrowserView, MobileView } from "react-device-detect";
 
 import programmation from "./../../../assets/data/prograChronoSeptembre.json";
 
+import styled from "styled-components";
 import { motion } from "framer-motion";
 import {
   pageAnimation,
@@ -166,23 +167,39 @@ export default function ProductSection() {
 
   return (
     <div className={classes.section}>
-      <GridContainer>
+      <Concerts>
         <GridItem style={{ marginBottom: "40px" }}>
           <h3 className={classes.subtitle}>Prochains évènements </h3>
         </GridItem>
         <BrowserView>
-          <motion.div
-            ref={element}
-            animate={controls}
-            variants={lineAnim}
-            className="line"
-          ></motion.div>
+          <motion.div ref={element} variants={fade} animate={controls}>
+            <motion.h2 variants={fade}>The Athlete</motion.h2>
+            <motion.div variants={lineAnim} className="line"></motion.div>
+          </motion.div>
           {programmation.length && _.map(data, renderProgrammation)}
         </BrowserView>
         <MobileView>
           {programmation.length && _.map(data, renderProgrammationMobile)}
         </MobileView>
-      </GridContainer>
+      </Concerts>
     </div>
   );
 }
+
+const Concerts = styled(motion.GridContainer)`
+  padding-bottom: 10rem;
+  .line {
+    height: 0.5rem;
+    background: #23d997;
+    margin-bottom: 3rem;
+  }
+  img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+`;
+
+const Hide = styled.div`
+  overflow: hidden;
+`;
