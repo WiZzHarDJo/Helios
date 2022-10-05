@@ -70,146 +70,242 @@ export default function ProductSection() {
   const currentYear = new Date().getFullYear();
 
   let janvier = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 1 === month && currentYear === year;
   });
 
   let fevrier = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 2 === month && currentYear === year;
   });
 
   let mars = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 3 === month && currentYear === year;
   });
 
   let avril = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 4 === month && currentYear === year;
   });
 
   let mai = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 5 === month && currentYear === year;
   });
 
   let juin = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 6 === month && currentYear === year;
   });
 
   let juillet = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 7 === month && currentYear === year;
   });
 
   let aout = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 8 === month && currentYear === year;
   });
 
   let septembre = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 9 === month && currentYear === year;
   });
 
   let octobre = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 10 === month && currentYear === year;
   });
 
   let novembre = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 11 === month && currentYear === year;
   });
 
   let decembre = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 12 === month && currentYear === year;
   });
 
   let janvier1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 1 === month && currentYear + 1 === year;
   });
 
   let fevrier1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 2 === month && currentYear + 1 === year;
   });
 
   let mars1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 3 === month && currentYear + 1 === year;
   });
 
   let avril1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 4 === month && currentYear + 1 === year;
   });
 
   let mai1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 5 === month && currentYear + 1 === year;
   });
 
   let juin1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 6 === month && currentYear + 1 === year;
   });
 
   let juillet1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 7 === month && currentYear + 1 === year;
   });
 
   let aout1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 8 === month && currentYear + 1 === year;
   });
 
   let septembre1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 9 === month && currentYear + 1 === year;
   });
 
   let octobre1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 10 === month && currentYear + 1 === year;
   });
 
   let novembre1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 11 === month && currentYear + 1 === year;
   });
 
   let decembre1 = programmation.filter((e) => {
-    let month = new Date(e.datum).getMonth() + 1;
-    let year = new Date(e.datum).getFullYear();
+    let month;
+    let year;
+    if (!moment(e.datum).isBefore(now)) {
+      month = new Date(e.datum).getMonth() + 1;
+      year = new Date(e.datum).getFullYear();
+    }
     return 12 === month && currentYear + 1 === year;
   });
 
@@ -424,6 +520,8 @@ export default function ProductSection() {
       );
     }
   };
+
+  console.log(septembre);
 
   return (
     <div className={classes.section}>
