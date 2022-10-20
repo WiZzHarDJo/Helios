@@ -2,6 +2,9 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+// react components for routing our app without refresh
+import { Link } from "react-router-dom";
+
 import "./responsive.css";
 
 // core components
@@ -77,9 +80,22 @@ export default function ProductSection() {
             son importance dans la musique de notre temps.
           </p>
           <p className={classes.subdescr}>
-            L'ensemble Hélios, lauréat des Fondations Menuhin et Cziffra, a
-            aussi reçu en 2016 le prix du conseil d'administration de la
-            Fondation Prince Louis de Polignac.
+            L'Ensemble Hélios, <b>lauréat des Fondations Menuhin et Cziffra</b>,
+            a aussi reçu en 2016 le{" "}
+            <b>
+              Prix du conseil d'administration de la Fondation Prince Louis de
+              Polignac
+            </b>
+            .
+          </p>
+          <p className={classes.subdescr}>
+            Le{" "}
+            <Link to="/prix">
+              <b>Prix de l'Initiative Laïque 2022</b>
+            </Link>{" "}
+            a été décerné vendredi 7 octobre à l'Ensemble Helios pour son
+            spectacle <b>« J'suis différent »</b>, à destination du jeune public
+            de 4 à 11 ans, hymne au respect des differences et à la tolerance.
           </p>
         </GridItem>
       </GridContainer>

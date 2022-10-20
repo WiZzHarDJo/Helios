@@ -32,11 +32,18 @@ export default function HeaderLinks(props) {
           }}
           dropdownList={[
             "L'ensemble Hélios",
+            "Prix et Distinctions",
             "Discographie",
             "Edition Musicale",
             "Soutenez-nous",
           ]}
-          dropdownLinks={["/", "/discographie", "/edition", "/mecenat"]}
+          dropdownLinks={[
+            "/",
+            "/prix",
+            "/discographie",
+            "/edition",
+            "/mecenat",
+          ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
