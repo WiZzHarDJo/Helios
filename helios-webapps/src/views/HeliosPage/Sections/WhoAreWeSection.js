@@ -14,6 +14,7 @@ import GridItem from "../../../components/Grid/GridItem.js";
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 import arbre from "../../../assets/img/tri/arbre.jpg";
+import ensembleprix from "../../../assets/img/prixlaique/ensembleprix.JPG";
 
 const useStyles = makeStyles(styles);
 
@@ -97,6 +98,8 @@ export default function ProductSection() {
             spectacle <b>« J'suis différent »</b>, à destination du jeune public
             de 4 à 11 ans, hymne au respect des differences et à la tolerance.
           </p>
+
+          <img src={ensembleprix} alt="L'Ensemble Hélios et son prix" />
         </GridItem>
       </GridContainer>
     </div>

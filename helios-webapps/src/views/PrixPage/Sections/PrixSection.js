@@ -48,11 +48,12 @@ export default function ProductSection() {
               11 ans, hymne au respect des differences et à la tolerance.
             </p>
             <p className={classes.subdescr}>
-              Ce Prix organisé par la MGEN, la MAIF et la CASDEN a été remis au
-              quatuor par le President de la MAIF, Yves Pellisier, en présence
-              de Matthias Savignac, President de la MGEN, de François Brun,
-              administrateur de la CASDEN et de Yaël Braun-Pivet, Présidente de
-              l Assemblée Nationale.
+              Ce Prix organisé par la MGEN, la MAIF et la CASDEN a été remis à
+              la Présidente de l'Ensemble Hélios, Béatrice Imhaus, par le
+              President de la MAIF, Yves Pellisier, en présence de Matthias
+              Savignac, President de la MGEN, de François Brun, administrateur
+              de la CASDEN et de Yaël Braun-Pivet, Présidente de l Assemblée
+              Nationale.
             </p>
             <p className={classes.subdescr}>
               Le spectacle « J'suis différent » met en scéne dans une forêt un
@@ -65,11 +66,13 @@ export default function ProductSection() {
               dans son universalité.
             </p>
             <p className={classes.subdescr}>
-              Ce message humaniste trés fort, transmis via un spectacle musical
-              et le dossier pédagogique trés complet (francais, instruction
-              civique, mathématiques, dessin etc) remis aux enseignants des
-              classes de MS au CM2 sont les éléments clefs qui ont retenu l'
-              attention du Jury.{" "}
+              Ce message humaniste très fort est transmis via un spectacle
+              musical et son dossier pèdagogique trés complet (francais,
+              instruction civique, mathématiques, dessin etc) réalisé par
+              Christel Rayneau, la Directrice Artistique de l'Ensemble Hélios.
+              Ce dernier est remis aux enseignants des classes de MS au CM2. Ces
+              deux éléments clefs ont particulièrement retenu l'attention du
+              Jury.{" "}
             </p>
           </GridItem>
         </div>
