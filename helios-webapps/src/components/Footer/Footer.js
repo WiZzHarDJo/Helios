@@ -15,6 +15,7 @@ import img1 from "./../../assets/img/logo/mmc-logo.png";
 import img2 from "./../../assets/img/logo/logo-sacem.jpg";
 import img3 from "./../../assets/img/logo/rectorat-logo.png";
 import img4 from "./../../assets/img/logo/logo-billaudot.png";
+import img5 from "./../../assets/img/logo/centre-national-musique-logo.png";
 
 const useStyles = makeStyles(styles);
 
@@ -31,7 +32,7 @@ export default function Footer(props) {
   });
   return (
     <footer className={footerClasses}>
-      <div className={classes.container}>
+      <div className={classes.footerContainer}>
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
@@ -63,6 +64,13 @@ export default function Footer(props) {
               <img
                 src={img4}
                 alt="Logo Editions Gérard Billaudot"
+                style={{ width: "200px", padding: "0.9375rem" }}
+              />
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <img
+                src={img5}
+                alt="Centre National de Musique"
                 style={{ width: "200px", padding: "0.9375rem" }}
               />
             </ListItem>

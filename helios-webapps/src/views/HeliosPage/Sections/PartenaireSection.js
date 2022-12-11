@@ -6,6 +6,7 @@ import img1 from "./../../../assets/img/logo/mmc-logo.png";
 import img2 from "./../../../assets/img/logo/logo-sacem.jpg";
 import img3 from "./../../../assets/img/logo/rectorat-logo.png";
 import img4 from "./../../../assets/img/logo/logo-billaudot.png";
+import img5 from "./../../../assets/img/logo/centre-national-musique-logo.png";
 
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
@@ -131,6 +132,38 @@ export default function WorkSection() {
                   src={img4}
                   alt="Logo Editions Gérard Billaudot"
                   style={{ width: "25rem" }}
+                />
+              </p>
+            </Col>
+          </Row>
+          <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <a href="https://cnm.fr/">
+                  {" "}
+                  <b>Centre National de Musique</b>
+                </a>
+              </p>
+            </Col>
+          </Row>
+
+          <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <img
+                  src={img5}
+                  alt="Logo Centre National de Musique"
+                  style={{ width: "23rem", height: "9rem" }}
                 />
               </p>
             </Col>
