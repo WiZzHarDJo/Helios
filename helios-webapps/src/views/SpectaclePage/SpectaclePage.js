@@ -40,12 +40,13 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("../../assets/img/spectaclecouverture.jpg")}>
+      <Parallax image={require("../../assets/img/spectaclecouverture.JPG")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>
-                L'Ensemble Hélios, le musicien devient acteur
+              <h1 className={classes.title} style={{ marginTop: "18rem" }}>
+                L'Ensemble Hélios, le musicien <br />
+                devient acteur
               </h1>
             </GridItem>
           </GridContainer>
