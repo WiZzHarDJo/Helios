@@ -43,7 +43,7 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Béartice Imhaus
+                Béatrice Imhaus
                 <br />
                 <small className={classes.smallTitle}>Présidente</small>
               </h4>
