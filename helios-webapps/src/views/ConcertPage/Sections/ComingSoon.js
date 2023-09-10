@@ -10,7 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
-import { Row, Col, Card } from "antd";
+import { Row, Col, Card, Button } from "antd";
 import { PhoneTwoTone } from "@ant-design/icons";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
@@ -53,6 +53,24 @@ export default function ProductSection() {
     };
     getData();
   }, []);
+
+  const formatDate = (date) => {
+    //gerer cas 1er jour du mois, ajouter 1er
+    let prettyDate = moment(date)
+      .format("LLLL")
+      .replace(/\b1\b/g, "1er");
+    //Enlever 00:00
+    let string = prettyDate.replace("00:00", "");
+
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
+  const formatHour = (heure) => {
+    //ajouter h
+    let prettyHour = heure.replace(":", "h");
+    //Enlever :00
+    return prettyHour.replace(":00", "");
+  };
 
   const [element, controls] = useScroll();
   const [element1, controls1] = useScroll();
@@ -371,13 +389,16 @@ export default function ProductSection() {
                       </p>
                     )}
                     <p className={classes.subdescr}>
-                      <b>{program.date}</b> <br />
+                      <b>
+                        {formatDate(program.datum)}, {formatHour(program.heure)}
+                      </b>{" "}
+                      <br />
                       {program.lieu}
                     </p>
                     {("billeterie" in program || "phone" in program) && (
                       <p className={classes.subdescr}>
-                        {"billeterie" in program && (
-                          <>
+                        {program.billeterie !== "" && (
+                          <Button size="large" style={{ marginBottom: "1rem" }}>
                             <b>
                               <a
                                 href={program.billeterie}
@@ -387,13 +408,12 @@ export default function ProductSection() {
                                 Réservez vos billets
                               </a>
                             </b>
-                            <br />
-                          </>
+                          </Button>
                         )}
-                        {"phone" in program && (
-                          <>
+                        {program.phone !== "" && (
+                          <div>
                             <PhoneTwoTone /> {program.phone}
-                          </>
+                          </div>
                         )}
                       </p>
                     )}
@@ -457,13 +477,16 @@ export default function ProductSection() {
                       </p>
                     )}
                     <p className={classes.subdescr}>
-                      <b>{program.date}</b> <br />
+                      <b>
+                        {formatDate(program.datum)}, {formatHour(program.heure)}
+                      </b>{" "}
+                      <br />
                       {program.lieu}
                     </p>
                     {("billeterie" in program || "phone" in program) && (
                       <p className={classes.subdescr}>
-                        {"billeterie" in program && (
-                          <>
+                        {program.billeterie !== "" && (
+                          <Button size="large" style={{ marginBottom: "1rem" }}>
                             <b>
                               <a
                                 href={program.billeterie}
@@ -474,12 +497,12 @@ export default function ProductSection() {
                               </a>
                             </b>
                             <br />
-                          </>
+                          </Button>
                         )}
-                        {"phone" in program && (
-                          <>
+                        {program.phone !== "" && (
+                          <div>
                             <PhoneTwoTone /> {program.phone}
-                          </>
+                          </div>
                         )}
                       </p>
                     )}
@@ -526,13 +549,16 @@ export default function ProductSection() {
                   </p>
                 )}
                 <p className={classes.subdescr}>
-                  <b>{program.date}</b> <br />
+                  <b>
+                    {formatDate(program.datum)}, {formatHour(program.heure)}
+                  </b>{" "}
+                  <br />
                   {program.lieu}
                 </p>
                 {("billeterie" in program || "phone" in program) && (
                   <p className={classes.subdescr}>
-                    {"billeterie" in program && (
-                      <>
+                    {program.billeterie !== "" && (
+                      <Button size="large" style={{ marginBottom: "1rem" }}>
                         <b>
                           <a
                             href={program.billeterie}
@@ -543,12 +569,12 @@ export default function ProductSection() {
                           </a>
                         </b>
                         <br />
-                      </>
+                      </Button>
                     )}
-                    {"phone" in program && (
-                      <>
+                    {program.phone !== "" && (
+                      <div>
                         <PhoneTwoTone /> {program.phone}
-                      </>
+                      </div>
                     )}
                   </p>
                 )}
