@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9d057060bada34f485fde7737279892",
+    "revision": "ccf469d9ddc1b960b03590d50329eedd",
     "url": "./index.html"
   },
   {
-    "revision": "66392ca33af548e5b0b5",
+    "revision": "86178cacae97aacf8b55",
     "url": "./static/css/2.6057a332.chunk.css"
   },
   {
-    "revision": "9a8ea5499f87a38aec2e",
-    "url": "./static/css/main.c0183568.chunk.css"
+    "revision": "491f03808860da1a584a",
+    "url": "./static/css/main.d4490a0f.chunk.css"
   },
   {
-    "revision": "66392ca33af548e5b0b5",
-    "url": "./static/js/2.00e06108.chunk.js"
+    "revision": "86178cacae97aacf8b55",
+    "url": "./static/js/2.0d864589.chunk.js"
   },
   {
-    "revision": "9a8ea5499f87a38aec2e",
-    "url": "./static/js/main.5edce66f.chunk.js"
+    "revision": "491f03808860da1a584a",
+    "url": "./static/js/main.49f69a2f.chunk.js"
   },
   {
     "revision": "bb99b5ac01af7d9265df",
@@ -416,6 +416,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/forest.9ebb1bc2.jpg"
   },
   {
+    "revision": "4fe9b9d24d93bf0f25b810c019a9f462",
+    "url": "./static/media/francoise-jaune.4fe9b9d2.jpg"
+  },
+  {
+    "revision": "706b953847e31453cf7efcb4abfb0c45",
+    "url": "./static/media/francoise-noir.706b9538.png"
+  },
+  {
     "revision": "217dfda3a66172b8eae4aeef0006c95c",
     "url": "./static/media/galerie.217dfda3.jpg"
   },
@@ -574,10 +582,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1bd3e526da00960cc3b91e51be9d35f",
     "url": "./static/media/radioclassique.a1bd3e52.png"
-  },
-  {
-    "revision": "01c00eb6cc712a7901cdd8d3a06a1e95",
-    "url": "./static/media/radioorient.01c00eb6.mp3"
   },
   {
     "revision": "28754e8da8735d1acd9de36ed2da5cbf",
