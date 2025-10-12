@@ -7,7 +7,6 @@ import moment from "moment";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
-import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import { Row, Col, Card, Button } from "antd";

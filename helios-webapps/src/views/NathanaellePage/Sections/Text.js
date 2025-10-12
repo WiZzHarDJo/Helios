@@ -96,7 +96,7 @@ export default function ProductSection() {
           <Col span={15}></Col>
           <Col span={6}>
             <Button size="large">
-              <Link to="/isabelle" className={classes.navLink}>
+              <Link to="/francoise" className={classes.navLink}>
                 Découvrez un autre musicien
               </Link>
             </Button>

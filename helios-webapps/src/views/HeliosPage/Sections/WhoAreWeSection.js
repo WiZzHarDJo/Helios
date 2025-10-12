@@ -36,7 +36,11 @@ export default function ProductSection() {
           }}
           className="responsive"
         >
-          <img src={arbre} className="responsiveImg" alt="Quatuor Hélios" />
+          <img
+            src={arbre}
+            className="responsiveImgArbre"
+            alt="Quatuor Hélios"
+          />
           <GridItem>
             <p className={classes.subdescr}>
               Bien plus que la rencontre fortuite d’une flûtiste et d’un trio à

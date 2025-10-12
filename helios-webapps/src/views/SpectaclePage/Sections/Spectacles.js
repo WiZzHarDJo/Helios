@@ -7,7 +7,6 @@ import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import MyCarousel from "../../../components/MyCarousel/MyCarousel.js";
-import MyCarouselProf from "../../../components/MyCarouselProf/MyCarouselProf.js";
 
 import { BrowserView, MobileView } from "react-device-detect";
 

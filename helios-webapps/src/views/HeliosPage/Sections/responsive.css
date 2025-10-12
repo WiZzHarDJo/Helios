@@ -2,6 +2,10 @@
   width: 30vw;
 }
 
+.responsiveImgArbre {
+  width: 30vw;
+}
+
 .parent {
   display: grid;
   grid-gap: 1rem;
@@ -9,9 +13,19 @@
   margin-left: 10%;
 }
 
+.friends {
+  width: 45%;
+  margin: 0 auto;
+}
+
 @media (min-width: 600px) {
   .parent {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .friends {
+    width: 45%;
+    margin: 0 auto;
   }
 }
 
@@ -27,5 +41,15 @@
 @media only screen and (max-width: 600px) {
   .responsiveImg {
     width: 70vw;
+  }
+
+  .friends {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .responsiveImgArbre {
+    width: 20vw;
   }
 }

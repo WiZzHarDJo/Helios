@@ -12,8 +12,6 @@ import styles from "../../../assets/jss/material-kit-react/views/landingPageSect
 
 import assemblee from "../../../assets/img/prixlaique/assembleenationale.jpg";
 
-import radio from "../../../assets/audio/radioorient.mp3";
-
 const useStyles = makeStyles(styles);
 
 export default function ProductSection() {

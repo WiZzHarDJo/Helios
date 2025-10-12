@@ -1,0 +1,31 @@
+.responsiveImg {
+  width: 30vw;
+}
+
+.parent {
+  display: grid;
+  grid-gap: 1rem;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+@media (min-width: 600px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive {
+    flex-direction: column-reverse;
+  }
+  .responsiveImg {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsiveImg {
+    width: 70vw;
+  }
+}

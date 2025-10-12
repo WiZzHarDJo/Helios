@@ -10,6 +10,7 @@ import ChristelPage from "./views/ChristelPage/ChristelPage";
 import IsabellePage from "./views/IsabellePage/IsabellePage";
 import ChristophePage from "./views/ChristophePage/ChristophePage";
 import NathanaellePage from "./views/NathanaellePage/NathanaellePage";
+import FrancoisePage from "./views/FrancoisePage/FrancoisePage";
 import PressePage from "./views/PressePage/PressPage";
 import MecenatPage from "./views/MecenatPage/MecenatPage";
 import LoginPage from "./views/LoginPage/LoginPage";
@@ -32,6 +33,7 @@ const routes = () => {
         <Route path="/concerts" exact component={ConcertPage} />
         <Route path="/christel" exact component={ChristelPage} />
         <Route path="/isabelle" exact component={IsabellePage} />
+        <Route path="/francoise" exact component={FrancoisePage} />
         <Route path="/ecole" exact component={EcolePage} />
         <Route path="/prix" exact component={PrixPage} />
         <Route path="/conservatoire" exact component={ConservatoirePage} />

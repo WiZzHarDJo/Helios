@@ -21,7 +21,7 @@ import "./responsive.css";
 
 import team1 from "../../../assets/img/tri/team/flute.jpg";
 import team2 from "../../../assets/img/tri/team/violon.jpg";
-import team3 from "../../../assets/img/tri/team/alto.jpg";
+import team3 from "../../../assets/img/tri/team/francoise-jaune.jpg";
 import team4 from "../../../assets/img/tri/team/celo.jpg";
 
 const useStyles = makeStyles(styles);
@@ -53,7 +53,7 @@ export default function TeamSection() {
                   fait de brillantes études au C.N.S.M. de Paris, couronnées par
                   un 1er Prix de flûte (classe d’Alain Marion), un 1er Prix et
                   un 3e cycle de musique de chambre (classe de Christian
-                  Lardé).....
+                  Lardé)...
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -80,7 +80,7 @@ export default function TeamSection() {
                   Elève de Marcel Bardon au CNR de Paris, Christophe Beau
                   obtient une Médaille d'Or (1985), un Premier Prix d'Excellence
                   de violoncelle (1986) et un Premier Prix de Virtuosité (1987).
-                  Il entre ensuite au CNSM ...
+                  Il entre ensuite au CNSM...
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -124,21 +124,21 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Isabelle Lequien
+                Francoise Renard
                 <br />
                 <small className={classes.smallTitle}>Alto</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Isabelle Lequien débute l'apprentissage de la musique par le
-                  violon et le piano et se tourne très vite vers la sonorité
-                  chaleureuse de l'alto. Elle obtient en 1985 un1er prix au CNSM
-                  de Paris ...
+                  Diplomée en 1992 du CNSM de Paris Dans la classe de Bruno
+                  Pasquier, Françoise RENARD se perfectionne à Bordeaux avec
+                  Tasso Adamopoulos. Titulaire du CA, elle partage alors son
+                  activité entre l'enseignement...
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
                 <Button size="large">
-                  <Link to="/isabelle" className={classes.navLink}>
+                  <Link to="/francoise" className={classes.navLink}>
                     En savoir plus +
                   </Link>
                 </Button>
