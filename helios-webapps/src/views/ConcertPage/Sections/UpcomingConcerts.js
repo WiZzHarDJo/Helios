@@ -7,7 +7,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import GridItem from "../../../components/Grid/GridItem.js";
 
-import { Row, Col, Card, Button } from "antd";
 import { PhoneTwoTone } from "@ant-design/icons";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
@@ -43,113 +42,72 @@ const formatDate = (date) => {
 
 const formatHour = (heure) => heure.replace(":", "h").replace(":00", "");
 
-function ConcertImage({ program, classes }) {
-  return (
-    <p className={classes.partenaireDescr}>
-      <img
-        src={program.imageUrl}
-        alt={program.title}
-        style={{ height: "350px", width: "425px", objectFit: "cover" }}
-      />
-    </p>
-  );
-}
+function ConcertCard({ program }) {
+  const hasTickets = program.billeterie && program.billeterie !== "";
+  const hasPhone = program.phone && program.phone !== "";
 
-function ConcertDetails({ program, classes }) {
   return (
-    <>
-      <p className={classes.subdescr}>{program.description}</p>
-      {"artiste" in program && (
-        <p className={classes.subdescr}>
-          <b>Programme de l'évènement :</b> {program.artiste}
-          {program.duration}
-        </p>
-      )}
-      <p className={classes.subdescr}>
-        <b>
-          {formatDate(program.datum)}, {formatHour(program.heure)}
-        </b>{" "}
-        <br />
-        {program.lieu}
-      </p>
-      {("billeterie" in program || "phone" in program) && (
-        <p className={classes.subdescr}>
-          {program.billeterie !== "" && (
-            <Button size="large" style={{ marginBottom: "1rem" }}>
-              <b>
+    <motion.div variants={photoAnim}>
+      <Poster>
+        <div className="media">
+          <div
+            className="photo"
+            role="img"
+            aria-label={program.title}
+            style={{ backgroundImage: `url("${program.imageUrl}")` }}
+          />
+          <div className="shade" />
+          <span className="date">
+            {formatDate(program.datum)}, {formatHour(program.heure)}
+          </span>
+          <h3 className="title">{program.title}</h3>
+        </div>
+        <div className="body">
+          {program.lieu && <p className="place">📍 {program.lieu}</p>}
+          {program.description && <p>{program.description}</p>}
+          {"artiste" in program && (
+            <p>
+              <b>Programme de l'évènement :</b> {program.artiste}
+              {program.duration}
+            </p>
+          )}
+          {(hasTickets || hasPhone) && (
+            <div className="actions">
+              {hasTickets && (
                 <a
+                  className="cta"
                   href={program.billeterie}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Réservez vos billets
                 </a>
-              </b>
-            </Button>
-          )}
-          {program.phone !== "" && (
-            <div>
-              <PhoneTwoTone /> {program.phone}
+              )}
+              {hasPhone && (
+                <span className="phone">
+                  <PhoneTwoTone /> {program.phone}
+                </span>
+              )}
             </div>
           )}
-        </p>
-      )}
-    </>
+        </div>
+      </Poster>
+    </motion.div>
   );
 }
 
-// layout: "textFirst" | "imageFirst" | "stacked" (mobile)
-function ConcertCard({ program, layout, classes }) {
-  const image = <ConcertImage program={program} classes={classes} />;
-  const details = <ConcertDetails program={program} classes={classes} />;
-
-  return (
-    <Hide>
-      <GridItem style={{ marginBottom: "40px" }}>
-        <motion.div variants={photoAnim}>
-          <Card>
-            <h4 className={classes.subtitle} style={{ marginBottom: "20px" }}>
-              {program.title}
-            </h4>
-            {layout === "stacked" ? (
-              <>
-                {image}
-                {details}
-              </>
-            ) : (
-              <Row
-                type="flex"
-                style={{ alignItems: "center" }}
-                justify="center"
-                gutter={10}
-              >
-                {layout === "imageFirst" && <Col span={10}>{image}</Col>}
-                <Col span={14}>{details}</Col>
-                {layout === "textFirst" && <Col span={10}>{image}</Col>}
-              </Row>
-            )}
-          </Card>
-        </motion.div>
-      </GridItem>
-    </Hide>
-  );
-}
-
-function MonthSection({ title, concerts, classes }) {
+function MonthSection({ title, concerts }) {
   const [element, controls] = useScroll();
 
   return (
     <motion.div ref={element} variants={fade} animate={controls}>
       <MonthTitle variants={fade}>{title}</MonthTitle>
       <motion.div variants={lineAnim} className="line"></motion.div>
-      {concerts.map((program, index) => (
-        <ConcertCard
-          key={index}
-          program={program}
-          layout={index % 2 === 0 ? "textFirst" : "imageFirst"}
-          classes={classes}
-        />
-      ))}
+      <CardsGrid>
+        {concerts.map((program, index) => (
+          <ConcertCard key={index} program={program} />
+        ))}
+      </CardsGrid>
     </motion.div>
   );
 }
@@ -205,19 +163,15 @@ export default function UpcomingConcerts() {
                 key={key}
                 title={capitalize(moment(`${key}-01`).format("MMMM YYYY"))}
                 concerts={byMonth[key]}
-                classes={classes}
               />
             ))}
         </BrowserView>
         <MobileView>
-          {upcoming.map((program, index) => (
-            <ConcertCard
-              key={index}
-              program={program}
-              layout="stacked"
-              classes={classes}
-            />
-          ))}
+          <CardsGrid>
+            {upcoming.map((program, index) => (
+              <ConcertCard key={index} program={program} />
+            ))}
+          </CardsGrid>
         </MobileView>
       </Concerts>
     </div>
@@ -230,11 +184,6 @@ const Concerts = styled(motion.GridContainer)`
     background: #ffe57f;
     margin-bottom: 3rem;
   }
-  img {
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-  }
 `;
 
 const MonthTitle = styled(motion.h2)`
@@ -242,6 +191,112 @@ const MonthTitle = styled(motion.h2)`
   font-size: 2rem;
 `;
 
-const Hide = styled.div`
+const CardsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+`;
+
+// Le ratio fixe + background-size: cover absorbe les photos de formats variés
+const Poster = styled.article`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
   overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.45);
+  }
+
+  .media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #222;
+  }
+  .photo {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+  }
+  &:hover .photo {
+    transform: scale(1.06);
+  }
+  .shade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.85) 0%,
+      rgba(0, 0, 0, 0.25) 55%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .date {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    background: #ffe57f;
+    color: #111;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .title {
+    position: absolute;
+    left: 1.2rem;
+    right: 1.2rem;
+    bottom: 1rem;
+    margin: 0;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.15;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.2rem;
+    color: #333;
+    text-align: left;
+  }
+  .body p {
+    margin: 0;
+  }
+  .place {
+    font-weight: 600;
+  }
+  .actions {
+    margin-top: auto;
+    padding-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  .cta {
+    padding: 0.6rem 1.4rem;
+    border-radius: 999px;
+    background: #111;
+    color: #ffe57f;
+    font-weight: 700;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .cta:hover {
+    background: #ffe57f;
+    color: #111;
+  }
 `;
