@@ -48,7 +48,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/concerts" className={classes.navLink}>
-          Concerts
+          Saison {new Date().getFullYear()} - {new Date().getFullYear() + 1}
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
