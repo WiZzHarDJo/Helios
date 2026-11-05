@@ -1,0 +1,30 @@
+@import '~antd/dist/antd.css';
+
+.antCarousel {
+
+  background-color: rgb(160, 145, 145);
+  //border-radius: 10px;
+
+    :global .slick-dots li {
+
+      background-color: #7282a1;
+
+      &.slick-active button{
+        background-color: orange !important;
+      }
+
+  }
+
+  .slickSlide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+
+    h1 {
+      color: black;
+    }
+  }
+
+}

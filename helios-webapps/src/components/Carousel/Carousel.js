@@ -33,7 +33,7 @@ export default function SectionCarousel(props){
       <div key={id}>
         <img src={require(`./../../assets/img/${images.img}`)} alt="First slide" className="slick-image" />
         <div className="slick-caption">
-          <h4>
+          <h4 style={{color:"white",fontSize:"20px"}}>
             {images.legend} <br/>
             {images.info}
           </h4>

@@ -29,7 +29,7 @@
         "lieu":"Festival Présence, Théâtre liberté, 83 000 Toulon",
         "artiste":"Sophie Lacaze, Graciane Finzi, Ivane Bellocq, Christel Rayneau",
         "date":"Jeudi 26 Mars, 14h",
-        "img":"calme1.jpg",
+        "img":"violon.jpg",
         "datum":"2020-03-26"
     },
     {
@@ -47,7 +47,7 @@
         "artiste":"Wolfgang Amadeus Mozart, Jindrich Feld, Eugène Walckiers",
         "lieu":"Centre social La Clairière, 60 rue Grenetta, 75 002 Paris",
         "date":"Vendredi 15 mai, 17h",
-        "img":"calme1.jpg",
+        "img":"traversiere.jpg",
         "datum":"2020-05-15"
     },
     {
@@ -65,7 +65,7 @@
         "duration":"50min",
         "lieu":"Centre culturel Jacques Brel, 91 140 Villebon",
         "date":"Mardi 26 mai, 14h",
-        "img":"calme1.jpg",
+        "img":"edition.jpg",
         "datum":"2020-05-26"
     },{
         "title":"L'Ensemble Hélios invite : Saskia Lechiec",
@@ -88,7 +88,7 @@
     {
         "title":"Concert : Un Romantique français à redécouvrir",
         "description":"Compositeur romantique trop oublié, Eugène Walckiers trouve en Hélios un partenaire enthousiaste. Ses riches quatuors et trios constituent un apport majeur dans le répertoire de la formation.",
-        "artiste":"Eugène Walckiers compositeur Romantique Françai",
+        "artiste":"Eugène Walckiers compositeur Romantique Français",
         "lieu":"Maison de Châteaubriand 87, rue de Châteaubriand, 92 290 Châtenay Malabris",
         "date":"Mardi 16 juin, 20h30",
         "img":"harpe.jpg",
@@ -96,19 +96,27 @@
     },
     {
         "title":"Spectacle musical : « Comment Mozart vient aux enfants... »",
-        "description":"Dékà donné 180 fois, ce spectacle familial à destination des enfants de 4 ans à 99 ans continue son chemin heureux de diffusion. Avec le comédien Benjamin Bernard.",
+        "description":"Déjà donné 180 fois, ce spectacle familial à destination des enfants de 4 ans à 99 ans continue son chemin heureux de diffusion. Avec le comédien Benjamin Bernard.",
         "duration":"50min",
         "lieu":"Festival des Forêts, Compiègne",
         "date":"Samedi 20 juin, 16h",
-        "img":"calme1.jpg",
+        "img":"contemporain.jpg",
         "datum":"2020-06-20"
+    },{
+        "title":"Bain de forêt musical en forêt de Laigue",
+        "description":"Au Japon, les bienfaits pour le corps et l’esprit du shinrin yoku, pratique d’immersion et de méditation en forêt, sont bien connus. Elle prend ici la forme d’une marche de 3 heures, guidée par un médiateur et accompagnée par des musiciens, où un contact intime et attentif avec la nature et la musique donne le chemin vers la connaissance de soi, l’harmonie et le bien-être.",
+        "artiste":"DANZI duo op 64/1, JS BACH Allegro de la sonate BWV 1035, F DEVIENNE Andante, JS BACH andante de la sonate 1034, H VILLA-LOBOS le sifflet du geai, TELEMANN extraits des fantaisies pour flûte solo, K SAARIAHO Mirrors, A PIAZOLLA  Tango, JS BACH Sicilienne de sonate BWV 1035",
+        "lieu":"Festival des Forêts, Compiègne",
+        "date":"Dimanche 21 juin, 10h",
+        "img":"forest.jpg",
+        "datum":"2020-06-21"
     },
     {
         "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
         "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
         "lieu":"Mois Molière, Hôtel de la Chancellerie,  24 rue de la Chancellerie, 78 000 Versailles",
         "date":"Mardi 23 juin , 19h",
-        "img":"calme1.jpg",
+        "img":"lafontaine.jpg",
         "datum":"2020-06-23"
     },
     {
@@ -116,7 +124,100 @@
         "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
         "lieu":"Tournée Centres de vacances CCAS",
         "date":"Entre le 6 et 18 Juillet",
-        "img":"calme1.jpg",
-        "datum":"2020-06-18"
+        "img":"lafontaine.jpg",
+        "datum":"2020-07-18"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Touristra Vacances 'Le Lac Marin', Route de Port d'Albret, 40140 SOUSTONS",
+        "date":"Mercredi 12 août, 21h30",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-12"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Camping Campéole Arotxa, 639 Chemin Olhasso, 64310 SAINT PEE SUR NIVELLE",
+        "date":"Jeudi 13 août, 21h30",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-13"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Touristra Vacances « La Forêt des Landes », 91 avenue Julian Grimaud 40220 TARNOS",
+        "date":"Vendredi 14 août, 21h15",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-14"
+    },
+    {
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Centre de vacances CCAS « La chambre d’amour », 16-18 rue de Bouney 64600 ANGLET",
+        "date":"Samedi 15 août, 21h",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-15"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"VVF Villages 'Les Plages des Landes', Rue de Chambrelan-Le Huchet, 40660 MOLIETS",
+        "date":"Lundi 17 août, 21h",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-17"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"VARTES Tourisme, Village de vacances « Le Junka », Port Albret Avenue de la Plage, 40480 VIEUX BOUCAU LES BAINS",
+        "date":"Mardi 18 août, 21h",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-18"
+    },{
+        "title":"Musique et Littérature : « Du temps que les bêtes parlaient » ",
+        "description":"Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+        "lieu":"Camping Campéole « L’étang Blanc », 2 route Louis de Bourmont, 40510 SEIGNOSSE",
+        "date":"Mercredi 19 août, 21h30",
+        "img":"lafontaine.jpg",
+        "datum":"2020-08-19"
+    },
+    {
+        "title":"Journées du Patrimoine : « Hommage au patrimoine musical français »",
+        "description":"",
+        "artiste":"Wolfgang Amadeus Mozart : « Quatuor en ré kw 285 », Maurice Ravel : « Pavane pour une infante défunte », Jean-Yves Malmasson : « Les Chants du Séraphin » (Dédié à Hélios Création 2017), Claudes Debussy : « Préludes », Michèle Foison : « 4 Regards avec Récitant »",
+        "lieu":"Eglise de Bû, 28410",
+        "date":"Samedi 19 Septembre, 20h30",
+        "img":"programmation/patrimoine.jpg",
+        "datum":"2020-09-19"
+    },{
+        "title":"Concert : « Voyages en mer »",
+        "description":"",
+        "artiste":"Graciane Finzi : « Océan, mer » (Création 2009, dédié à Hélios), Marco di Bari : « Et les ondes chantent, même… » (Création 2015, dédié à Hélios), Albert Roussel : « Trio op 40 pour flûte, alto et cello », Guy-Claude Luypaerts : « Parfums de mer - Brume, Sérénité, Vent » (Création 2013, dédié à Hélios)",
+        "lieu":"Festival de Chinon, La Grand'Cour, 3 route de la Melière, 37 500 Seuilly",
+        "date":"Samedi 19 Septembre, 20h30",
+        "img":"programmation/sailing.jpg",
+        "datum":"2020-09-19"
+    },{
+        "title":"L'Ensemble Hélios invite : Françoise de Maubus",
+        "description":"",
+        "artiste":"Rosi Wertheim : « 3 préludes pour Lancelot flûte et trio à cordes », Clémence Granval : « Valse mélancolique flûte et harpe », Graciane Finzi : « Océan, mer » (Création 2009, dédié à Hélios), Mel Bonis : « Scènes de la forêt », Edith Canat de Chizy : « Beyond », Charlotte Sohy : « Tryptique champêtre »  ",
+        "lieu":"Théatre Liberté, Toulon",
+        "date":"Mercredi 14 Octobre, 20h",
+        "img":"programmation/demaubus.jpg",
+        "datum":"2020-10-14"
+    },{
+        "title":"Ballade Musicale : « Du Baroque au Contemporain » ",
+        "description":"Ce concert très festif vous emmène à la découverte du riche répertoire d'Hélios.",
+        "artiste":"Mozart, Ledeuil, Bach, Haendel, Haydn, Rimski-Korsakov",
+        "lieu":"Centre de vacances BRUSC, 83 110 Sanary",
+        "date":"Vendredi 16 Octobre, 11h30",
+        "img":"programmation/forest.jpg",
+        "datum":"2020-10-16"
+    },{
+        "title":"Concert : Intégrale des quatuors de Mozart",
+        "description":"L’intégrale des quatuors avec flûte de Mozart reste un grand classique du répertoire de l'Ensemble Hélios.",
+        "lieu":"Cercle interalliés, Salon Foch, 33 rue du Faubourg St Honoré, 75008 Paris",
+        "date":"Mardi 17 novembre, 20h45",
+        "img":"mozart-child.jpg",
+        "datum":"2020-11-17"
     }
 ]

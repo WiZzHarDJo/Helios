@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Concert : Monographie Di Bari",
+    "description": "L'Ensemble Hélios est rejoint par Maria Bellota au piano et Maya Villanueva au chant pour un concert reprenant les plus belles oeuvres du compositeur Marco Di Bari.",
+    "lieu": "Institut culturel Italien, 50 rue de Varennes, 75 007",
+    "date": "Mardi 22 juin, 19h",
+    "img": "programmation/dibari.jpg",
+    "datum": "2021-06-22"
+  },
+  {
+    "title": "Spectacle musical : « Comment Mozart vient aux enfants... »",
+    "description": "Déjà donné 180 fois, ce spectacle familial de Christel Rayneau à destination des enfants de 4 ans à 99 ans continue son chemin heureux de diffusion. Avec le comédien Benjamin Bernard.",
+    "duration": "50min",
+    "lieu": "Festival Les Estivales Artenetra, Espace culturel Alain Audis, Pamproux, 79 800 ",
+    "date": "Vendredi 30 juillet, 19h30 ",
+    "img": "programmation/spectaclemozart.jpg",
+    "datum": "2021-07-30"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Lanslevillard, 73 480",
+    "date": "Jeudi 05 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-05"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Aussois, 73 500 ",
+    "date": "Vendredi 06 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-06"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Chamrousse la Bérangère, 38 410",
+    "date": "Samedi 07 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-07"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Doucy Valmorel, Le jet de la Palla, 73 260",
+    "date": "Lundi 09 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-09"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Beaufort, 73 470",
+    "date": "Mardi 10 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-10"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Megève le Hameau, 74 120",
+    "date": "Mercredi 11 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-11"
+  },
+  {
+    "title": "Musique et Littérature : « Du temps que les bêtes parlaient » ",
+    "artiste": "Martins, Luypaerts, Bach, Grieg, Haydn, Mozart, Rimski-Korsakov",
+    "description": "Ce spectacle autour des fables de Jean de La Fontaine ponctuées de musique est un pur moment de bonheur. Avec le comédien Philippe Murgier",
+    "lieu": "Onnion, 74 490",
+    "date": "Jeudi 12 août",
+    "img": "lafontaine.jpg",
+    "datum": "2021-08-12"
+  },
+  {
+    "title": "Concert : Intégrale des quatuors de Mozart",
+    "description": "L’intégrale des quatuors avec flûte de Mozart reste un grand classique du répertoire de l'Ensemble Hélios.",
+    "lieu": "Cercle interalliés, Salon Foch, 33 rue du Faubourg St Honoré, 75 008 Paris",
+    "date": "Mardi 12 octobre, 20h45",
+    "img": "mozart-child.jpg",
+    "datum": "2021-10-12"
+  },
+  {
+    "title": "Spectacle musical : « Comment Mozart vient aux enfants... »",
+    "description": "Déjà donné 180 fois, ce spectacle familial de Christel Rayneau à destination des enfants de 4 ans à 99 ans continue son chemin heureux de diffusion. Avec le comédien Benjamin Bernard.",
+    "duration": "50min",
+    "lieu": "Festival Musique au fil de l’arbre, Fleury-en Bière, 77 130",
+    "date": "Samedi 16 octobre, 16h",
+    "img": "programmation/spectaclemozart.jpg",
+    "datum": "2021-10-12"
+  },
+  {
+    "title": "Festival Musique au fil de l’arbre",
+    "description": "",
+    "artiste": "Bach, Alvorsen, Combes-Damiens, Mozart, Bizet-Borne, Luypaerts",
+    "lieu": "Festival Musique au fil de l’arbre, Fleury-en Bière, 77 130",
+    "date": "Samedi 16 octobre, 19h",
+    "img": "tri/arbre2.jpg",
+    "datum": "2021-10-12"
+  },
+  {
+    "title": "Festival de Clermont-Ferrand",
+    "description": "",
+    "artiste": "Di Bari, Lacaze, Foskett, Combes-Damiens, Dinescu",
+    "lieu": "Chapelle des Cordeliers, Clermont-Ferrand, 63 000",
+    "date": "Jeudi 4 novembre",
+    "img": "concert1.jpg",
+    "datum": "2021-11-04"
+  },
+  {
+    "title": "Festival Présences contemporaines",
+    "description": "",
+    "artiste": "Berio, Bertrand, Hersant, Dinescu",
+    "lieu": "Hôpital Sainte Marie, 50 Route de Montredon CS 10021, 43 009 Le Puy-en-Velay",
+    "date": "Mardi 9 novembre",
+    "img": "traversiere.jpg",
+    "datum": "2021-11-09"
+  },
+  {
+    "title": "Spectacle musical : Des mots aux sons - séance scolaire",
+    "description": "Construite sur des œuvres bâties sur des textes littéraires, cette séance scolaire propose aux enfants de collège un bain musical et une réflexion sur la création.",
+    "lieu": "Festival de Clermont-Ferrand, Clermont-Ferrand, 63 000",
+    "artiste": "Lacaze, Finzi, Combes-Damiens",
+    "date": "Mercredi 10 novembre",
+    "img": "violon.jpg",
+    "datum": "2021-11-10"
+  },
+  {
+    "title": "Action pédagogique dans les écoles",
+    "description": "",
+    "duration": "",
+    "lieu": "Issy les Moulineaux, 92 130",
+    "date": "Samedi 16 octobre, 19h",
+    "img": "pedagogie/chimene/chant.jpg",
+    "datum": "2022-01-10"
+  },
+  {
+    "title": "Spectacle musical : « La question secrète de Namdak » - séance scolaire",
+    "description": "Spectacle de Christel Rayneau, musique d’Antoine Rosset, mise en scène et voix Jean-Daniel Laval",
+    "duration": "",
+    "lieu": "Théâtre Place du 8 mai 1945, 78 330 Fontenay le Fleury",
+    "date": "Du 19 au 26 février 2022",
+    "img": "pedagogie/chimene/chant.jpg",
+    "datum": "2022-02-19"
+  }
+]

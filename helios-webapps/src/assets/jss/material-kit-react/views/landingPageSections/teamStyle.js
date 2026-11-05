@@ -1,10 +1,10 @@
-import { cardTitle, title } from "./../../../../../assets/jss/material-kit-react.js";
+import { title } from "./../../../../../assets/jss/material-kit-react.js";
 import imagesStyle from "./../../../../../assets/jss/material-kit-react/imagesStyles.js";
 
 const teamStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center"
+    textAlign: "center",
   },
   title: {
     ...title,
@@ -12,22 +12,29 @@ const teamStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
-    fontSize:"35px"
+    fontSize: "35px",
   },
   ...imagesStyle,
   itemGrid: {
     marginLeft: "auto",
-    marginRight: "auto"
+    marginRight: "auto",
   },
-  cardTitle,
+  cardTitle: {
+    fontSize: "25px",
+  },
   smallTitle: {
-    color: "#6c757d"
+    color: "#6c757d",
   },
   description: {
-    color: "#999"
+    color: "#999",
+    fontSize: "15px",
+  },
+  bigDescription: {
+    color: "#999",
+    fontSize: "20px",
   },
   justifyCenter: {
-    justifyContent: "center !important"
+    justifyContent: "center !important",
   },
   socials: {
     marginTop: "0",
@@ -38,11 +45,11 @@ const teamStyle = {
     height: "100%",
     lineHeight: "41px",
     fontSize: "20px",
-    color: "#999"
+    color: "#999",
   },
   margin5: {
-    margin: "5px"
-  }
+    margin: "5px",
+  },
 };
 
 export default teamStyle;

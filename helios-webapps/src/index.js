@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './App';
+import ScrollToTop from './components/ScrollToTop';
 import * as serviceWorker from './serviceWorker';
 
 import "./assets/scss/material-kit-react.scss?v=1.8.0";
 
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
+        <ScrollToTop/>
         <App />
     </BrowserRouter>
     , document.getElementById('root')

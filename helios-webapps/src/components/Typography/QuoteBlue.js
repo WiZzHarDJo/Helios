@@ -14,17 +14,13 @@ export default function Quote(props) {
   return (
     <blockquote className={classes.defaultFontStyle + " " + classes.quoteBlue}>
       <p className={classes.quoteText}>{text}</p>
-      <small className={classes.quoteAuthor}>{author}</small>
-      {
-        link && 
-
-        <a href={linkText}>(retrouvez l'article complet ici)</a>
-      }
+      <bold className={classes.quoteAuthor}>{author}</bold>
+      {link && <a href={linkText}>(retrouvez l'article complet ici)</a>}
     </blockquote>
   );
 }
 
 Quote.propTypes = {
   text: PropTypes.node,
-  author: PropTypes.node
+  author: PropTypes.node,
 };

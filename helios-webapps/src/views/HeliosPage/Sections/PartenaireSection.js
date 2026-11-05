@@ -2,15 +2,16 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import img1 from "./../../../assets/img/logo-liberté.png";
-import img2 from "./../../../assets/img/logo-sacem.jpg";
-import img3 from "./../../../assets/img/rectorat-logo.png";
-import img4 from "./../../../assets/img/logo-billaudot.png";
+import img1 from "./../../../assets/img/logo/mmc-logo.png";
+import img2 from "./../../../assets/img/logo/logo-sacem.jpg";
+import img3 from "./../../../assets/img/logo/rectorat-logo.png";
+import img4 from "./../../../assets/img/logo/logo-billaudot.png";
+import img5 from "./../../../assets/img/logo/centre-national-musique-logo.png";
 
 // core components
 import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
-import {Row, Col} from 'antd';
+import { Row, Col } from "antd";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import "antd/dist/antd.css";
@@ -28,79 +29,145 @@ export default function WorkSection() {
       </GridContainer>
       <GridContainer>
         <GridItem>
-        <p className={classes.subdescr}>
-            L'Ensemble Hélios a l'honneur d'être soutenu dans ses activités artistiques de création et de concerts par les partenaires suivants :
-        </p>
-        <Row
+          <p className={classes.subdescr}>
+            L'Ensemble Hélios a l'honneur d'être soutenu dans ses activités
+            artistiques de création et de concerts par les partenaires suivants
+            :
+          </p>
+        </GridItem>
+        <GridItem>
+          <Row
             type="flex"
             style={{ alignItems: "center" }}
             justify="center"
             gutter={10}
-        >
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-              <a href="https://www.mnl-paris.com"> <b>Musique Nouvelle en Liberté</b></a>
-            </p>
-          </Col>
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-            <a href="https://www.sacem.fr/"> <b>La Société des auteurs, compositeurs et éditeurs de musique</b></a>
-            </p>
-          </Col>
-        </Row>
-        <Row
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <a href="https://musiquecontemporaine.org/">
+                  {" "}
+                  <b>Maison de la Musique Contemporaine</b>
+                </a>
+              </p>
+            </Col>
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <a href="https://www.sacem.fr/">
+                  {" "}
+                  <b>
+                    La Société des auteurs, compositeurs et éditeurs de musique
+                  </b>
+                </a>
+              </p>
+            </Col>
+          </Row>
+          <Row
             type="flex"
             style={{ alignItems: "center" }}
             justify="center"
             gutter={10}
-        >
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-              <img src={img1} alt="Logo Musique Nouvelle en Liberté" style={{marginTop:"10px", width:"30rem"}}/>
-            </p>
-          </Col>
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-            <img src={img2} alt="Logo SACEM" style={{marginTop:"10px", width:"30rem", height:"16rem"}}/>
-            </p>
-          </Col>
-        </Row>
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <img
+                  src={img1}
+                  alt="Logo Musique Nouvelle en Liberté"
+                  style={{ width: "30rem" }}
+                />
+              </p>
+            </Col>
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <img
+                  src={img2}
+                  alt="Logo SACEM"
+                  style={{ width: "18rem", height: "10rem" }}
+                />
+              </p>
+            </Col>
+          </Row>
 
-        <Row
+          <Row
             type="flex"
             style={{ alignItems: "center" }}
             justify="center"
             gutter={10}
-        >
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-              <a href="https://www.ac-paris.fr/portail/"> <b>Le Rectorat de Paris</b></a>
-            </p>
-          </Col>
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-            <a href="https://www.billaudot.com/fr/"> <b>Les Editions Gérard Billaudot</b></a>
-            </p>
-          </Col>
-        </Row>
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <a href="https://www.ac-paris.fr/portail/">
+                  {" "}
+                  <b>Le Rectorat de Paris</b>
+                </a>
+              </p>
+            </Col>
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <a href="https://www.billaudot.com/fr/">
+                  {" "}
+                  <b>Les Editions Gérard Billaudot</b>
+                </a>
+              </p>
+            </Col>
+          </Row>
 
-        <Row
+          <Row
             type="flex"
             style={{ alignItems: "center" }}
             justify="center"
             gutter={10}
-        >
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-              <img src={img3} alt="Logo Rectorat de Paris" style={{marginTop:"10px", width:"20rem", height:"10rem"}}/>
-            </p>
-          </Col>
-          <Col span={12}>
-            <p className={classes.partenaireDescr}>
-            <img src={img4} alt="Logo Editions Gérard Billaudot" style={{marginTop:"10px", width:"30rem"}}/>
-            </p>
-          </Col>
-        </Row>
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <img
+                  src={img3}
+                  alt="Logo Rectorat de Paris"
+                  style={{ width: "12rem", height: "8rem" }}
+                />
+              </p>
+            </Col>
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <img
+                  src={img4}
+                  alt="Logo Editions Gérard Billaudot"
+                  style={{ width: "25rem" }}
+                />
+              </p>
+            </Col>
+          </Row>
+          <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <a href="https://cnm.fr/">
+                  {" "}
+                  <b>Centre National de Musique</b>
+                </a>
+              </p>
+            </Col>
+          </Row>
+
+          <Row
+            type="flex"
+            style={{ alignItems: "center" }}
+            justify="center"
+            gutter={10}
+          >
+            <Col span={12}>
+              <p className={classes.partenaireDescr}>
+                <img
+                  src={img5}
+                  alt="Logo Centre National de Musique"
+                  style={{ width: "23rem", height: "9rem" }}
+                />
+              </p>
+            </Col>
+          </Row>
         </GridItem>
       </GridContainer>
     </div>

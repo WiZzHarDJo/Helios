@@ -4,7 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
+import { BrowserView, MobileView } from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
@@ -18,6 +18,7 @@ import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 import WhoAreWeSection from "./Sections/WhoAreWeSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import PartenaireSection from "./Sections/PartenaireSection.js";
+import FriendSection from "./Sections/FriendSection.js";
 
 const dashboardRoutes = [];
 
@@ -36,20 +37,35 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/helios-groupe.jpg")}/>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          <WhoAreWeSection />
-        </div>
+      <Parallax image={require("../../assets/img/tri/rambarde.jpg")} />
+      <BrowserView>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+            <WhoAreWeSection />
+          </div>
           <TeamSection />
-        <div className={classes.container}>
-          <PartenaireSection />
+          <FriendSection />
+          <div className={classes.container}>
+            <PartenaireSection />
+          </div>
         </div>
-      </div>
+      </BrowserView>
+      <MobileView>
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>
+            <WhoAreWeSection />
+          </div>
+          <TeamSection />
+          <FriendSection />
+          <div className={classes.container}>
+            <PartenaireSection />
+          </div>
+        </div>
+      </MobileView>
       <Footer />
     </div>
   );

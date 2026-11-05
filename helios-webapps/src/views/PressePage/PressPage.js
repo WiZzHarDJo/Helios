@@ -4,11 +4,16 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
+import {
+  BrowserView,
+  MobileView
+} from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
 import Footer from "../../components/Footer/Footer.js";
+import GridContainer from "../../components/Grid/GridContainer.js";
+import GridItem from "../../components/Grid/GridItem.js"
 import HeaderLinks from "../../components/Header/HeaderLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 
@@ -38,12 +43,29 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/presse-parallax.jpg")}/>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-        <Articles/>
+      <Parallax image={require("../../assets/img/tri/presse.jpg")}>
+      <div className={classes.container}>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>La Presse s'intéresse à l'Ensemble Hélios</h1>
+            </GridItem>
+          </GridContainer>
         </div>
-      </div>
+      </Parallax>
+      <BrowserView>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+          <Articles/>
+          </div>
+        </div>
+      </BrowserView>
+      <MobileView>
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>
+          <Articles/>
+          </div>
+        </div>
+      </MobileView>
       <Footer />
     </div>
   );

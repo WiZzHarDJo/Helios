@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Quote from "./../Typography/Quote.js";
+import Quote100 from "./../Typography/Quote100.js";
 import Card from './../MyCard/MyCard.js';
 import { Carousel } from "antd";
 import _ from "lodash";
@@ -8,18 +10,33 @@ import "antd/dist/antd.css";
 
 
 class MyCarousel extends Component {
+
   renderContainer(container, index) {
     return (
       <div key={index} className={slickSlide}>
-        <h1>
-          { container.newspaper }
-        </h1>
-        <h2>
-          { container.author }
-        </h2>
-        <p>
-          { container.text }
-        </p>
+        <div style={{ position: "relative", width: "100%", display:"flex", alignItems: "center", justifyContent: "center"}} /*className={classes.typo}*/>
+          {
+            'photo' in container &&
+            (
+            <>
+            <img src={require(`./../../assets/img/${container.photo}`)} alt={container.alt} /*className={classes.pressImg}*//>
+            <Quote
+              text={container.text}
+              author={container.author}
+            />
+            </>
+            )
+          }
+          {
+            !('photo' in container) &&
+            (
+            <Quote100
+              text={container.text}
+              author={container.author}
+            />)
+          }
+
+          </div>
       </div>
     );
   }

@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Intégrale des Quatuors de Mozart",
+    "imageUrl": "https://i.f1g.fr/media/figarofr/orig/2012/03/02/2673e02a-6496-11e1-b400-945eaa61402f-493x328.jpg",
+    "black": false,
+    "program": [
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en Sol majeur KV 285a"
+      },
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en Ut majeur KV 285b"
+      },
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en La majeur KV 298"
+      },
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en Ré majeur KV 285"
+      }
+    ]
+  },
+  {
+    "title": "Mozart à Paris",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+    "black": true,
+    "program": [
+      {
+        "author": "DEVIENNE François",
+        "date": "(1759-1803)",
+        "title": "Quatuor en la mineur op.66 n°1"
+      },
+      {
+        "author": "BOCCHERINI Luigi",
+        "date": "(1743-1805)",
+        "title": "Trio à cordes op.14 n°2 en ut mineur"
+      },
+      {
+        "author": "DEVIENNE François",
+        "date": "(1759-1803)",
+        "title": "Trio pour flûte, violon et violoncelle op.19 n°5"
+      },
+      {
+        "author": "VIOTTI Giovanni",
+        "date": "(1753-1824)",
+        "title": "Quatuor en ut mineur op. 22 n°2"
+      },
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en ré majeur KV 285"
+      }
+    ]
+  },
+  {
+    "title": "Promenade Classique",
+    "imageUrl": "https://images.unsplash.com/photo-1605153279041-d1c62de51916?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "black": false,
+    "program": [
+      {
+        "author": "TELEMANN Georg-Philipp",
+        "date": "(1681-1767)",
+        "title": "Quartett (sol m)"
+      },
+      {
+        "author": "HAYDN Joseph",
+        "date": "(1732-1809)",
+        "title": "Trio flûte/violon/violoncelle"
+      },
+      {
+        "author": "ROSSINI Gioacchino",
+        "date": "(1792-1868)",
+        "title": "Quatuor n° 3 en si bémol majeur"
+      },
+      {
+        "author": "BEETHOVEN Ludwig von",
+        "date": "(1770-1827)",
+        "title": "Trio à cordes en ut mineur op.9 n°3"
+      },
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en ré majeur KV 285"
+      }
+    ]
+  },
+  {
+    "title": "Quintette avec harpe",
+    "imageUrl": "https://mus.academy/storage/posts/ioPzRuXkpZYdbMkm58dT7cfJyInYhkRYwnDwanFV.jpeg",
+    "black": true,
+    "program": [
+      {
+        "author": "ROUSSEL Albert",
+        "date": "(1869-1937)",
+        "title": "Sérénade op.30"
+      },
+      {
+        "author": "ANDREAE Volkmar",
+        "date": "(1879-1962)",
+        "title": "Divertimento Op. 43"
+      },
+      {
+        "author": "DEBUSSY Claude",
+        "date": "(1862-1918)",
+        "title": "Trio pour flûte, alto et harpe"
+      },
+      {
+        "author": "JOLIVET André",
+        "date": "(1905-1974)",
+        "title": "Chant de Linos"
+      }
+    ]
+  },
+  {
+    "title": "Ballade au fil des siècles - I",
+    "imageUrl": "https://miro.medium.com/max/15627/1*oTySOUhld2PJyrp83Pblog.jpeg",
+    "black": false,
+    "program": [
+      {
+        "author": "BACH Johann Christian",
+        "date": "(1735-1782)",
+        "title": "Quatuor en mi bémol majeur op.8 n°6"
+      },
+      {
+        "author": "SCHUBERT Franz",
+        "date": "(1797-1828)",
+        "title": "Trio à cordes en si bémol majeur D 581"
+      },
+      {
+        "author": "FELD Jindrich",
+        "date": "(1925-2007)",
+        "title": "Nocturne (en mémoire de J.P. Rampal) (2002)"
+      },
+      {
+        "author": "ROUSSEL Albert",
+        "date": "(1869-1937)",
+        "title": "Trio pour flûte, alto et violoncelle op.40"
+      },
+      {
+        "author": "ANDREAE Volkmar",
+        "date": "(1879-1962)",
+        "title": "Divertimento Op. 43"
+      }
+    ]
+  },
+  {
+    "title": "Ballade au fil des siècles - II",
+    "imageUrl": "https://images.unsplash.com/photo-1515325595179-59cd5262ca53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+    "black": false,
+    "program": [
+      {
+        "author": "MOZART Wolfgang Amadeus",
+        "date": "(1756-1791)",
+        "title": "Quatuor en ut majeur KV 285b"
+      },
+      {
+        "author": "BEETHOVEN Ludwig von ",
+        "date": "(1770-1827)",
+        "title": "Duo alto et violoncelle WO 32 Les Lunettes"
+      },
+      {
+        "author": "VILLA-LOBOS Heitor",
+        "date": "(1887-1959)",
+        "title": "Assobio a jato pour flûte et violoncelle"
+      },
+      {
+        "author": "RIES Ferdinand",
+        "date": "(1784-1838)",
+        "title": "Quatuor en la majeur op.145 n°3"
+      },
+      {
+        "author": "MARTINS Rui",
+        "date": "(né en 1958)",
+        "title": "Labyrinthe (1997)"
+      }
+    ]
+  }
+]

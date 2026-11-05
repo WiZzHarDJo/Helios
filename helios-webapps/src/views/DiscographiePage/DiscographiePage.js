@@ -4,22 +4,22 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-
-// @material-ui/icons
+import { BrowserView, MobileView } from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
 import Footer from "../../components/Footer/Footer.js";
+import GridContainer from "../../components/Grid/GridContainer.js";
+import GridItem from "../../components/Grid/GridItem.js";
 import HeaderLinks from "../../components/Header/HeaderLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 
 import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 import "antd/dist/antd.css";
 
-
 // Sections for this page
 import Text from "./Sections/Text";
-
+import Temoignage from "./Sections/Temoignage";
 
 const dashboardRoutes = [];
 
@@ -38,16 +38,41 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
-      <Parallax filter image={require("../../assets/img/discographie.jpg")}/>
-      <div className={classNames(classes.main, classes.mainRaised)}>
+      <Parallax
+        filter
+        image={require("../../assets/img/disco/discographie.JPG")}
+      >
         <div className={classes.container}>
-          <Text/>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>
+                L'Ensemble Hélios, la volonté d'une mémoire classique et
+                contemporaine
+              </h1>
+            </GridItem>
+          </GridContainer>
         </div>
-      </div>
+      </Parallax>
+      <BrowserView>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+            <Text />
+            <Temoignage />
+          </div>
+        </div>
+      </BrowserView>
+      <MobileView>
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>
+            <Text />
+            <Temoignage />
+          </div>
+        </div>
+      </MobileView>
       <Footer />
     </div>
   );

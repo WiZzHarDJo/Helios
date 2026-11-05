@@ -4,8 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-
-// @material-ui/icons
+import { BrowserView, MobileView } from "react-device-detect";
 
 // core components
 import Header from "../../components/Header/Header.js";
@@ -17,7 +16,6 @@ import GridItem from "../../components/Grid/GridItem.js";
 
 import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 import "antd/dist/antd.css";
-
 
 // Sections for this page
 import Text from "./Sections/Text";
@@ -39,24 +37,36 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
       <Parallax filter image={require("../../assets/img/edition.jpg")}>
-      <div className={classes.container}>
+        <div className={classes.container}>
           <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>L'Ensemble Hélios, la référence éditoriale pour le trio à cordes et flûte</h1>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>
+                L'Ensemble Hélios, <br /> une collection des Editions Billaudot
+                <br /> pour le concert et la pédagogie
+              </h1>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          <Text/>
+      <BrowserView>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
+            <Text />
+          </div>
         </div>
-      </div>
+      </BrowserView>
+      <MobileView>
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>
+            <Text />
+          </div>
+        </div>
+      </MobileView>
       <Footer />
     </div>
   );
