@@ -174,7 +174,10 @@ export default function UpcomingConcerts() {
 
   const now = moment();
   const currentYear = now.year();
-  const upcoming = (data || []).filter((e) => !moment(e.datum).isBefore(now));
+  // Un concert reste affiché 48h après sa date
+  const upcoming = (data || []).filter(
+    (e) => !moment(e.datum).add(48, "hours").isBefore(now)
+  );
 
   // Concerts à venir de l'année en cours et de la suivante, groupés par mois (YYYY-MM)
   const byMonth = _.groupBy(
